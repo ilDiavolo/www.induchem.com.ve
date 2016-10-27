@@ -69,18 +69,63 @@
 
     <div id="navbar3" class="navbar-collapse collapse js-navbar-collapse">
       <div class="container">
-          <ul class="nav navbar-nav ">
-          <!-- <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li> -->
-          <li><a href="">Nosotros</a></li>
-          <li><a href="">Mercados</a></li>
-          <li><a href="">Productos</a></li>
-          <li><a href="">Servicios</a></li>
-          <li><a href="">Oportunidades de Trabajo</a></li>
-          <li><a href="">Contacto</a></li>
+
+          <ul id="menu" class="nav navbar-nav ">
+              <!-- <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li> -->
+              
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mercados </a>
+                  
+                  <ul class="dropdown-menu">
+      
+                      <li class="dropdown-header"><a href="#">Alimentos</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header"><a href="#">Servicios</a></li>
+                      <li class="dropdown-header"><a href="#">Institucional</a></li>
+
+                      <li class="divider"></li>
+
+                      <li class="dropdown-header"><a href="#">Embotelladora</a></li>
+                      <li class="dropdown-header"><a href="#">Tratamineto de Agua</a></li>
+
+                  </ul>
+
+              </li>
+
+              <li><a href="">Nosotros</a></li>
+              <li><a href="">Productos</a></li>
+              <li><a href="">Servicios</a></li>
+              <li><a href="">Oportunidades de Trabajo</a></li>
+              <li><a href="">Contacto</a></li>
         </ul>       
       </div>
         
-    </div><!--/.nav-collapse -->    
+    </div><!--/.nav-collapse -->
+
+    <div class="container">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Page 1-1</a></li>
+                  <li><a href="#">Page 1-2</a></li>
+                  <li><a href="#">Page 1-3</a></li> 
+                </ul>
+              </li>
+              <li><a href="#">Page 2</a></li> 
+              <li><a href="#">Page 3</a></li> 
+            </ul>
+          </div>
+        </nav>
+    </div>
+
 </nav>
 
 
@@ -100,7 +145,6 @@
         padding: 0px;
     }
    
-
     .login{
         width: 100px; 
         border-radius: 5px; 
@@ -126,7 +170,9 @@
       font-size: 17px;
       background-color: gainsboro;
     }    
-    
+
+/*-----------------------------------------------------------*/
+
     #navbar3 .navbar-nav > li > a {
         color: brown;
     }
@@ -135,5 +181,32 @@
       background-color: rgb(171, 14, 14);
       color: #fff;
     } 
+
+/*-----                                                ----*/
+
+    #menu ul li:first-child a:after {
+        content: '';
+        position: absolute;
+        left: 35px;
+        top: -10px;
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 10px solid #fff;
+    }
+
+    #menu ul li:first-child a:hover:after {
+        border-bottom-color: #fff; 
+    }
+
+    #menu li:hover > ul {
+        display: block;
+    }
+
+    #menu li:hover > a {
+    color: #fafafa;
+     /*background-color: rgb(171, 14, 14);*/
+}
 
 </style>
