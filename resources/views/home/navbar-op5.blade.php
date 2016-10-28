@@ -11,10 +11,13 @@
   position: static !important;
 }
 .dropdown-menu-large {
-  margin-left: 16px;
-  margin-right: 16px;
+  /*margin-left: 16px;*/
+  /*margin-right: 16px;*/
   padding: 20px 0px;
-  width:100%;
+  /*width:100%;*/
+  left:5%;
+  min-width: 310px;
+  font-size: 15px
 }
 .dropdown-menu-large > li > ul {
   padding: 0;
@@ -129,7 +132,7 @@
 
 <!-- Static navbar -->
 <nav class="navbar navbar-default" style="margin-bottom: 5px;">
-    <div class="container">
+    <div class="container" style="background-image: url('{{ asset('img/header.jpg') }}'); background-position-y: -336px;">
 
         <div class="row">
 
@@ -144,7 +147,7 @@
                       <span class="icon-bar"></span>
                   </button>
                             
-                  <a class="navbar-brand" href="{{ url('home') }}"><img class="img-responsive" width="247" src="{{ asset('img/logo1.jpg') }}"></a> 
+                  <a class="navbar-brand" href="{{ url('home') }}"><img class="img-responsive" width="247" src="{{ asset('img/l1.png') }}"></a> 
                   <!-- width="247" -->
               </div>
 
@@ -178,14 +181,14 @@
                         <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Contraseña">
                       </div>
 
-                      <button type="submit" class="btn btn-default btn-success">Ingresar</button>
+                      <button type="submit" class="btn btn-default btn-danger" style="border-color: #fff;" >Ingresar</button>
 
                     </form>
                      
                 </div><!--/.nav-collapse -->
                   
                   <div class="navbar-collapse collapse js-navbar-collapse" style="padding-right: 4px;">
-                       <p class="text-right" style="margin: 5px 0 10px;" ><a href=""> Recuperar Contraseña</a> / <a class="text-warning" href="">Registrarse Aqui</a></p>
+                       <p class="text-right" style="margin: 8px 0 10px;" ><a style="color: cadetblue;" href=""> Recuperar Contraseña</a> / <a style="color: wheat" href="">Registrarse Aqui</a></p>
                   </div>
                   
                  
@@ -196,96 +199,97 @@
     </div><!--/.container -->
 
     <div id="navbar3" class="navbar-collapse collapse js-navbar-collapse">
-      
-      <ul class="nav navbar-nav">
+      <div class="container">
+          <ul class="nav navbar-nav">
 
-        <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Nosotros</a></li>
 
-        <li class="dropdown dropdown-large">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mercados <b class="caret"></b></a>
-                    
-          <ul class="dropdown-menu dropdown-menu-large row">
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header"><a href="#">Alimentos</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header"><a href="#">Servicios</a></li>
-                <li class="dropdown-header"><a href="#">Institucional</a></li>
-                
-                <li class="divider"></li>
+            <li class="dropdown dropdown-large">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mercados <b class="caret"></b></a>
+                        
+              <ul class="dropdown-menu dropdown-menu-large row">
+               
+                <li class="col-sm-5">
+                  <ul class="dropdown-menu-large">                
+                    <li class="dropdown-header text-center" style="color:#d40b0b;">Nuestros Productos por Sectores</li>
 
-                <li class="dropdown-header"><a href="#">Embotelladora</a></li>
-                <li class="dropdown-header"><a href="#">Tratamineto de Agua</a></li>
-                
-              </ul>
+                    <li class="divider"></li>
+                    <li class="row">
+                      <ul class="col-sm-6">
+                        <li><a href="#">Alimentos</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li ><a href="#">Servicios</a></li>
+                        <li ><a href="#">Institucional</a></li>
+                        
+                        <!-- <li class="divider"></li> -->
+
+                        <li ><a href="#">Embotelladora</a></li>
+                        <li ><a href="#">Tratamineto de Agua</a></li>
+
+                        <li ><a href="#">Cervecería y Refresco</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li ><a href="#">Vidrio y Plástico</a></li>
+                      </ul>
+
+                      <ul class="col-sm-6">
+                        <li ><a href="#">Textil</a></li>
+
+                        <!-- <li class="divider"></li> -->
+
+                        <li ><a href="#">Aceite y Azucarero</a></li>                                 
+
+                        <li ><a href="#">Químicos</a></li>
+                        <li ><a href="#">Petroleo</a></li>                  
+                        
+                        <li ><a href="#">Automotríz</a></li>
+                        <li ><a href="#">Metalmecánica</a></li>
+                        <!-- <li class="divider"></li> -->
+                        <li ><a style="border: 1px solid brown; border-radius: 20px; color: brown;" href="{{ url('quimicos') }}">Todos</a></li>
+                      </ul>
+                    </li>                    
+                  </ul>
+                </li>
+
+                <li class="col-sm-7">
+                  <ul class="dropdown-menu-large">                
+                    <li class="dropdown-header text-center" style="color:#d40b0b;">Materias Primas</li>
+
+                    <li class="divider"></li>
+                    <li class="row">
+                      <ul class="col-sm-6">
+                        <li><a href="#">Acido Clorhidrico al 30%</a></li>
+                        <li><a href="#">Acido Nitrico al 56%</a></li>              
+                        <li><a href="#">Acido Sulfonico al 98% </a></li>
+                        <li><a href="#">Acido Clorhidrico al 30% </a></li>
+                        <li><a href="#">Cloro al 5% </a></li>                        
+                        <li><a href="#">Peroxido de Hidrogeno 50% </a></li>
+                        <li><a href="#">Hidroxido de Sodio </a></li>  
+                      </ul>
+
+                      <ul class="col-sm-6">
+                        <li><a href="#">Urea </a></li>
+                        <li><a href="#">Soda Caustica en Escamas </a></li>
+                        <li><a href="#">Butil Oxitol  </a></li>
+                        <li><a href="#">Etanol (Alcohol F1) </a></li>
+                      </ul>
+                    </li>                    
+                  </ul>
+                </li>
+
+                <li class="dropdown-header" style="color:red;">Materias Primas</li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#">  </a></li>
+
+
+              </ul>       
             </li>
-
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header"><a href="#">Cervecería y Refresco</a></li>
-                <!-- <li class="divider"></li> -->
-                <li class="dropdown-header"><a href="#">Vidrio y Plástico</a></li>
-                <li class="dropdown-header"><a href="#">Textil</a></li>
-
-                <li class="divider"></li>
-
-                <li class="dropdown-header"><a href="#">Azucarero</a></li>      
-                <li class="dropdown-header"><a href="#">Aceite</a></li>   
-
-              </ul>
-            </li>
-
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header"><a href="#">Químicos</a></li>
-                <li class="dropdown-header"><a href="#">Petroleo</a></li>
-
-                <li class="divider"></li> 
-                
-                <li class="dropdown-header"><a href="#">Automotríz</a></li>
-                <li class="dropdown-header"><a href="#">Metalmecánica</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header"><a href="{{ url('quimicos') }}">Todos</a></li>
-                              
-              </ul>
-            </li>
-
-            <li class="col-sm-3">
-              <ul>                
-                <li class="dropdown-header text-center" style="color:#d40b0b;">Materias Primas</li>
-
-                <li class="divider"></li>
-              
-                <li><a href="#">ACIDO CLORHIDRICO AL 30% </a></li>
-                <li><a href="#">ACIDO NITRICO AL 56% </a></li>              
-                <li><a href="#">ACIDO SULFURICO AL 98% </a></li>
-                <li><a href="#">ACIDO SULFONICO AL 97% </a></li>
-                <li><a href="#">CLORO AL 5% </a></li>
-                <li><a href="#">UREA </a></li>
-                
-              
-                <li><a href="#">PEROXIDO DE HIDROGENO 50% </a></li>                   
-                <li><a href="#">HIDROXIDO DE SODIO </a></li>              
-                <li><a href="#">SODA CAUISTICA EN ESCAMAS </a></li>
-                <li><a href="#">BUTIL OXITOL O CELLOSOLVE  </a></li>
-                <li><a href="#">ETANOL (ALCOHOL F1)  </a></li>
-                
-
-                <!-- <li class="dropdown-header" style="color:red;">Materias Primas</li>
-                <li><a href="#">Acido Clorhidrico al 30% </a></li>
-                <li><a href="#">Acido Nitrico al 56% </a></li>
-                <li><a href="#">Acido Sulfonico al 98% </a></li>
-                <li><a href="#">Cloro al 5% </a></li>
-                <li><a href="#">Peroxido de Hidrogeno 50% </a></li>
-                <li><a href="#">Hidroxido de Sodio </a></li>
-                <li><a href="#">Soda Caustica en Escama </a></li>
-                <li><a href="#">Butil Oxitol </a></li>
-                <li><a href="#">Etanol (Alcohol F1)  </a></li> -->
-                
-              </ul>
-            </li>
-          </ul>       
-        </li>
 
         <li class="dropdown">
 
@@ -303,12 +307,14 @@
 
         <li><a href="#">Servicios</a></li>
 
+        <li><a href="#">Oportunidades de Empleo</a></li>
+
         <li><a href="#">Contacto</a></li>
 
      
       </ul>
-
-        
+      </div>
+              
     </div><!--/.nav-collapse -->
 
 </nav>
@@ -326,6 +332,7 @@
         padding: 5px;
         margin-top: 18px;
         min-height: 66px;
+        padding-left: 25px;
     }
 
      #navLogo .navbar-header .navbar-brand{
@@ -355,19 +362,22 @@
 
 /*-----------------------------------------------------------*/
 
-    /*#navbar3{
+    #navbar3{
+      border-top: 1px solid brown;
+      border-bottom: 1px solid brown;
       font-size: 17px;
       background-color: gainsboro;
+      margin-top: 0px;
     }    
 
     #navbar3 .navbar-nav > li > a {
         color: brown;
-    }*/
+    }
 
-   /* #navbar3 .navbar-nav > li > a:hover{
+    #navbar3 .navbar-nav > li > a:hover{
       background-color: rgb(171, 14, 14);
       color: #fff;
-    } */
+    } 
 /*------------------------------------------------*/
    /* #menu li ul li a {
         color: black;

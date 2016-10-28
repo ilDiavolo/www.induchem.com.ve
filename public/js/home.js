@@ -88,7 +88,7 @@ $(document).ready(function() {
   		arrows: false,
     	dots: false,
     	infinite: true,
-    	// centerMode: true,
+    	centerMode: true,
     	slidesToShow: 5,
     	slidesToScroll: 3
   	});

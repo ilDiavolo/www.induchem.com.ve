@@ -44,7 +44,7 @@
 			<div class="carousel-inner" role="listbox">
 			
 				<!-- First slide -->
-				<div class="item active deepskyblue">
+				<div class="item active deepskyblue" style="background-image: url('{{ asset('img/1.jpg') }}');background-position-y: -202px; background-size: cover;" >
 					
 					<div class="carousel-caption">
 						<h3 data-animation="animated bounceInLeft">
@@ -58,7 +58,7 @@
 				</div> <!-- /.item -->
 				
 				<!-- Second slide -->
-				<div class="item skyblue">
+				<div class="item skyblue" style="background-image: url('{{ asset('img/2.jpg') }}');background-position-y: -233px;background-repeat: no-repeat; background-size: cover;">
 					<div class="carousel-caption">
 						<h3 class="icon-container" data-animation="animated bounceInDown">
 							<span class="glyphicon glyphicon-heart"></span>
@@ -71,7 +71,7 @@
 				</div><!-- /.item -->
 				
 				<!-- Third slide -->
-				<div class="item darkerskyblue">
+				<div class="item darkerskyblue" style="background-image: url('{{ asset('img/3.jpg') }}'); background-repeat: no-repeat;background-size: cover;">
 					<div class="carousel-caption">
 						<h3 class="icon-container" data-animation="animated zoomInLeft">
 							<span class="glyphicon glyphicon-glass"></span>

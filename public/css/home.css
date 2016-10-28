@@ -192,7 +192,8 @@
 .carousel-caption h3,
 .carousel .icon-container,
 .carousel-caption button {
-    background-color: #09c;
+    background-color: transparent;
+    border: 1px solid white;    
 }
 .carousel-caption h3 {
     padding: .5em;
