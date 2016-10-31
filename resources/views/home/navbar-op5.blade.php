@@ -16,7 +16,7 @@
   padding: 20px 0px;
   /*width:100%;*/
   left:5%;
-  min-width: 310px;
+  min-width: 319px;
   font-size: 15px
 }
 .dropdown-menu-large > li > ul {
@@ -197,12 +197,20 @@
           </div>
 
     </div><!--/.container -->
-
+<div class="container" style="padding-left: 0px; padding-right: 0px;" >
     <div id="navbar3" class="navbar-collapse collapse js-navbar-collapse">
       <div class="container">
           <ul class="nav navbar-nav">
 
-            <li><a href="#">Nosotros</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Nosotros <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li> <a href="">Política</a>   </li>
+                    <li> <a href="">Visión</a>  </li>
+                    <li> <a href="">Misíon</a>  </li>
+                    <li> <a href="">Valores</a>  </li>
+                </ul>
+            </li>
 
             <li class="dropdown dropdown-large">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mercados <b class="caret"></b></a>
@@ -244,7 +252,7 @@
                         <li ><a href="#">Automotríz</a></li>
                         <li ><a href="#">Metalmecánica</a></li>
                         <!-- <li class="divider"></li> -->
-                        <li ><a style="border: 1px solid brown; border-radius: 20px; color: brown;" href="{{ url('quimicos') }}">Todos</a></li>
+                        <li ><a style="border: 1px solid brown; border-radius: 20px; color: brown;width: 130px;" href="{{ url('quimicos') }}">Todos</a></li>
                       </ul>
                     </li>                    
                   </ul>
@@ -257,37 +265,24 @@
                     <li class="divider"></li>
                     <li class="row">
                       <ul class="col-sm-6">
-                        <li><a href="#">Acido Clorhidrico al 30%</a></li>
-                        <li><a href="#">Acido Nitrico al 56%</a></li>              
-                        <li><a href="#">Acido Sulfonico al 98% </a></li>
-                        <li><a href="#">Acido Clorhidrico al 30% </a></li>
+                        <li><a href="#">Ácido Clorhidrico al 30%</a></li>
+                        <li><a href="#">Ácido Nítrico al 56%</a></li>              
+                        <li><a href="#">Ácido Sulfónico al 98% </a></li>
+                        <li><a href="#">Ácido Clorhídrico al 30% </a></li>
                         <li><a href="#">Cloro al 5% </a></li>                        
-                        <li><a href="#">Peroxido de Hidrogeno 50% </a></li>
-                        <li><a href="#">Hidroxido de Sodio </a></li>  
+                        <li><a href="#">Peróxido de Hidrógeno 50% </a></li>
+                        <li><a href="#">Hidróxido de Sodio </a></li>  
                       </ul>
 
                       <ul class="col-sm-6">
                         <li><a href="#">Urea </a></li>
-                        <li><a href="#">Soda Caustica en Escamas </a></li>
+                        <li><a href="#">Soda Cáustica en Escamas </a></li>
                         <li><a href="#">Butil Oxitol  </a></li>
                         <li><a href="#">Etanol (Alcohol F1) </a></li>
                       </ul>
                     </li>                    
                   </ul>
                 </li>
-
-                <li class="dropdown-header" style="color:red;">Materias Primas</li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"> </a></li>
-                <li><a href="#"> </a></li>
-                <li><a href="#"> </a></li>
-                <li><a href="#"> </a></li>
-                <li><a href="#">  </a></li>
-
-
               </ul>       
             </li>
 
@@ -315,6 +310,7 @@
       </ul>
       </div>
               
+    </div><!--/.nav-collapse -->
     </div><!--/.nav-collapse -->
 
 </nav>

@@ -6,7 +6,7 @@
 </head>
 <body>
 	<header>
-		@include('home.navbar-op6')
+		@include('home.navbar-op5')
 	</header>
 
 	<div class="container">

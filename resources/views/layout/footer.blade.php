@@ -1,5 +1,5 @@
 
-<div class="container" style="min-height: 210px;background-color: aliceblue; background-attachment: fixed;padding-top: 22px;">
+<div class="container-fluid" style="min-height: 144px;background-color: #abd1d2; background-attachment: fixed;">
 
 	<div class="row">
 		<div class="col-xs-4 text-center" style="padding-top:30px;"> Calle Rio Caura, Parcela No. CI-14-A Zona Industrial Loma Linda, Guacara Edo. Carabobo, Venezuela, Z.P. 2015 Telf. Master: (0245) 564 88 98 Fax: (0245) 565 03 54 induchem@induchem.com.ve </div> 
@@ -28,7 +28,7 @@
 
 	<div class="row text-center">
 
-		<div class="col-xs-12" style="min-height: 60px;padding-top: 20px;"> Copyright © 2016 Induchem C.A. J-30306605-4 </div>
+		<div class="col-xs-12" style="min-height: 40px;padding-top: 10px;"> Copyright © 2016 Induchem C.A. J-30306605-4 </div>
 
 	</div>
 	
