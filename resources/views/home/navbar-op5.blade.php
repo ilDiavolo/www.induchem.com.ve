@@ -131,8 +131,8 @@
 
 
 <!-- Static navbar -->
-<nav class="navbar navbar-default" style="margin-bottom: 5px;">
-    <div class="container" style="background-image: url('{{ asset('img/header.jpg') }}'); background-position-y: -336px;">
+<nav class="navbar navbar-default" id="navPrincipal" ">
+    <div class="container" style="background-image: url('{{ asset('img/header.jpg') }}'); background-position-y: -223px;">
 
         <div class="row">
 
@@ -159,10 +159,10 @@
 
                     <ul class="nav navbar-nav navbar-right">
                     <!-- <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li> -->
-                    <li><a href=""><i class="ion-social-facebook" style="font-size: 18px;"></i></a></li>
-                    <li><a href=""><i class="ion-social-twitter" style="font-size: 18px;"></i></a></li>
-                    <li><a href=""><i class="ion-social-instagram" style="font-size: 18px;"></i></a></li>
-                    <li><a href=""><i class="ion-social-linkedin" style="font-size: 18px;"></i></a></li>                    
+                    <li><a href="http://www.facebook.com/induchemve/" target="_blank"><i class="ion-social-facebook" style="font-size: 18px;"></i></a></li>
+                    <li><a href="https://twitter.com/Induchem_ve" target="_blank"><i class="ion-social-twitter" style="font-size: 18px;"></i></a></li>
+                    <li><a href="http://www.instagram.com/induchem_ve" target="_blank"><i class="ion-social-instagram" style="font-size: 18px;"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/induchem-c-a-" target="_blank"><i class="ion-social-linkedin" style="font-size: 18px;"></i></a></li>                    
                     </ul>
                    
                 </div><!--/.nav-collapse -->
@@ -188,7 +188,7 @@
                 </div><!--/.nav-collapse -->
                   
                   <div class="navbar-collapse collapse js-navbar-collapse" style="padding-right: 4px;">
-                       <p class="text-right" style="margin: 8px 0 10px;" ><a style="color: cadetblue;" href=""> Recuperar Contraseña</a> / <a style="color: wheat" href="">Registrarse Aqui</a></p>
+                       <p class="text-right" style="margin: 8px 0 10px;" ><a style="color: rgba(43, 43, 43, 0.79);" href=""> Recuperar Contraseña</a> / <a style="color: navy" href="">Registrarse Aqui</a></p>
                   </div>
                   
                  
@@ -304,7 +304,7 @@
 
         <li><a href="#">Oportunidades de Empleo</a></li>
 
-        <li><a href="#">Contacto</a></li>
+        <li><a href="{{ url('contacto') }}">Contacto</a></li>
 
      
       </ul>
@@ -314,13 +314,6 @@
     </div><!--/.nav-collapse -->
 
 </nav>
-
-<style type="text/css">
-  .ulSubmenu{
-
-  }
-</style>
-
 
 <style type="text/css">
   
@@ -361,8 +354,7 @@
     #navbar3{
       border-top: 1px solid brown;
       border-bottom: 1px solid brown;
-      font-size: 17px;
-      background-color: gainsboro;
+      background-color: lavender;
       margin-top: 0px;
     }    
 
@@ -373,7 +365,12 @@
     #navbar3 .navbar-nav > li > a:hover{
       background-color: rgb(171, 14, 14);
       color: #fff;
-    } 
+    }
+    
+    #navbar3 .dropdown-menu{
+      font-size: 15px;
+    }
+
 /*------------------------------------------------*/
    /* #menu li ul li a {
         color: black;
