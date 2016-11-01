@@ -16,7 +16,7 @@ Route::get('/', function () {   /// Pagina de inicio de Laravel
 });
 
 
-route::get('slider', function(){	/// Pagina de Pruena del Slider 
+route::get('slider', function(){	/// Pagina de Prueba del Slider 
 	return view('quimicos.slider');
 });
 
@@ -26,6 +26,10 @@ route::get('slider', function(){	/// Pagina de Pruena del Slider
 
 route::get('home', function(){			// Pagina de Inicio
 	return view('home.home');
+});
+
+route::get('nosotros', function(){			// Pagina de Inicio
+	return view('home.nosotros');
 });
 
 route::get('quimicos', function(){		// Pagina de los Productos

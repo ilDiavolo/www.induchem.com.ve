@@ -171,7 +171,7 @@
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
 					<div class="img-c " style="background-image: url('{{ asset('img/mercados/aceite.jpg') }}');">
-						    <h4 class="mercados_H4"> Aciete </h4>
+						    <h4 class="mercados_H4"> Aceite </h4>
 					</div>
 				</a>	
 			</div>			
@@ -219,7 +219,7 @@
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
 					<div class="img-c " style="background-image: url('{{ asset('img/mercados/petroleo.jpg') }}');">
-						    <h4 class="mercados_H4"> Petroleo </h4>
+						    <h4 class="mercados_H4"> Petróleo </h4>
 					</div>
 				</a>	
 			</div>
@@ -227,7 +227,7 @@
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
 					<div class="img-c " style="background-image: url('{{ asset('img/mercados/vidrio.jpeg') }}');">
-						    <h4 class="mercados_H4"> Vidrio y Plastico </h4>
+						    <h4 class="mercados_H4"> Vidrio y Plástico </h4>
 					</div>
 				</a>	
 			</div>
