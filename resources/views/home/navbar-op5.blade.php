@@ -201,7 +201,7 @@
     <div id="navbar3" class="navbar-collapse collapse js-navbar-collapse">
       <div class="container">
           <ul class="nav navbar-nav">
-
+            
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Nosotros <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -291,7 +291,8 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
 
           <ul class="dropdown-menu">
-            <li><a href="#">Químicos</a></li>
+            
+            <li><a href="#">Químicos</a></li>                 
             <li><a href="#">Termoplásticos</a></li>
             <li><a href="#">Motores</a></li>
             <!-- <li role="separator" class="divider"></li> -->
@@ -305,7 +306,6 @@
         <li><a href="#">Oportunidades de Empleo</a></li>
 
         <li><a href="#">Contacto</a></li>
-
      
       </ul>
       </div>

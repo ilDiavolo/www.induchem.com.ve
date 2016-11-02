@@ -29,6 +29,10 @@ route::get('home', function(){  /// Pagina de Pruena de BOOSTRASP
 	return view('home.home');
 });
 
+route::get('nosotros', function(){  /// Pagina de Pruena de BOOSTRASP
+	return view('home.nosotros');
+});
+
 /////////////////////************ RUTAS BASICAS ************/////////////////////
 
 
