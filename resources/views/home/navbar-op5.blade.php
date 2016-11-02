@@ -15,8 +15,8 @@
   /*margin-right: 16px;*/
   padding: 20px 0px;
   /*width:100%;*/
-  left:5%;
-  min-width: 319px;
+  left:90px;
+  min-width: 348px;
   font-size: 15px
 }
 .dropdown-menu-large > li > ul {
@@ -131,8 +131,8 @@
 
 
 <!-- Static navbar -->
-<nav class="navbar navbar-default" style="margin-bottom: 5px;">
-    <div class="container" style="background-image: url('{{ asset('img/header.jpg') }}'); background-position-y: -336px;">
+<nav class="navbar navbar-default" id="navPrincipal" ">
+    <div class="container" style="background-image: url('{{ asset('img/header.jpg') }}'); background-position-y: -223px;">
 
         <div class="row">
 
@@ -159,10 +159,10 @@
 
                     <ul class="nav navbar-nav navbar-right">
                     <!-- <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li> -->
-                    <li><a href=""><i class="ion-social-facebook" style="font-size: 18px;"></i></a></li>
-                    <li><a href=""><i class="ion-social-twitter" style="font-size: 18px;"></i></a></li>
-                    <li><a href=""><i class="ion-social-instagram" style="font-size: 18px;"></i></a></li>
-                    <li><a href=""><i class="ion-social-linkedin" style="font-size: 18px;"></i></a></li>                    
+                    <li><a href="http://www.facebook.com/induchemve/" target="_blank"><i class="ion-social-facebook" style="font-size: 18px;"></i></a></li>
+                    <li><a href="https://twitter.com/Induchem_ve" target="_blank"><i class="ion-social-twitter" style="font-size: 18px;"></i></a></li>
+                    <li><a href="http://www.instagram.com/induchem_ve" target="_blank"><i class="ion-social-instagram" style="font-size: 18px;"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/induchem-c-a-" target="_blank"><i class="ion-social-linkedin" style="font-size: 18px;"></i></a></li>                    
                     </ul>
                    
                 </div><!--/.nav-collapse -->
@@ -188,7 +188,7 @@
                 </div><!--/.nav-collapse -->
                   
                   <div class="navbar-collapse collapse js-navbar-collapse" style="padding-right: 4px;">
-                       <p class="text-right" style="margin: 8px 0 10px;" ><a style="color: cadetblue;" href=""> Recuperar Contraseña</a> / <a style="color: wheat" href="">Registrarse Aqui</a></p>
+                       <p class="text-right" style="margin: 8px 0 10px;" ><a style="color: rgba(43, 43, 43, 0.79);" href=""> Recuperar Contraseña</a> / <a style="color: navy" href="">Registrarse Aqui</a></p>
                   </div>
                   
                  
@@ -202,22 +202,23 @@
       <div class="container">
           <ul class="nav navbar-nav">
             
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Nosotros <b class="caret"></b></a>
+            <li><a href="{{ url('nosotros') }}">Nosotros</a></li>
+            <!-- <li class="dropdown">
+                <a href="{{ url('nosotros') }}" class="dropdown-toggle" data-toggle="dropdown" >Nosotros <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li> <a href="">Política</a>   </li>
                     <li> <a href="">Visión</a>  </li>
                     <li> <a href="">Misíon</a>  </li>
                     <li> <a href="">Valores</a>  </li>
                 </ul>
-            </li>
+            </li> -->
 
             <li class="dropdown dropdown-large">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mercados <b class="caret"></b></a>
                         
               <ul class="dropdown-menu dropdown-menu-large row">
                
-                <li class="col-sm-5">
+                <li class="col-sm-7">
                   <ul class="dropdown-menu-large">                
                     <li class="dropdown-header text-center" style="color:#d40b0b;">Nuestros Productos por Sectores</li>
 
@@ -232,11 +233,13 @@
                         <!-- <li class="divider"></li> -->
 
                         <li ><a href="#">Embotelladora</a></li>
-                        <li ><a href="#">Tratamineto de Agua</a></li>
+                        <li ><a href="#">Tratamineto de Efluentes</a></li>
 
-                        <li ><a href="#">Cervecería y Refresco</a></li>
+                        <li ><a href="#">Bebidas</a></li>
+                        <!-- <li ><a href="#">Cervecería y Refresco</a></li> -->
                         <!-- <li class="divider"></li> -->
                         <li ><a href="#">Vidrio y Plástico</a></li>
+                        <li ><a href="#">Papel</a></li>
                       </ul>
 
                       <ul class="col-sm-6">
@@ -244,7 +247,8 @@
 
                         <!-- <li class="divider"></li> -->
 
-                        <li ><a href="#">Aceite y Azucarero</a></li>                                 
+                        <li ><a href="#">Azucarero</a></li>                                 
+                        <li ><a href="#">Aceite</a></li>                                 
 
                         <li ><a href="#">Químicos</a></li>
                         <li ><a href="#">Petroleo</a></li>                  
@@ -258,7 +262,7 @@
                   </ul>
                 </li>
 
-                <li class="col-sm-7">
+                <!-- <li class="col-sm-7">
                   <ul class="dropdown-menu-large">                
                     <li class="dropdown-header text-center" style="color:#d40b0b;">Materias Primas</li>
 
@@ -282,7 +286,7 @@
                       </ul>
                     </li>                    
                   </ul>
-                </li>
+                </li> -->
               </ul>       
             </li>
 
@@ -290,13 +294,52 @@
 
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
 
-          <ul class="dropdown-menu">
+
+          <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+
+            <li class="dropdown-submenu">
+                <a href="#">Químicos</a>
+                <ul class="dropdown-menu">                                
+                  <li><a href="#">Químicos</a></li>
+                  <li><a href="#">Materias Primas</a></li>
+                </ul>
+            </li>
             
-            <li><a href="#">Químicos</a></li>                 
-            <li><a href="#">Termoplásticos</a></li>
-            <li><a href="#">Motores</a></li>
-            <!-- <li role="separator" class="divider"></li> -->
-            <li><a href="#">actuadores</a></li>
+            <li role="separator" class="divider" style="margin-left: 16px;margin-right: 38px;" ></li>
+
+            <li class="dropdown-submenu">
+              <a href="#">Termoplásticos</a>
+              <ul class="dropdown-menu">                                
+                  <li><a href="#">Válvulas</a></li>
+                  <li><a href="#">Tuberías</a></li>
+                  <li><a href="#">Bombas</a></li>                  
+                  <li><a href="#">Barras</a></li>
+                  <li><a href="#">Máquinas de Soldar Tuberías</a></li>
+                  <li><a href="#">Máquinas Extrusoras</a></li>                  
+                </ul>
+            </li>
+
+            <li role="separator" class="divider" style="margin-left: 16px;margin-right: 38px;" ></li>
+
+            <li class="dropdown-submenu">
+                <a href="#">Motores</a>
+                <ul class="dropdown-menu">                                
+                  <li><a href="#">Motores</a></li>
+                  <li><a href="#">Inversores</a></li>
+                  <li><a href="#">Reductores</a></li>                                    
+                </ul>
+            </li>
+
+            <li role="separator" class="divider" style="margin-left: 16px;margin-right: 38px;" ></li>
+
+            <li class="dropdown-submenu">
+                <a href="#">Actuadores</a>
+                <ul class="dropdown-menu">                                
+                  <li><a href="#">Eléctricos</a></li>
+                  <li><a href="#">Neumáticos</a></li>                                  
+                </ul>
+            </li>
+
           </ul>
 
         </li>
@@ -305,7 +348,8 @@
 
         <li><a href="#">Oportunidades de Empleo</a></li>
 
-        <li><a href="#">Contacto</a></li>
+
+        <li><a href="{{ url('contacto') }}">Contacto</a></li>
      
       </ul>
       </div>
@@ -314,13 +358,6 @@
     </div><!--/.nav-collapse -->
 
 </nav>
-
-<style type="text/css">
-  .ulSubmenu{
-
-  }
-</style>
-
 
 <style type="text/css">
   
@@ -361,8 +398,7 @@
     #navbar3{
       border-top: 1px solid brown;
       border-bottom: 1px solid brown;
-      font-size: 17px;
-      background-color: gainsboro;
+      background-color: rgba(246, 246, 246, 0.61);
       margin-top: 0px;
     }    
 
@@ -373,7 +409,12 @@
     #navbar3 .navbar-nav > li > a:hover{
       background-color: rgb(171, 14, 14);
       color: #fff;
-    } 
+    }
+    
+    #navbar3 div ul li{
+      font-size: 15px;
+    }
+
 /*------------------------------------------------*/
    /* #menu li ul li a {
         color: black;
@@ -410,3 +451,56 @@
     }*/
 
 </style>
+<!-- Submenu -multiple -->
+
+<style type="text/css">
+         
+  .dropdown-submenu {
+      position: relative;
+  }
+
+  .dropdown-submenu>.dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -6px;
+      margin-left: -1px;
+      -webkit-border-radius: 0 6px 6px 6px;
+      -moz-border-radius: 0 6px 6px;
+      border-radius: 0 6px 6px 6px;
+  }
+
+  .dropdown-submenu:hover>.dropdown-menu {
+      display: block;
+  }
+
+  .dropdown-submenu>a:after {
+      display: block;
+      content: " ";
+      float: right;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 5px 0 5px 5px;
+      border-left-color: #7b7b7b;
+      margin-top: 5px;
+      margin-right: -10px;
+  }
+
+  .dropdown-submenu:hover>a:after {
+      border-left-color: brown;
+  }
+
+  .dropdown-submenu.pull-left {
+      float: none;
+  }
+
+  .dropdown-submenu.pull-left>.dropdown-menu {
+      left: -100%;
+      margin-left: 10px;
+      -webkit-border-radius: 6px 0 6px 6px;
+      -moz-border-radius: 6px 0 6px 6px;
+      border-radius: 6px 0 6px 6px;
+  }
+</style>
+

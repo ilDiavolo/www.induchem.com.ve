@@ -16,18 +16,11 @@ Route::get('/', function () {   /// Pagina de inicio de Laravel
 });
 
 
-route::get('boot', function(){  /// Pagina de Pruena de BOOSTRASP
-	return view('layout.main');
-});
-
-
-route::get('slider', function(){
+route::get('slider', function(){	/// Pagina de Prueba del Slider 
 	return view('quimicos.slider');
 });
 
-route::get('home', function(){  /// Pagina de Pruena de BOOSTRASP
-	return view('home.home');
-});
+
 
 route::get('nosotros', function(){  /// Pagina de Pruena de BOOSTRASP
 	return view('home.nosotros');
@@ -35,13 +28,20 @@ route::get('nosotros', function(){  /// Pagina de Pruena de BOOSTRASP
 
 /////////////////////************ RUTAS BASICAS ************/////////////////////
 
-
-route::get('ini', function(){			/// Pagina de INICIO o HOME
-	return view('home.inicio');
+route::get('home', function(){			// Pagina de Inicio
+	return view('home.home');
 });
 
-route::get('quimicos', function(){		// Pagina de Productos de la Empresa
+route::get('nosotros', function(){			// Pagina de Inicio
+	return view('home.nosotros');
+});
+
+route::get('quimicos', function(){		// Pagina de los Productos
 	return view('quimicos.quimicos');
+});
+
+route::get('contacto', function(){		// Pagina de Contacto
+	return view('contacto.contacto');
 });
 
 

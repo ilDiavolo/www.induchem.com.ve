@@ -98,7 +98,7 @@
 
 	</div><!-- /.container -->
 		
-	<div id="intro" class="container" style="padding: 25px;">
+	<div id="intro" class="container" style="padding-top: 10px;">
 		
 		<div class="row"> 
 			
@@ -112,19 +112,19 @@
 				
 				<div class="col-sm-4" >
 					<p class="text-center" style="margin: 0px;"> <i class="ion-ios-briefcase-outline" style="font-size: 74px;"></i> </p>			
-					<h2 class="text-center" style="margin-top: 0px;"> Lo Que Hacemos </h2>
+					<h2 class="text-center" style="margin-top: 0px; margin-bottom: 0px;"> Lo Que Hacemos </h2>
 					<p  class="text-justify pt"> Con más de 20 años de experiencia en la industria química, suministramos materias primas, productos terminados, diseñados para cada ciente y proporcionamos asesoría técnica y equipos para la industria. </p>
 				</div>
 				
 				<div class="col-sm-4" >
 					<p class="text-center" style="margin: 0px;"> <i class="ion-ios-gear-outline" style="font-size: 74px;"></i> </p>	
-					<h2 class="text-center" style="margin-top: 0px;"> Nuestros Servicios</h2>
+					<h2 class="text-center" style="margin-top: 0px; margin-bottom: 0px;"> Nuestros Servicios</h2>
 					<p  class="text-justify pt"> Asegurar un buen servicio a nuestros clientes es fundamental para conseguir una relación estable y duradera. El conocimiento de nuestros clientes nos permite ofrecerles el servicio más adecuado a sus necesidades. </p>
 				</div>
 				
 				<div class="col-sm-4" >
 					<p class="text-center" style="margin: 0px;"> <i class="ion-ios-lightbulb-outline" style="font-size: 74px;"></i> </p>
-					<h2 class="text-center" style="margin-top: 0px;"> Nuestra Pasión</h2>
+					<h2 class="text-center" style="margin-top: 0px;margin-bottom: 0px;"> Nuestra Pasión</h2>
 					<p  class="text-justify pt"> Lo que nos distingue es que cada uno de nosotros se ocupa de llevar a nuestros clientes hacia el éxito. fortalecer lazos, exhibir lo que sabemos y podemos hacer, lo que nos impulsa a ser los mejores. </p>
 				</div>
 			
@@ -171,7 +171,7 @@
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
 					<div class="img-c " style="background-image: url('{{ asset('img/mercados/aceite.jpg') }}');">
-						    <h4 class="mercados_H4"> Aciete </h4>
+						    <h4 class="mercados_H4"> Aceite </h4>
 					</div>
 				</a>	
 			</div>			
@@ -219,7 +219,7 @@
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
 					<div class="img-c " style="background-image: url('{{ asset('img/mercados/petroleo.jpg') }}');">
-						    <h4 class="mercados_H4"> Petroleo </h4>
+						    <h4 class="mercados_H4"> Petróleo </h4>
 					</div>
 				</a>	
 			</div>
@@ -227,7 +227,7 @@
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
 					<div class="img-c " style="background-image: url('{{ asset('img/mercados/vidrio.jpeg') }}');">
-						    <h4 class="mercados_H4"> Vidrio y Plastico </h4>
+						    <h4 class="mercados_H4"> Vidrio y Plástico </h4>
 					</div>
 				</a>	
 			</div>
@@ -251,7 +251,7 @@
 			<br>
 			<hr>	
 
-			<h1 class="text-center">Nuestros Aliados Comerciales</h1>
+			<h1 style="margin-bottom: 0px;" class="text-center">Nuestros Aliados Comerciales</h1>
 
 			<section class="regular slider">
 
@@ -285,6 +285,40 @@
 
 			    <div>
 			      <img src="{{ asset('img/aliados/widos.png') }}" class="img-responsive">
+			    </div>
+
+				<!-- Aliados Quimicos -->
+
+			    <div>
+			      <img src="{{ asset('img/aliados/3vsigma.png') }}" class="img-responsive">
+			    </div>
+
+			    <div>
+			      <img src="{{ asset('img/aliados/am.png') }}" class="img-responsive">
+			    </div>
+
+			    <div>
+			      <img src="{{ asset('img/aliados/dow.jpg') }}" class="img-responsive">
+			    </div>
+
+			    <div>
+			      <img src="{{ asset('img/aliados/eka.jpg') }}" class="img-responsive">
+			    </div>
+
+			    <div>
+			      <img src="{{ asset('img/aliados/huntsman.png') }}" class="img-responsive">
+			    </div>
+
+			    <div>
+			      <img src="{{ asset('img/aliados/vitro.jpg') }}" class="img-responsive">
+			    </div>
+
+			    <div>
+			      <img src="{{ asset('img/aliados/quimpac.png') }}" class="img-responsive">
+			    </div>
+
+			    <div>
+			      <img src="{{ asset('img/aliados/pequiven.png') }}" class="img-responsive">
 			    </div>
 			    
 			</section>
