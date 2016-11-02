@@ -22,6 +22,10 @@ route::get('slider', function(){	/// Pagina de Prueba del Slider
 
 
 
+//-----------------------		RUTAS CONTROLER 	----------------------------
+
+route::resource('mail','MailController');
+
 /////////////////////************ RUTAS BASICAS ************/////////////////////
 
 route::get('home', function(){			// Pagina de Inicio
