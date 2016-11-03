@@ -299,7 +299,7 @@
             <li class="dropdown-submenu">
                 <a href="#">Químicos</a>
                 <ul class="dropdown-menu">                                
-                  <li><a href="#">Químicos</a></li>
+                  <li><a href="{{ url('quimicos') }}">Químicos</a></li>
                   <li><a href="#">Materias Primas</a></li>
                 </ul>
             </li>

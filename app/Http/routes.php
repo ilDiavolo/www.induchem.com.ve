@@ -20,11 +20,19 @@ route::get('slider', function(){	/// Pagina de Prueba del Slider
 	return view('quimicos.slider');
 });
 
+route::get('boot', function(){	/// Pagina de Prueba del Slider 
+	return view('layout.body');
+});
 
+////////////////// Prueba: Controladores //////////////////////////77
+Route::resource('rc','crud'); 
+// Route::controller('rc','crud');
+
+//--------------------------------------------------------------------------------------------------------
 
 //-----------------------		RUTAS CONTROLER 	----------------------------
 
-route::resource('mail','MailController');
+route::resource('mail','MailController');	
 
 /////////////////////************ RUTAS BASICAS ************/////////////////////
 
@@ -32,12 +40,16 @@ route::get('home', function(){			// Pagina de Inicio
 	return view('home.home');
 });
 
-route::get('nosotros', function(){			// Pagina de Inicio
+route::get('nosotros', function(){		// Pagina de Nosotros
 	return view('home.nosotros');
 });
 
 route::get('quimicos', function(){		// Pagina de los Productos
 	return view('quimicos.quimicos');
+});
+
+route::get('testQuimicos', function(){		// Pagina de prueba de los Productos
+	return view('quimicos.testQuimicos');
 });
 
 route::get('contacto', function(){		// Pagina de Contacto
@@ -46,7 +58,3 @@ route::get('contacto', function(){		// Pagina de Contacto
 
 
 
-////////////////// Resource //////////////////////////77
-
-Route::resource('rc','crud');
-// Route::controller('rc','crud');
