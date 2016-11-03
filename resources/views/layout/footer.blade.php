@@ -3,16 +3,16 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-4" style="padding-top:30px;"> 
-				Calle Rio Caura, Parcela No. CI-14-A Zona Industrial Loma Linda, Guacara Edo. Carabobo, Venezuela, Z.P. 2015 Telf.
-				<div>Master: +58 (245) 564 88 98 | Fax: +58 (245) 565 03 54 </div> 
+			<div class="col-xs-6" style="padding-top:30px;"> 
+				<div>Calle Rio Caura, Parcela No. CI-14-A Zona Industrial Loma Linda, Guacara Edo. Carabobo, Venezuela, Z.P. 2015.</div>
+				<div>Telf Master: +58 (245) 564 88 98 | Fax: +58 (245) 565 03 54 </div> 
 				<div>induchem@induchem.com.ve </div>
 			</div>
 			 
 
-			<div class="col-xs-4 text-center" style="padding-top:30px;">  </div>
+			<div class="col-xs-3 text-center" style="padding-top:30px;">  </div>
 
-			<div class="col-xs-4" style="padding-top: 7px;">
+			<div class="col-xs-3" style="padding-top: 7px;">
 
 				<h3>Redes Sociales </h3>
 
