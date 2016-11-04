@@ -21,16 +21,9 @@ route::get('slider', function(){	/// Pagina de Prueba del Slider
 });
 
 
-
-<<<<<<< HEAD
-route::get('nosotros', function(){  /// Pagina de Pruena de BOOSTRASP
-	return view('home.nosotros');
-});
-=======
 //-----------------------		RUTAS CONTROLER 	----------------------------
 
 route::resource('mail','MailController');
->>>>>>> 2bd944a6d66c333d5ba624737a6d66ce0f7e09ec
 
 /////////////////////************ RUTAS BASICAS ************/////////////////////
 

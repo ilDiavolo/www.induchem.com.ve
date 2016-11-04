@@ -8,7 +8,7 @@
 </head>
 
 <style type="text/css">
-	
+	.fc{padding-right: 0px;}
 	#navPrincipal{
 		margin-bottom: 0px;
 	}
@@ -176,42 +176,42 @@
 				  		{{csrf_field()}}	  			  						  				  			
 						
 						<div class="form-group">
-						    <label class="control-label col-sm-2" for="nombre">* Nombre :</label>
+						    <label class="control-label col-sm-2 fc" for="nombre">* Nombre :</label>
 						    <div class="col-sm-10"> 
 						      <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre">
 						    </div>
 						</div>
 		
 						<div class="form-group">
-							<label class="control-label col-sm-2" for="email">* Email :</label>
+							<label class="control-label col-sm-2 fc" for="email">* Email :</label>
 						    <div class="col-sm-10">
 						      <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su correo">
 						    </div>				    
 						</div>
 
 						<div class="form-group">
-						    <label class="control-label col-sm-2" for="asunto">Asunto :</label>
+						    <label class="control-label col-sm-2 fc" for="asunto">Asunto :</label>
 						    <div class="col-sm-10"> 
 						      <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto">
 						    </div>
 						</div>
 
 						<div class="form-group">
-						    <label class="control-label col-sm-2" for="empresa">Empresa :</label>
+						    <label class="control-label col-sm-2 fc" for="empresa">Empresa :</label>
 						    <div class="col-sm-10"> 
 						      <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Empresa">
 						    </div>
 						</div>
 
 						<div class="form-group">
-						    <label class="control-label col-sm-2" for="tlf">Teléfono :</label>
+						    <label class="control-label col-sm-2 fc" for="tlf">Teléfono :</label>
 						    <div class="col-sm-10"> 
 						      <input type="text" class="form-control" id="tlf" name="tlf" placeholder="Teléfono">
 						    </div>
 						</div>					  
 
 					  	<div class="form-group">
-						    <label class="control-label col-sm-2" for="solicitud">Solicitud :</label>
+						    <label class="control-label col-sm-2 fc" for="solicitud">Solicitud :</label>
 						    <div class="col-sm-10"> 
 						  	  <textarea class="form-control" rows="5" id="solicitud" name="solicitud"></textarea>
 						    </div>

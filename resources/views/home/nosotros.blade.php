@@ -23,22 +23,6 @@
 							INDUCHEM C.A., es una empresa de capital netamente Nacional, fundada en el año 1995. Desde sus inicios enfatizó su gestión a la fabricación y comercialización de productos de uso industrial para la limpieza y desinfección, estando siempre comprometidos con el mejoramiento continuo de nuestros procesos, garantizando la satisfacción de las necesidades y requerimientos de nuestros clientes, lo que nos llevó a ampliar el negocio a diversas líneas como la distribución de blanqueadores ópticos, fluidificantes, aditivos para detergentes, productos para la potabilización de aguas y el tratamiento de efluentes. 
 						</p>
 
-<<<<<<< HEAD
-					<p class="text-justify">
-						En los últimos años, partiendo de necesidades internas surgieron nuevos negocios como el servicio de transporte y almacenamiento de productos corrosivos líquidos y la construcción de tanques y equipos plásticos, así como la comercialización de válvulas, tuberías, bombas y máquinas de soldadura bajo norma DVS, brindando un servicio personalizado que se adapta a las necesidades de cada cliente.
-					</p>
-	
-					<p class="text-justify">
-						Para ello contamos con nuestros aliados comerciales nacionales Pequiven, Cavim, Ácidos y Minerales, Hessa Chemical y Eka Chemical. Y somos representantes exclusivos para Venezuela y el Caribe de 3V Sigma, Disproquin, Ashai America, Simona, Affetti, Pompe Cuchi, Widos, Munsch y Plast-o-Matic.
-					</p>
-				</div>
-
-				<div class="col-xs-12"> <br></div>
-
-				<div class="col-xs-12" style="padding: 0px">
-					<img src="{{asset('img/mvv.png')}}" width="360" height="250" >
-				</div>
-=======
 						<p class="text-justify">
 							En los últimos años, partiendo de necesidades internas surgieron nuevos negocios como el servicio de transporte y almacenamiento de productos corrosivos líquidos y la construcción de tanques y equipos plásticos, así como la comercialización de válvulas, tuberías, bombas y máquinas de soldadura bajo norma DVS, brindando un servicio personalizado que se adapta a las necesidades de cada cliente.
 						</p>
@@ -56,19 +40,14 @@
 				</div>
 				 
 				 <!--  -->
->>>>>>> 2bd944a6d66c333d5ba624737a6d66ce0f7e09ec
-
 
 			</div>
 
 			<div class="col-xs-8">
 				<div class="col-md-12" style="background-color: whitesmoke; padding: 0px; ">
-<<<<<<< HEAD
-					<img src="{{ asset('img/empleados.jpg') }}" alt="trabajadores" height="250" style="width: 750px;height: 339px;">
 
-=======
 					<img class="img-responsive" src="{{ asset('img/empleados.jpg') }}" alt="trabajadores" >
->>>>>>> 2bd944a6d66c333d5ba624737a6d66ce0f7e09ec
+
 				</div>
 				
 				<div class="col-md-6" >
@@ -107,12 +86,9 @@
 				<div class="col-md-6">
 
 					<div style="background-color: whitesmoke; padding: 0px">
-<<<<<<< HEAD
 
-					<h3 style="background-color: darkgrey; padding: 2px; color: brown;padding-top: 5px;padding-right: 25px;padding-left: 25px;padding-bottom: 5px;" >Política Integrada</h3>
-=======
+
 						<h3 style="background-color: darkgrey; padding: 2px; color: brown;padding-top: 5px;padding-right: 25px;padding-left: 25px;padding-bottom: 5px;" >Política Integrada</h3>
->>>>>>> 2bd944a6d66c333d5ba624737a6d66ce0f7e09ec
 
 						<p class="text-justify">						
 							INDUCHEM C.A enfatiza su gestión en la fabricación, comercialización y representación de productos químicos de uso industrial; así como la prestación de servicio de transporte y almacenamiento, además de la fabricación y comercialización de tanques, equipos y accesorios para el manejo de productos corrosivos. Cuenta con un sistema de gestión integrado de la calidad, BPM y Seguridad, que mejora continuamente sus procesos, cumple con las normas de BPM y la política de seguridad y salud ocupacional, dando respuesta oportuna y apoyo técnico a nuestros clientes para mejorar la satisfacción de sus necesidades y expectativas, custodiando nuestra cadena de suministros nacional para garantizar la entrega de productos, con personal competente, comprometido con nuestros valores y así lograr el éxito sostenido de la organización.
