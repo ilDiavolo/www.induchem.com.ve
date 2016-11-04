@@ -1,6 +1,39 @@
+@include('layout.head')
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <br>
+            <br>
+            <br>           
+
+            <blockquote>             
+                <h2>Nombre-Producto-1</h2>                      
+                <div>Descripcion</div> 
+                <div>Uso</div> 
+                <div>
+                <span>Rasda</span><span>Ficha tecnica</span>
+            </blockquote>
+
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+
+            <blockquote class="blockquote-reverse">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+        </div>
+    </div>
+</div>
+
+
+
 <div class="container show-top-margin separate-rows tall-rows">
 
     <div class="row show-grid">
+
 
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"> columna 01</div>
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"> columna 02</div>

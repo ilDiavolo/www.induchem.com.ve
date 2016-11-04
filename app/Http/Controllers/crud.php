@@ -4,6 +4,9 @@ namespace proyect\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Redirect;
+// use Session;
+
 use proyect\Http\Requests;
 
 use proyect\Producto;
@@ -17,7 +20,8 @@ class crud extends Controller
      */
     public function index()
     {
-        echo 'el controlador resource funciona';
+        // echo 'el controlador resource funciona';
+        return view('quimicos.quimicos');
     }
 
     /**
@@ -48,9 +52,13 @@ class crud extends Controller
 
         $p->cantidad = $request->input('cantidad');
 
-        if($p->save()){
-            return 'todo ok';
-        } 
+        // Session::flash('message', 'Mensaje enviado correctamente');
+
+        return redirect('/rc')->with('success','Tarea creada correctamente.');
+
+        // if($p->save()){
+        //     return 'todo ok';
+        // } 
         
     }
 

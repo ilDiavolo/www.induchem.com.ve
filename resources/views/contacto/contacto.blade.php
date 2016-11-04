@@ -98,7 +98,7 @@
 				<div class="row">					
 					<div class="col-xs-12">
 
-					  	<h3>Planta Loma Linda</h3>
+					  	<h3>Planta Zona Industrial Loma Linda</h3>
 					  	<p>
 					  		Calle Rio Caura, Parcela No. CI-14-A, Zona Industrial Loma Linda, Mpio. Guacara, Edo. Carabobo, Venezuela,  Z.P. 2015.
 					  	</p>
@@ -112,7 +112,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 
-					  	<h3>Planta Pruinca</h3>
+					  	<h3>Planta Zona Industrial Pruinca</h3>
 					  	<p>
 					  		Zona Industrial Pruinca, Mpio. Guacara, Edo. Carabobo, Venezuela.
 					  	</p>
@@ -133,7 +133,7 @@
 
 					<div class="col-xs-12">
 
-						<h4>Contacta con nosotros a traves de nuestros correos:</h4>
+						<h4>Contáctanos a través de nuestros correos:</h4>
 					  	<ul class="list-unstyled" style="font-size: 15px;">
 					  		<li>
 					  			<i class="ion-paper-airplane" style="font-size: 17px; margin-right: 8px;"></i> <a href="mailto:induchem@induchem.com.ve">induchem@induchem.com.ve</a> 
