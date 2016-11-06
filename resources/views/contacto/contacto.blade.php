@@ -7,8 +7,10 @@
 	<title></title>
 </head>
 
-<style type="text/css">
-	.fc{padding-right: 0px;}
+
+<style type="text/css">	
+
+
 	#navPrincipal{
 		margin-bottom: 0px;
 	}

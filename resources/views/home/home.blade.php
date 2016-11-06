@@ -103,8 +103,8 @@
 		<div class="row"> 
 			
 			<div class="col-sm-12"> 
-				<h1 id="introH1" class="text-center"> A LO QUE NOS DEDICAMOS </h1> 
-				<h4 class="text-center" style="margin-bottom: 0px; margin-top: 7px;">Induchem, C.A., y sus filiales se especializan en la distribución de productos <br> de limpieza, venta de materias primas y productos termoplásticos</h4> 
+				<h1 id="introH1" class="text-center"> A QUE NOS DEDICAMOS </h1> 
+				<h4 class="text-center" style="margin-bottom: 0px; margin-top: 7px;">Induchem, C.A., y sus filiales nos especializamos en la distribución de productos <br> de limpieza, venta de materias primas y productos termoplásticos</h4> 
 			</div>
 			
 			

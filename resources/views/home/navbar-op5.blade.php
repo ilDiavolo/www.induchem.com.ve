@@ -360,7 +360,7 @@
 </nav>
 
 <style type="text/css">
-  
+    
     #navLogo{
         padding: 5px;
         margin-top: 18px;

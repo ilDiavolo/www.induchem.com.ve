@@ -28,11 +28,9 @@ route::get('boot', function(){	/// Pagina de Prueba del Slider
 Route::resource('rc','crud'); 
 // Route::controller('rc','crud');
 
-<<<<<<< HEAD
-=======
+
 //--------------------------------------------------------------------------------------------------------
 
->>>>>>> 9ad34a2c8ca271a32fdb60d090a0bfede89f3d58
 //-----------------------		RUTAS CONTROLER 	----------------------------
 
 route::resource('mail','MailController');	
