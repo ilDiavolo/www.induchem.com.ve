@@ -55,16 +55,16 @@
 	</header>
 
 	<div class="container" >
-		<div class="row" style="padding-top: 10px">
+		<div class="row" style="padding-top: 10px; margin-bottom: 10px;">
 
-			<div class=" col-xs-12 " >
+			<div class="col-xs-12" id="cabecera" >
 				<div style="display: inline-block;" >
 					
-					<img src="{{ asset('img/te2.png') }}" height="63" width="63" class="img-responsive">
+					<img src="{{ asset('img/te.png') }}" height="63" width="63" class="img-responsive">
 				</div>
-				<div style="padding-left: 5px;    display: inline-block;">
+				<div style="padding-left: 5px; display: inline-block;">
 					
-					<h1 style="margin-top: 0px; margin-bottom: 0px;"><span>Contacta</span> con nosotros!</h1>
+					<h1 style="margin-bottom: 0;margin-top: 0;"><span>Productos</span> Químicos</h1>
 					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Químicos</div>
 				</div>
 				
@@ -239,14 +239,12 @@
 /*---------------------------------------------------------------*/
 	#cabecera{
 		background: url('{{ asset('img/headerQuimicos/3.jpg') }}');
-		background-size: cover;
+		/*background-size: cover;*/
 		background-repeat: no-repeat;
 	    clear: both;
-	    background-position-y: -250px;
-
-		
-	    padding: 0px; 
-	    overflow: hidden;
+	    /*background-position-y: -250px;*/		
+	    /*padding: 0px; */
+	    /*overflow: hidden;*/
 	}
 
 	#imgCabecera{
