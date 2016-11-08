@@ -213,7 +213,7 @@
 						</div>					  
 
 					  	<div class="form-group">
-						    <label class="control-label col-sm-2 fc" for="solicitud">Solicitud :</label>
+						    <label class="control-label col-sm-2 fc" for="solicitud">* Solicitud :</label>
 						    <div class="col-sm-10"> 
 						  	  <textarea class="form-control" rows="5" id="solicitud" name="solicitud"></textarea>
 						    </div>

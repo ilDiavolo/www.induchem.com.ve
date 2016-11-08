@@ -19,6 +19,7 @@ class CreateProductosTable extends Migration
             $table->string('detalle','200');
             $table->integer('precio');
             $table->integer('cantidad');
+            $table->string('codigo', '100');
 
             $table->timestamps();
         });

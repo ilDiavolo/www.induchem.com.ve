@@ -89,7 +89,7 @@
 						         Lineas de Productos</a>
 						      </h4>
 						    </div>
-						    <div id="collapse1" class="panel-collapse collapse in">
+						    <div id="collapse1" class="panel-collapse collapse ">
 						      <div class="panel-body" style="padding: 0; padding-right: 25px;padding-left: 10px;border-top: 0;">
 								<ul class="list-unstyled" style="padding-left: 20px;">
 									<li><a href="">Abrillantadores Desoxidante</a><span class="pull-right badge">1</span></li>
@@ -124,20 +124,7 @@
 						    </div>
 						    <div id="collapse2" class="panel-collapse collapse">
 						      <div class="panel-body" style="padding: 0; padding-right: 25px;padding-left: 10px;border-top: 0;">
-								<ul class="list-unstyled" style="padding-left: 20px;">
-									<li><a href="">Ácido Clorhidrico al 30%</a></span></li>
-									<li><a href="">Ácido Clorhidrico al 30%</a></span></li>
-									<li><a href="#">Ácido Nítrico al 56%</a></li>              
-			                        <li><a href="#">Ácido Sulfónico al 98% </a></li>
-			                        <li><a href="#">Ácido Clorhídrico al 30% </a></li>
-			                        <li><a href="#">Cloro al 5% </a></li>                        
-			                        <li><a href="#">Peróxido de Hidrógeno 50% </a></li>
-			                        <li><a href="#">Hidróxido de Sodio </a></li>
-			                        <li><a href="#">Urea </a></li>
-			                        <li><a href="#">Soda Cáustica en Escamas </a></li>
-			                        <li><a href="#">Butil Oxitol  </a></li>
-			                        <li><a href="#">Etanol (Alcohol F1) </a></li>
-								</ul>
+								
 						      </div>
 						    </div>
 						  </div>
@@ -156,29 +143,20 @@
 												
 						<div id="itemQuimico" class="col-xs-12">
 
-							<h2 class="text-center">Abrillantadores Desoxidante</h2>
-							
-							<hr>
-							
-							<dl class="dl-horizontal">
-								<dt>Nombre</dt> 
-									<dd style="color: #a94442;" >CHEM BRILLINOX</dd>
-
-								<dt>Descripcion</dt> 
-									<dd>
-										<p class="text-justify"> Detergente limpiador y abrillantador de acero inoxidable, ha sido diseñado para limpiar y abrillantar el acero inoxidable de manera excelente, eliminando sustancias abrasivas que dañan la superficie. Rinde y es económico, ya que es concentrado. El tiempo de contacto con la superficie es reducido, por lo que lleva a cabo una limpieza rápida, eliminando las manchas y dejando las superficies limpias y brillantes.</p>
-									</dd>
-								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
-
-				                <dt>Descargar</dt>
-				                	<dd>
-				                		<div class="" style="padding-top: 0px;" > 
-						                	<a href="#"> <i class="ion-document-text" aria-hidden="true"></i> Hoja de Seguridad</a> 
-						                	<a href="#"> <i class="ion-document" aria-hidden="true"></i> Ficha Técnica </a>
-					                	</div>
-					                </dd>
-					        </dl>	
+							<ul class="list-unstyled" style="padding-left: 20px;">
+								<li><a href="">Ácido Clorhidrico al 30%</a></span></li>
+								<li><a href="">Ácido Clorhidrico al 30%</a></span></li>
+								<li><a href="#">Ácido Nítrico al 56%</a></li>              
+		                        <li><a href="#">Ácido Sulfónico al 98% </a></li>
+		                        <li><a href="#">Ácido Clorhídrico al 30% </a></li>
+		                        <li><a href="#">Cloro al 5% </a></li>                        
+		                        <li><a href="#">Peróxido de Hidrógeno 50% </a></li>
+		                        <li><a href="#">Hidróxido de Sodio </a></li>
+		                        <li><a href="#">Urea </a></li>
+		                        <li><a href="#">Soda Cáustica en Escamas </a></li>
+		                        <li><a href="#">Butil Oxitol  </a></li>
+		                        <li><a href="#">Etanol (Alcohol F1) </a></li>
+							</ul>	
 
 						</div>
 

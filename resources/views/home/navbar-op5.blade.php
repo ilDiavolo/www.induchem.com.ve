@@ -132,7 +132,7 @@
 
 <!-- Static navbar -->
 <nav class="navbar navbar-default" id="navPrincipal" ">
-    <div class="container" style="background-image: url('{{ asset('img/header.jpg') }}'); background-position-y: -223px;">
+    <div class="container" style="background-image: url('{{ asset('img/mq.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
 
         <div class="row">
 
@@ -301,7 +301,7 @@
                 <a href="#">Químicos</a>
                 <ul class="dropdown-menu">                                
                   <li><a href="{{ url('quimicos') }}">Químicos</a></li>
-                  <li><a href="#">Materias Primas</a></li>
+                  <li><a href="{{ url('materiasPrimas') }}">Materias Primas</a></li>
                 </ul>
             </li>
             

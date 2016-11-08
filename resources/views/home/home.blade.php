@@ -102,9 +102,9 @@
 		
 		<div class="row"> 
 			
-			<div class="col-sm-12"> 
-				<h1 id="introH1" class="text-center"> A QUE NOS DEDICAMOS </h1> 
-				<h4 class="text-center" style="margin-bottom: 0px; margin-top: 7px;">Induchem, C.A., y sus filiales nos especializamos en la distribución de productos <br> de limpieza, venta de materias primas y productos termoplásticos</h4> 
+			<div class="col-sm-12" style="margin-bottom: 10px; margin-top: 20px;"> 
+				<!-- <h1 id="introH1" class="text-center"> A QUE NOS DEDICAMOS </h1>  -->
+				<h3 class="text-center" style="margin-bottom: 0px; margin-top: 10px;">Induchem, C.A., y sus filiales nos especializamos en la distribución de productos <br> de limpieza, venta de materias primas y productos termoplásticos</h3> 
 			</div>
 			
 			
@@ -112,8 +112,8 @@
 				
 				<div class="col-sm-4" >
 					<p class="text-center" style="margin: 0px;"> <i class="ion-ios-briefcase-outline" style="font-size: 74px;"></i> </p>			
-					<h2 class="text-center" style="margin-top: 0px; margin-bottom: 0px;"> Lo Que Hacemos </h2>
-					<p  class="text-justify pt"> Con más de 20 años de experiencia en la industria química, suministramos materias primas, productos terminados, diseñados para cada ciente y proporcionamos asesoría técnica y equipos para la industria. </p>
+					<h2 class="text-center" style="margin-top: 0px; margin-bottom: 0px;"> Nuestro Trabajo </h2>
+					<p  class="text-justify pt"> Con más de 20 años de experiencia en la industria química, suministramos materias primas, productos terminados, diseñados para cada cliente y proporcionamos asesoría técnica y equipos para la industria. </p>
 				</div>
 				
 				<div class="col-sm-4" >

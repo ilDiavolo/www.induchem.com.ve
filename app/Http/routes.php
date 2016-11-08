@@ -45,13 +45,22 @@ route::get('nosotros', function(){		// Pagina de Nosotros
 	return view('home.nosotros');
 });
 
+// ---------------------------- Productos quimicos y materias primas ----------------------------
 route::get('quimicos', function(){		// Pagina de los Productos
 	return view('quimicos.quimicos');
+});
+
+route::get('materiasPrimas', function(){		// Pagina de las MAterias PRimas
+	return view('quimicos.materiasPrimas');
 });
 
 route::get('testQuimicos', function(){		// Pagina de prueba de los Productos
 	return view('quimicos.testQuimicos');
 });
+
+
+// ---------------------------- /Productos quimicos y materias primas ----------------------------
+
 
 route::get('contacto', function(){		// Pagina de Contacto
 	return view('contacto.contacto');
