@@ -92,24 +92,41 @@
 						    <div id="collapse1" class="panel-collapse collapse in">
 						      <div class="panel-body" style="padding: 0; padding-right: 25px;padding-left: 10px;border-top: 0;">
 								<ul class="list-unstyled" style="padding-left: 20px;">
-									<li><a href="">Abrillantadores Desoxidante</a><span class="pull-right badge">1</span></li>
-									<li><a href="">Bactericidas</a><span class="pull-right badge">1</span></li>
-									<li><a href="">Bactericida amonio cuaternario</a><span class="pull-right badge">2</span></li>
-									<li><a href="">Bactericidas clorados</a><span class="pull-right badge">1</span></li>
-									<li><a href="">Bactericidas de oxígeno activo</a><span class="pull-right badge">1</span></li>
-									<li><a href="">Desengrasantes</a><span class="pull-right badge">2</span></li>
-									<li><a href="">Desengrasantes Alcalinos</a><span class="pull-right badge">2</span></li>
-									<li><a href="">Desengrasantes de cocinas y hornos </a><span class="pull-right badge">1</span></li>
-									<li><a href="">Desincrustante y Limpiador de porcelana</a><span class="pull-right badge">3</span></li>
-									<li><a href="">Desinfectantes</a><span class="pull-right badge">4</span></li>
-									<li><a href="">Detergentes alcalinos clorados</a><span class="pull-right badge">3</span></li>
-									<li><a href="">Detergentes en polvo</a><span class="pull-right badge">6</span></li>
-									<li><a href="">Jabones líquidos</a><span class="pull-right badge">3</span></li>
-									<li><a href="">Lavandería</a><span class="pull-right badge">5</span></li>
-									<li><a href="">Limpiadores Ácidos</a><span class="pull-right badge">5</span></li>
-									<li><a href="">Limpiadores Cáusticos</a><span class="pull-right badge">3</span></li>
-									<li><a href="">Lubricantes para Cadenas</a><span class="pull-right badge">2</span></li>
-									<li><a href="">Solventes Dieléctricos</a><span class="pull-right badge">3</span></li>							
+									<li><a href="{{ url('home') }}">Abrillantadores Desoxidante</a><span class="pull-right badge">1</span></li>
+
+									<li><a href="{{ url('Bactericidas') }}">Bactericidas</a><span class="pull-right badge">1</span></li>
+
+									<li><a href="{{ url('BactericidaAmonio') }}">Bactericida amonio cuaternario</a><span class="pull-right badge">2</span></li>
+
+									<li><a href="{{ url('BactericidasClorados') }}">Bactericidas clorados</a><span class="pull-right badge">1</span></li>
+
+									<li><a href="{{ url('BactericidasOxigeno') }}">Bactericidas de oxígeno activo</a><span class="pull-right badge">1</span></li>
+
+									<li><a href="{{ url('Desengrasantes') }}">Desengrasantes</a><span class="pull-right badge">2</span></li>
+
+									<li><a href="{{ url('DesengrasantesAlcalinos') }}">Desengrasantes Alcalinos</a><span class="pull-right badge">2</span></li>
+
+									<li><a href="{{ url('Desengrasantescocinas') }}">Desengrasantes de cocinas y hornos </a><span class="pull-right badge">1</span></li>
+
+									<li><a href="{{ url('Limpiadorporcelana') }}">Desincrustante y Limpiador de porcelana</a><span class="pull-right badge">3</span></li>
+
+									<li><a href="{{ url('Desinfectantes') }}">Desinfectantes</a><span class="pull-right badge">4</span></li>
+
+									<li><a href="{{ url('Detergentes') }}">Detergentes alcalinos clorados</a><span class="pull-right badge">3</span></li>
+
+									<li><a href="{{ url('Detergentesenpolvo') }}">Detergentes en polvo</a><span class="pull-right badge">6</span></li>
+
+									<li><a href="{{ url('Jabonesliquidos') }}">Jabones líquidos</a><span class="pull-right badge">3</span></li>
+
+									<li><a href="{{ url('Lavanderia') }}">Lavandería</a><span class="pull-right badge">5</span></li>
+
+									<li><a href="{{ url('Limpiadoresacidos') }}">Limpiadores de Ácidos</a><span class="pull-right badge">5</span></li>
+
+									<li><a href="{{ url('Limpiadorescausticos') }}">Limpiadores Cáusticos</a><span class="pull-right badge">3</span></li>
+
+									<li><a href="{{ url('Lubricantes') }}">Lubricantes para Cadenas</a><span class="pull-right badge">2</span></li>
+
+									<li><a href="{{ url('Solventes') }}">Solventes Dieléctricos</a><span class="pull-right badge">3</span></li>							
 								</ul>
 						      </div>
 						    </div>
@@ -156,7 +173,7 @@
 												
 						<div id="itemQuimico" class="col-xs-12">
 
-							<h2 class="text-center">Abrillantadores Desoxidante</h2>
+							<h2>Abrillantadores Desoxidante</h2>
 							
 							<hr>
 							
@@ -267,7 +284,8 @@
 		background-color: brown;
 	    color: whitesmoke;
 	    padding: 10px;
-	    border-radius: 43px;
+	    padding-left: 15px;
+	    border-radius: 20px;
 	    margin-top: 0px;
 	}
 

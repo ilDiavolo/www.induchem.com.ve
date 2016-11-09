@@ -50,6 +50,76 @@ route::get('quimicos', function(){		// Pagina de los Productos
 	return view('quimicos.quimicos');
 });
 
+route::get('Bactericidas', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Bactericidas');
+});
+
+route::get('BactericidaAmonio', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.BactericidaAmonio');
+});
+
+route::get('BactericidasClorados', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.BactericidasClorados');
+});
+
+route::get('BactericidasOxigeno', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.BactericidasOxigeno');
+});
+
+route::get('Desengrasantes', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Desengrasantes');
+});
+
+route::get('DesengrasantesAlcalinos', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.DesengrasantesAlcalinos');
+});
+
+route::get('Desengrasantescocinas', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Desengrasantescocinas');
+});
+
+route::get('Limpiadorporcelana', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Limpiadorporcelana');
+});
+
+route::get('Desinfectantes', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Desinfectantes');
+});
+
+route::get('Detergentes', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Detergentes');
+});
+
+route::get('Detergentesenpolvo', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Detergentesenpolvo');
+});
+
+route::get('Jabonesliquidos', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Jabonesliquidos');
+});
+
+route::get('Lavanderia', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Lavanderia');
+});
+
+route::get('Limpiadoresacidos', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Limpiadoresacidos');
+});
+
+route::get('Limpiadorescausticos', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Limpiadorescausticos');
+});
+
+route::get('Lubricantes', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Lubricantes');
+});
+
+route::get('Solventes', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.Solventes');
+});
+
+
+//--------------------------------------------------------
 route::get('materiasPrimas', function(){		// Pagina de las MAterias PRimas
 	return view('quimicos.materiasPrimas');
 });

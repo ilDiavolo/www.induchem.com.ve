@@ -89,7 +89,7 @@
 						         Lineas de Productos</a>
 						      </h4>
 						    </div>
-						    <div id="collapse1" class="panel-collapse collapse ">
+						    <div id="collapse1" class="panel-collapse collapse in">
 						      <div class="panel-body" style="padding: 0; padding-right: 25px;padding-left: 10px;border-top: 0;">
 								<ul class="list-unstyled" style="padding-left: 20px;">
 									<li><a href="">Abrillantadores Desoxidante</a><span class="pull-right badge">1</span></li>
@@ -124,7 +124,20 @@
 						    </div>
 						    <div id="collapse2" class="panel-collapse collapse">
 						      <div class="panel-body" style="padding: 0; padding-right: 25px;padding-left: 10px;border-top: 0;">
-								
+								<ul class="list-unstyled" style="padding-left: 20px;">
+									<li><a href="">Ácido Clorhidrico al 30%</a></span></li>
+									<li><a href="">Ácido Clorhidrico al 30%</a></span></li>
+									<li><a href="#">Ácido Nítrico al 56%</a></li>              
+			                        <li><a href="#">Ácido Sulfónico al 98% </a></li>
+			                        <li><a href="#">Ácido Clorhídrico al 30% </a></li>
+			                        <li><a href="#">Cloro al 5% </a></li>                        
+			                        <li><a href="#">Peróxido de Hidrógeno 50% </a></li>
+			                        <li><a href="#">Hidróxido de Sodio </a></li>
+			                        <li><a href="#">Urea </a></li>
+			                        <li><a href="#">Soda Cáustica en Escamas </a></li>
+			                        <li><a href="#">Butil Oxitol  </a></li>
+			                        <li><a href="#">Etanol (Alcohol F1) </a></li>
+								</ul>
 						      </div>
 						    </div>
 						  </div>
@@ -141,100 +154,31 @@
 
 					<div class="col-xs-12" id="contenidoPrincipal">
 												
-						<div id="" class="col-xs-12">
+						<div id="itemQuimico" class="col-xs-12">
 
-							<div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Ácido Clorhidrico al 30%</h4>							    
-							  </a>
-							</div>  
-							  <div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Ácido Nítrico al 56%</h4>
-							    
-							  </a>
-							</div> 
-
-							  <div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Ácido Sulfónico al 98% </h4>
-							   
-							  </a>
-							</div>
-
-							<div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Ácido Clorhídrico al 30% </h4>
-							   
-							  </a>
-							</div>
-
-							<div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Cloro al 5%  </h4>
-							   
-							  </a>
-							</div>
-
-							<div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Peróxido de Hidrógeno 50%  </h4>
-							   
-							  </a>
-							</div>
-
-							<div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Hidróxido de Sodio  </h4>
-							   
-							  </a>
-							</div>
-
-							<div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Urea  </h4>
-							   
-							  </a>
-							</div>
-
-							<div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Soda Cáustica en Escamaso  </h4>
-							   
-							  </a>
-							</div>
+							<h2>Bactericida Amonio Cuaternario</h2>
 							
-							<div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Butil Oxitol</h4>
-							   
-							  </a>
-							</div>
+							<hr>
+							
+							<dl class="dl-horizontal">
+								<dt>Nombre</dt> 
+									<dd style="color: #a94442;" >CHEM BRILLINOX</dd>
 
-							<div class="list-group" style="margin-bottom: 0;">
-							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Etanol (Alcohol F1)   </h4>
-							   
-							  </a>
-							</div>
+								<dt>Descripcion</dt> 
+									<dd>
+										<p class="text-justify"> Detergente limpiador y abrillantador de acero inoxidable, ha sido diseñado para limpiar y abrillantar el acero inoxidable de manera excelente, eliminando sustancias abrasivas que dañan la superficie. Rinde y es económico, ya que es concentrado. El tiempo de contacto con la superficie es reducido, por lo que lleva a cabo una limpieza rápida, eliminando las manchas y dejando las superficies limpias y brillantes.</p>
+									</dd>
+								
+								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
 
-
-					
-
-							<!-- <ul class="list-unstyled" style="padding-left: 20px;">
-
-								<li><a href="">Ácido Clorhidrico al 30%</a> </li>		
-								<li><a href="#">Ácido Nítrico al 56%</a></li>              
-		                        <li><a href="#">Ácido Sulfónico al 98% </a></li>
-		                        <li><a href="#">Ácido Clorhídrico al 30% </a></li>
-		                        <li><a href="#">Cloro al 5% </a></li>                        
-		                        <li><a href="#">Peróxido de Hidrógeno 50% </a></li>
-		                        <li><a href="#">Hidróxido de Sodio </a></li>
-		                        <li><a href="#">Urea </a></li>
-		                        <li><a href="#">Soda Cáustica en Escamas </a></li>
-		                        <li><a href="#">Butil Oxitol  </a></li>
-		                        <li><a href="#">Etanol (Alcohol F1) </a></li>
-							</ul>	 -->
+				                <dt>Descargar</dt>
+				                	<dd>
+				                		<div class="" style="padding-top: 0px;" > 
+						                	<a href="#"> <i class="ion-document-text" aria-hidden="true"></i> Hoja de Seguridad</a> 
+						                	<a href="#"> <i class="ion-document" aria-hidden="true"></i> Ficha Técnica </a>
+					                	</div>
+					                </dd>
+					        </dl>	
 
 						</div>
 
@@ -323,7 +267,8 @@
 		background-color: brown;
 	    color: whitesmoke;
 	    padding: 10px;
-	    border-radius: 43px;
+	    padding-left: 15px;
+	    border-radius: 20px;
 	    margin-top: 0px;
 	}
 
