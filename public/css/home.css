@@ -16,7 +16,7 @@
 }
 
 #navPrincipal{
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .pt{
@@ -190,7 +190,7 @@
     background-image: none;
 }
 .carousel .item {
-    min-height: 350px; 
+    min-height: 480px; 
     /*height: 100%;*/
     width:100%; 
 }

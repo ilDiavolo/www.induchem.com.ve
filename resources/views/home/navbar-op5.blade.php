@@ -132,8 +132,8 @@
 
 <!-- Static navbar -->
 <nav class="navbar navbar-default" id="navPrincipal" ">
-    <div class="container" style="background-image: url('{{ asset('img/mq.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
-
+    <div class="container-fluid" style="background-image: url('{{ asset('img/mq.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="container">
         <div class="row">
 
             <div class="col-xs-12 col-sm-3" id="navLogo">
@@ -195,9 +195,9 @@
             </div>           
                 
           </div>
-
+</div>
     </div><!--/.container -->
-<div class="container" style="padding-left: 0px; padding-right: 0px;" >
+<div class="container-fluid" style="padding-left: 0px; padding-right: 0px;" >
     <div id="navbar3" class="navbar-collapse collapse js-navbar-collapse">
       <div class="container">
           <ul class="nav navbar-nav">
@@ -300,7 +300,7 @@
             <li class="dropdown-submenu">
                 <a href="#">Químicos</a>
                 <ul class="dropdown-menu">                                
-                  <li><a href="{{ url('quimicos') }}">Químicos</a></li>
+                  <li><a href="{{ url('AbrillantadoresDesoxidante') }}">Químicos</a></li>
                   <li><a href="{{ url('materiasPrimas') }}">Materias Primas</a></li>
                 </ul>
             </li>

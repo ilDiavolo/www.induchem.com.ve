@@ -46,8 +46,8 @@ route::get('nosotros', function(){		// Pagina de Nosotros
 });
 
 // ---------------------------- Productos quimicos y materias primas ----------------------------
-route::get('quimicos', function(){		// Pagina de los Productos
-	return view('quimicos.quimicos');
+route::get('AbrillantadoresDesoxidante', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.AbrillantadoresDesoxidante');
 });
 
 route::get('Bactericidas', function(){		// Pagina de los Productos
@@ -78,8 +78,8 @@ route::get('Desengrasantescocinas', function(){		// Pagina de los Productos
 	return view('quimicos.lineas.Desengrasantescocinas');
 });
 
-route::get('Limpiadorporcelana', function(){		// Pagina de los Productos
-	return view('quimicos.lineas.Limpiadorporcelana');
+route::get('DesincrustanteLimpiadorporcelana', function(){		// Pagina de los Productos
+	return view('quimicos.lineas.DesincrustanteLimpiadorporcelana');
 });
 
 route::get('Desinfectantes', function(){		// Pagina de los Productos

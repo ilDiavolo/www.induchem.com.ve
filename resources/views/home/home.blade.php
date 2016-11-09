@@ -30,7 +30,7 @@
 		@include('home.navbar-op5')
 	</header>
 
-	<div class="container main-container">
+	<div class="container-fluid main-container">
 
 		<div id="carousel-example-generic" class="carousel slide">
 			<!-- Indicators -->
@@ -44,9 +44,9 @@
 			<div class="carousel-inner" role="listbox">
 			
 				<!-- First slide -->
-				<div class="item active deepskyblue" style="background-image: url('{{ asset('img/1.jpg') }}');background-position-y: -202px; background-size: cover;" >
+				<div class="item active deepskyblue" style="background-image: url('{{ asset('img/s1.png') }}');background-size: 100% 100%;" >
 					
-					<div class="carousel-caption">
+					<!-- <div class="carousel-caption">
 						<h3 data-animation="animated bounceInLeft">
 							This is the caption for slide 1
 						</h3>
@@ -54,12 +54,12 @@
 							This is the caption for slide 1
 						</h3>
 						<button class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Button</button>
-					</div>
+					</div> -->
 				</div> <!-- /.item -->
 				
 				<!-- Second slide -->
-				<div class="item skyblue" style="background-image: url('{{ asset('img/2.jpg') }}');background-position-y: -233px;background-repeat: no-repeat; background-size: cover;">
-					<div class="carousel-caption">
+				<div class="item skyblue" style="background-image: url('{{ asset('img/s2.png') }}');background-repeat: no-repeat; background-size: 100% 100%;">
+					<!-- <div class="carousel-caption">
 						<h3 class="icon-container" data-animation="animated bounceInDown">
 							<span class="glyphicon glyphicon-heart"></span>
 						</h3>
@@ -67,7 +67,7 @@
 							This is the caption for slide 2
 						</h3>
 						<button class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Button</button>
-					</div>
+					</div> -->
 				</div><!-- /.item -->
 				
 				<!-- Third slide -->
@@ -132,7 +132,7 @@
 		</div>
 	</div>
 
-	<div class="container" id="sectores">
+	<div class="container-fluid" id="sectores">
 	
 		<div class="row">
 
@@ -244,7 +244,7 @@
 
 	</div>		
 
-	<div class="container">		
+	<div class="container-fluid">		
 		<div class="row">			
 			
 			<br>
