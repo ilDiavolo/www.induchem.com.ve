@@ -3,13 +3,13 @@ $(document).ready(function() {
 // ------------------------ AJUSTAR CONTENEDOR DE ACUERDO A AL TAMAÑO DE LA PANTALLA -------------------------
 	/******** NOTA: tengo q ver si la pagina sera con el width completo o no *****/
 
-	$(function(){
-    	if(screen.width> 1370){   	
-    		$("#sectores, #banerPrincipal, #intro").removeClass('container-fluid').addClass('container');
-   		}else{
-   			$("#sectores, #banerPrincipal, #intro").removeClass('container').addClass('container-fluid');
-   		}
-    });
+	// $(function(){
+ //    	if(screen.width> 1370){   	
+ //    		$("#sectores, #banerPrincipal, #intro").removeClass('container-fluid').addClass('container');
+ //   		}else{
+ //   			$("#sectores, #banerPrincipal, #intro").removeClass('container').addClass('container-fluid');
+ //   		}
+ //    });
 
 
 // ------------------------------------------------------------------------------------------------------------

@@ -62,9 +62,10 @@
 		@include('home.navbar-op5')
 	</header>
 	
-	<div class="container" style="height: 110px;">
-		<div class="row welcome_bar">
+	<div class="container-fluid" style="height: 110px;">
 
+		<div class="row welcome_bar">
+		<div class="container">
 			<div class="col-sm-7 col-xs-12 bar">
 				<div class="bar-icon">
 					<img src="{{ asset('img/icon_contact.png') }}" height="63" width="63">
@@ -90,7 +91,7 @@
 				
 			</div>
 
-		</div>
+		</div></div>
 
 	</div>
 
