@@ -132,6 +132,15 @@ route::get('testQuimicos', function(){		// Pagina de prueba de los Productos
 // ---------------------------- /Productos quimicos y materias primas ----------------------------
 
 
+// ------------------------------------ Termoplasticos -------------------------------------------
+
+route::get('valvulas', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.valvulas');
+});
+
+// ------------------------------------ /Termoplasticos ------------------------------------------
+
+
 route::get('contacto', function(){		// Pagina de Contacto
 	return view('contacto.contacto');
 });

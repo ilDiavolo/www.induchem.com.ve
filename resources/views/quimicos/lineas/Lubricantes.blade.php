@@ -94,8 +94,6 @@
 
 							<h2>Lubricantes para Cadenas</h2>
 							
-							<hr>
-							
 							<dl class="dl-horizontal">
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM LUB LUBRICANTE </dd>
@@ -116,7 +114,7 @@
 					                </dd>
 					        </dl>	
 
-					        <hr>
+					       
 							
 							<dl class="dl-horizontal">
 								<dt>Nombre</dt> 
@@ -222,16 +220,19 @@
 /*---------------------------------------------------------------*/
 
 	#itemQuimico h2{
-		background-color: brown;
-	    color: whitesmoke;
-	    padding: 10px;
-	    padding-left: 15px;
-	    border-radius: 20px;
+		margin-bottom: 16px;
+	    padding-bottom: 3px;
+	    border-bottom: 2px solid #005fb3;
 	    margin-top: 0px;
+	    font-size: 24px;
+	    letter-spacing: 2px;
+	    text-shadow: 0px 0px 0px #555;
 	}
 
 	#itemQuimico dl{
-		border-left: 5px solid #eee;
+		background-color: rgba(176, 232, 249, 0.23);
+		border-left: 5px solid rgba(176, 232, 249, 0.36);
+	    padding: 1em;
 	}
 
 	#itemQuimico dl dt{

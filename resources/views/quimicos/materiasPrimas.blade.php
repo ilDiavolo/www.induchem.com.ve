@@ -6,7 +6,7 @@
 </head>
 
 <style type="text/css">	
-
+	
 	/* tamaño de la imagen que en la cabecera*/
 	.bar-icon { 
 	    width: 76px;
@@ -170,9 +170,11 @@
 
 					<div class="col-xs-12" id="contenidoPrincipal">
 												
-						<div id="" class="col-xs-12" style="padding: 25px; padding-top: 20px; background-color: whitesmoke;   border-radius: 4px;">
+						<div id="" class="col-xs-12" style="padding: 1em; background-color: #fff;">
 
-							<h3 style="margin-top: 0; margin-bottom: 10px; padding-left: 10px; box-shadow: 4px 4px 7px #013777; line-height: 50px; background-color: #0167bc; color: aliceblue; border-radius: 10px;text-shadow: 2px 2px 1px #080808;">Listado de Materias Primas</h3>
+							<!-- <h3 style="margin-top: 0; margin-bottom: 10px; padding-left: 10px; box-shadow: 4px 4px 7px #013777; line-height: 50px; background-color: #0167bc; color: aliceblue; border-radius: 10px;text-shadow: 2px 2px 1px #080808;">Listado de Materias Primas</h3> -->
+
+							<h2>Listado de Materias Primas</h2>
 
 							<div class="list-group" style="margin-bottom: 0;">
 							  <a href="#" class="list-group-item ">
@@ -349,6 +351,24 @@
 		margin-top: 10px;		
 	}
 /*---------------------------------------------------------------*/
+	body{
+		background-color: rgba(221, 221, 221, 0.5);
+	}
+
+	#contenidoPrincipal div h2{
+		margin-bottom: 16px;
+	    padding-bottom: 3px;
+	    border-bottom: 2px solid #005fb3;
+	    margin-top: 0px;
+	    font-size: 24px;
+	    letter-spacing: 2px;
+	    text-shadow: 0px 0px 0px #555;
+	}
+	
+	#itemQuimico{
+		background-color: #fff;
+    	padding: 1em;
+	}
 
 	#itemQuimico h2{
 		background-color: brown;

@@ -1,3 +1,24 @@
+<script type="text/javascript">
+    
+    $(document).ready(function() {
+
+// ------------------------ AJUSTAR CONTENEDOR DE ACUERDO A AL TAMAÑO DE LA PANTALLA -------------------------
+  /******** NOTA: tengo q ver si la pagina sera con el width completo o no *****/
+
+  $(function(){
+      if(screen.width> 1370){     
+        $("#navPrincipal, #n3").removeClass('container-fluid').addClass('container');
+      }else{
+        $("#navPrincipal, #n3").removeClass('container').addClass('container-fluid');
+      }
+    });
+  });
+
+</script>
+
+
+
+
 <style type="text/css">
 
 /*.navbar-nav > li:hover > .dropdown-menu {
@@ -131,8 +152,8 @@
 
 
 <!-- Static navbar -->
-<nav class="navbar navbar-default" id="navPrincipal" ">
-    <div class="container-fluid" style="background-image: url('{{ asset('img/mq.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
+<nav class="navbar navbar-default" style="margin-bottom: 0px;">
+    <div class="container-fluid" id="navPrincipal" style="background-image: url('{{ asset('img/mq.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
       <div class="container">
         <div class="row">
 
@@ -197,7 +218,7 @@
           </div>
 </div>
     </div><!--/.container -->
-<div class="container-fluid" style="padding-left: 0px; padding-right: 0px;" >
+<div class="container-fluid" style="padding-left: 0px; padding-right: 0px;" id="n3" >
     <div id="navbar3" class="navbar-collapse collapse js-navbar-collapse">
       <div class="container">
           <ul class="nav navbar-nav">
@@ -310,12 +331,12 @@
             <li class="dropdown-submenu">
               <a href="#">Termoplásticos</a>
               <ul class="dropdown-menu">                                
-                  <li><a href="#">Válvulas</a></li>
-                  <li><a href="#">Tuberías</a></li>
-                  <li><a href="#">Bombas</a></li>                  
-                  <li><a href="#">Barras</a></li>
-                  <li><a href="#">Máquinas de Soldar Tuberías</a></li>
-                  <li><a href="#">Máquinas Extrusoras</a></li>                  
+                  <li><a href="{{ url('valvulas') }}">Válvulas</a></li>
+                  <li><a href="#">Tuberías (Simona)</a></li>
+                  <li><a href="#">Bombas (affeti) </a></li>                  
+                  <li><a href="#">Barras (Simona)</a></li>
+                  <li><a href="#">Máquinas de Soldar Tuberías (Widos)</a></li>
+                  <li><a href="#">Máquinas Extrusoras (Munch)</a></li>                  
                 </ul>
             </li>
 
@@ -398,7 +419,8 @@
     #navbar3{
       border-top: 1px solid brown;
       border-bottom: 1px solid brown;
-      background-color: rgba(246, 246, 246, 0.61);
+      background-color: white;
+      /*background-color: rgba(246, 246, 246, 0.61);*/
       margin-top: 0px;
     }    
 

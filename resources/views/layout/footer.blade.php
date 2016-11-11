@@ -16,13 +16,13 @@
 
 				<h3>Redes Sociales </h3>
 
-				<a href="http://www.facebook.com/induchemve/" target="_blank"><img alt="siguenos en Twitter" height="32" src="{{ asset('img/redes/facebook.png') }}" title="siguenos en Induchem_ve" width="32"></a>
+				<a href="http://www.facebook.com/induchemve/" target="_blank"><img alt="siguenos en Twitter" height="32" src="{{ asset('img/redes/facebook.png') }}" title="Síguenos en facebook" width="32"></a>
 
-				<a href="http://www.instagram.com/induchem_ve" target="_blank"><img alt="siguenos en facebook" height="32" src="{{ asset('img/redes/instagram.png') }}" title="siguenos en facebook" width="32"></a>
+				<a href="http://www.instagram.com/induchem_ve" target="_blank"><img alt="siguenos en facebook" height="32" src="{{ asset('img/redes/instagram.png') }}" title="Síguenos en instagram" width="32"></a>
 
-				<a href="https://www.linkedin.com/company/induchem-c-a-" target="_blank"><img alt="sígueme en Instagram" height="32" src="{{ asset('img/redes/linkedIn.png') }}" title="sígueme en Instagram" width="32"></a>
+				<a href="https://www.linkedin.com/company/induchem-c-a-" target="_blank"><img alt="sígueme en linkedIn" height="32" src="{{ asset('img/redes/linkedIn.png') }}" title="Síguenos en linkedIn" width="32"></a>
 
-				<a href="https://twitter.com/Induchem_ve" target="_blank"><img alt="Sígueme en Likedin" height="32" src="{{ asset('img/redes/twitter.png') }}" title="Sígueme en Likedin" width="32" /></a>
+				<a href="https://twitter.com/Induchem_ve" target="_blank"><img alt="Sígueme en twitter" height="32" src="{{ asset('img/redes/twitter.png') }}" title="Síguenos en twitter" width="32" /></a>
 
 			</div>
 			

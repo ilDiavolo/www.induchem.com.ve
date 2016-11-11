@@ -30,7 +30,7 @@
 		@include('home.navbar-op5')
 	</header>
 
-	<div class="container-fluid main-container">
+	<div class="container-fluid main-container" id="sliderPrincipal">
 
 		<div id="carousel-example-generic" class="carousel slide">
 			<!-- Indicators -->
@@ -244,7 +244,7 @@
 
 	</div>		
 
-	<div class="container-fluid">		
+	<div class="container-fluid" id="aliadosComerciales">		
 		<div class="row">			
 			
 			<br>

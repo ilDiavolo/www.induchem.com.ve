@@ -79,3 +79,14 @@
 	</div>
 
 </div>
+
+<style type="text/css">
+	body{
+		background-color: rgba(221, 221, 221, 0.5);
+	}
+	
+	#itemQuimico{
+		background-color: #fff;
+    	padding: 1em;
+	}
+</style>
