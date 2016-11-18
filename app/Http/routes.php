@@ -29,6 +29,7 @@ Route::resource('rc','crud');
 // Route::controller('rc','crud');
 
 
+
 //--------------------------------------------------------------------------------------------------------
 
 //-----------------------		RUTAS CONTROLER 	----------------------------
@@ -135,10 +136,63 @@ route::get('testQuimicos', function(){		// Pagina de prueba de los Productos
 // ------------------------------------ Termoplasticos -------------------------------------------
 
 route::get('valvulas', function(){		// Pagina de prueba de los Productos
-	return view('termoplasticos.valvulas');
+	return view('termoplasticos.articulos.valvulas');
+});
+
+route::get('tuberias', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.tuberias');
+});
+
+route::get('bombas', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.bombas');
+});
+
+route::get('barras', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.barras');
+});
+
+route::get('soldarTuberias', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.soldarTuberias');
+});
+
+route::get('extrusoras', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.extrusoras');
 });
 
 // ------------------------------------ /Termoplasticos ------------------------------------------
+
+// ------------------------------------ Actudores ------------------------------------------------
+
+route::get('actuadoresElectrico', function(){		// Pagina de 
+	return view('actuadores.electricos');
+});
+
+route::get('actuadoresNeumatico', function(){		// 
+	return view('actuadores.neumaticos');
+});
+
+
+// ------------------------------------ /Actudores -----------------------------------------------
+
+// --------------------------- Motores, Reductres e Inverores  -----------------------------------
+
+route::get('motores', function(){		// 
+	return view('motores.motores');
+});
+
+route::get('inversores', function(){		// 
+	return view('motores.inversores');
+});
+
+route::get('reductores', function(){		// 
+	return view('motores.reductores');
+});
+
+
+// --------------------------- /Motores, Reductres e Inverores  ----------------------------------
+
+
+
 
 
 route::get('contacto', function(){		// Pagina de Contacto

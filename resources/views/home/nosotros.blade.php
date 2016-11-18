@@ -10,7 +10,7 @@
 		@include('home.navbar-op5')
 	</header>
 	
-	<div class="container">
+	<div class="container" style="margin-top: 15px;">
 		
 		<div class="row">
 

@@ -71,7 +71,7 @@
 				<div style="padding-left: 5px; display: inline-block;">
 					
 					<h1 style="margin-bottom: 0;margin-top: 0;"><span>Termopláticos</span> </h1>
-					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Válvulas Termopláticas </div>
+					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Termopláticos Válvulas  </div>
 				</div>
 			</div>
 		</div>
@@ -82,31 +82,8 @@
 						
 			<div class="col-xs-3" >
 				<div class="row" style="padding: 1em;">
-					<div class="col-xs-12" id="sidebar" style="background-color: #fff; padding:2em;padding-top: 1em; padding-left: 0; padding-right: 0">
-						
-						<div id="akira" style="padding-left: 15px;">
 
-
-							<h4> Vávulas Termopláticas</h4>							
-
-							<div class="media" style="margin-top: 10px;margin-left: 15px;" >
-								<div class="media-left media-middle">
-									<a id="puto" href="#"><img src="{{ asset('img/termoplasticos/valvulas/asahi.png') }}" class="" style="height: 45px;"></a>
-							  	</div>								
-							</div>	
-
-
-						</div>
-						
-
-						<!-- <h4>Válvulas Termopláticas</h4>
-						<h4>Tuberías</h4>
-						<h4>Bombas</h4>
-						<h4>Barras</h4>
-						<h4>Máquinas de Soldar Tuberías</h4>
-						<h4>Máquinas Extrusoras</h4> -->
-						
-					</div>
+					@include('termoplasticos.sideBarTermo')
 												
 				</div>
 			</div>
@@ -121,7 +98,7 @@
 							
 							<div class="media" style="margin-top: 20px;margin-bottom: 7px;" >
 								<div class="media-left media-middle">
-									<img src="{{ asset('img/termoplasticos/valvulas/asahi.png') }}" class=" media-object">
+									<img src="{{ asset('img/termoplasticos/menu/asahi.png') }}" class=" media-object">
 							  	</div>
 								<div class="media-body media-middle">
 									<!-- <h4 class="media-heading">Media heading</h4> -->
@@ -133,6 +110,7 @@
 						<div class="col-sm-12 col-md-6" style="background-color: #fff;">
 
 							<div class="row" style="padding: 1em;">
+								<h3>Válvula de Retención Wafer</h3> 
 								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvula de Retencian de Wafer.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
@@ -147,6 +125,7 @@
 							</div>
 
 							<div class="row" style="padding: 1em;padding-top: 0;">
+								<h3>Válvula de Diafragma Tipo 14</h3>
 								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvulas de Diafragma Tipo-14.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
@@ -162,6 +141,7 @@
 
 
 							<div class="row" style="padding: 1em;padding-top: 0;">
+								<h3>Válvula de Mariposa Tipo 57</h3>
 								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvulas de Mariposa Tipo-57.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
@@ -178,6 +158,7 @@
 							</div>
 
 							<div class="row" style="padding: 1em;padding-top: 0;">
+								<h3>Válvula de Retención de Bola</h3>
 								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvulas de Retencion de Bola.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
@@ -200,6 +181,7 @@
 						<div class="col-sm-12 col-md-6" style="background-color: #fff">
 
 							<div class="row" style="padding: 1em;">
+								<h3>Válvula de Bola Tipo 21/21a</h3>
 								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvulas de Bola Tipo-21 21a.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
@@ -216,6 +198,7 @@
 							</div>
 
 							<div class="row" style="padding: 1em;padding-top: 0;">
+								<h3>Válvula de Compuerta</h3>
 								<div class="col-xs-12 flex-parent" style="background-color: #eee;">				
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvulas de Compuerta.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
@@ -231,6 +214,7 @@
 							</div>							
 
 							<div class="row" style="padding: 1em;padding-top: 0;">
+								<h3>Válvula de Retención de Columpio</h3>
 								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvula de Retencion de Columpio.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
@@ -298,33 +282,18 @@ p{
   display: flex;
   justify-content: center;
   flex-direction: column;
-}S
+}
 /*---------------------------------------------------------------*/
 
-
-
-#akira{	
-	line-height: 40px;	
-}
-/*
-#akira:hover{
-	background-color: #ddd;	
-}*/
-
-#puto{
+#fotoSideTermo{
 	width: 50px;
-	height: 15px;
 }
 
-#puto{
-	text-decoration: none;
-	color: #000;
-}
-
-#puto:hover:before{
+#fotoSideTermo:hover:before{
 	content:url('{{ asset('img/flecha.png') }}');
-	margin-right: 3px;
-	width: 20px;
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 30px;
 	height: 10px;
 	overflow: hidden;
 }

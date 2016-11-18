@@ -332,11 +332,11 @@
               <a href="#">Termoplásticos</a>
               <ul class="dropdown-menu">                                
                   <li><a href="{{ url('valvulas') }}">Válvulas</a></li>
-                  <li><a href="#">Tuberías (Simona)</a></li>
-                  <li><a href="#">Bombas (affeti) </a></li>                  
-                  <li><a href="#">Barras (Simona)</a></li>
-                  <li><a href="#">Máquinas de Soldar Tuberías (Widos)</a></li>
-                  <li><a href="#">Máquinas Extrusoras (Munch)</a></li>                  
+                  <li><a href="{{ url('tuberias') }}">Tuberías </a></li>
+                  <li><a href="{{ url('bombas') }}">Bombas </a></li>                  
+                  <li><a href="{{ url('barras') }}">Barras </a></li>
+                  <li><a href="{{ url('soldarTuberias') }}">Máquinas de Soldar Tuberías </a></li>
+                  <li><a href="{{ url('extrusoras') }}">Máquinas Extrusoras </a></li>                  
                 </ul>
             </li>
 
@@ -345,9 +345,9 @@
             <li class="dropdown-submenu">
                 <a href="#">Motores</a>
                 <ul class="dropdown-menu">                                
-                  <li><a href="#">Motores</a></li>
-                  <li><a href="#">Inversores</a></li>
-                  <li><a href="#">Reductores</a></li>                                    
+                  <li><a href="{{ url('motores') }}">Motores</a></li>
+                  <li><a href="{{ url('inversores') }}">Inversores</a></li>
+                  <li><a href="{{ url('reductores') }}">Reductores</a></li>                                    
                 </ul>
             </li>
 
@@ -356,8 +356,8 @@
             <li class="dropdown-submenu">
                 <a href="#">Actuadores</a>
                 <ul class="dropdown-menu">                                
-                  <li><a href="#">Eléctricos</a></li>
-                  <li><a href="#">Neumáticos</a></li>                                  
+                  <li><a href="actuadoresElectrico">Eléctricos</a></li>
+                  <li><a href="{{ url('actuadoresNeumatico') }}">Neumáticos</a></li>                                  
                 </ul>
             </li>
 
