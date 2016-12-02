@@ -3,7 +3,7 @@
 	
 	<div id="akira" style="padding-left: 15px;">
 
-		<h4> Vávulas Termopláticas</h4>							
+		<h4 style="text-shadow: 2px 2px 1px #ddd;" > Vávulas Termopláticas</h4>							
 
 		<div class="media" style="margin-top: 10px;margin-left: 15px;" >
 			<div class="media-left media-middle">
@@ -17,7 +17,7 @@
 
 	<div id="akira" style="padding-left: 15px;">
 
-		<h4> Tuberías </h4>							
+		<h4 style="text-shadow: 2px 2px 1px #ddd;"> Tuberías </h4>							
 
 		<div class="media" style="margin-top: 10px;margin-left: 15px;" >
 			<div class="media-left media-middle">
@@ -31,7 +31,7 @@
 
 	<div id="akira" style="padding-left: 15px;">
 
-		<h4> Bombas </h4>							
+		<h4 style="text-shadow: 2px 2px 1px #ddd;"> Bombas </h4>							
 
 		<div class="media" style="margin-top: 10px;margin-left: 15px;" >
 			<div class="media-left media-middle">
@@ -45,7 +45,7 @@
 	
 	<div id="akira" style="padding-left: 15px;">
 
-		<h4> Barras </h4>							
+		<h4 style="text-shadow: 2px 2px 1px #ddd;"> Barras </h4>							
 
 		<div class="media" style="margin-top: 10px;margin-left: 15px;" >
 			<div class="media-left media-middle">
@@ -59,7 +59,7 @@
 
 	<div id="akira" style="padding-left: 15px;">
 
-		<h4> Máquinas de Soldar Tuberías </h4>							
+		<h4 style="text-shadow: 2px 2px 1px #ddd;"> Máquinas de Soldar Tuberías </h4>							
 
 		<div class="media" style="margin-top: 10px;margin-left: 15px;" >
 			<div class="media-left media-middle">
@@ -73,7 +73,7 @@
 
 	<div id="akira" style="padding-left: 15px;">
 
-		<h4> Máquinas Extrusoras </h4>							
+		<h4 style="text-shadow: 2px 2px 1px #ddd;"> Máquinas Extrusoras </h4>							
 
 		<div class="media" style="margin-top: 10px;margin-left: 15px;" >
 			<div class="media-left media-middle">

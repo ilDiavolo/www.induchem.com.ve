@@ -28,6 +28,12 @@ route::get('boot', function(){	/// Pagina de Prueba del Slider
 Route::resource('rc','crud'); 
 // Route::controller('rc','crud');
 
+////////////////// Prueba: Font Response //////////////////////////77
+Route::get('font', function(){
+	return view('home.font');
+});
+// Route::controller('rc','crud');
+
 
 
 //--------------------------------------------------------------------------------------------------------
@@ -191,12 +197,21 @@ route::get('reductores', function(){		//
 
 // --------------------------- /Motores, Reductres e Inverores  ----------------------------------
 
+// ---------------------------  Oportuinidades de Empleo  ----------------------------------
+route::get('oportunidades', function(){		
+	return view('oportunidades.empleo');
+});
 
+// ---------------------------  Pagina de Contacto  ----------------------------------
 
-
-
-route::get('contacto', function(){		// Pagina de Contacto
+route::get('contacto', function(){		
 	return view('contacto.contacto');
+});
+
+// ---------------------------  Pagina de Servicios  ----------------------------------
+
+route::get('servicios', function(){		
+	return view('servicios.servicios');
 });
 
 

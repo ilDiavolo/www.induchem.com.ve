@@ -65,33 +65,34 @@
 	<div class="container-fluid" style="height: 110px;">
 
 		<div class="row welcome_bar">
-		<div class="container">
-			<div class="col-sm-7 col-xs-12 bar">
-				<div class="bar-icon">
-					<img src="{{ asset('img/icon_contact.png') }}" height="63" width="63">
+			<div class="container">
+				<div class="col-sm-7 col-xs-12 bar">
+					<div class="bar-icon">
+						<img src="{{ asset('img/icon_contact.png') }}" height="63" width="63">
+					</div>
+
+					<div class="bar-title">
+						<h1><span>Contacta</span> con nosotros!</h1>
+					</div>
+					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Contacto</div>
 				</div>
 
-				<div class="bar-title">
-					<h1><span>Contacta</span> con nosotros!</h1>
+				<div class="col-sm-5 col-xs-12 bar">
+					<div>
+						<i class="ion-ios-telephone-outline" style="font-size: 55px;float: left;line-height: 5px; width: 44px;padding-right: 5px;"></i>
+						<!-- <img src="{{ asset('img/icon_contact.png') }}" height="63" width="63"> -->
+					</div>
+
+					<div class="bar-title">
+						<h4 style="margin-top: 5px; margin-bottom: 0px;">Telf. Master: +58 (245) 564 88 98</h4>
+						<h4 style="margin-top: 2px;">Fax: +58 (245) 565 03 54</h4>
+						<!-- <h1><span>Contacta</span> con nosotros!</h1> -->
+					</div>
+					
 				</div>
-				<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Contacto</div>
+
 			</div>
-
-			<div class="col-sm-5 col-xs-12 bar">
-				<div>
-					<i class="ion-ios-telephone-outline" style="font-size: 55px;float: left;line-height: 5px; width: 44px;padding-right: 5px;"></i>
-					<!-- <img src="{{ asset('img/icon_contact.png') }}" height="63" width="63"> -->
-				</div>
-
-				<div class="bar-title">
-					<h4 style="margin-top: 5px; margin-bottom: 0px;">Telf. Master: +58 (245) 564 88 98</h4>
-					<h4 style="margin-top: 2px;">Fax: +58 (245) 565 03 54</h4>
-					<!-- <h1><span>Contacta</span> con nosotros!</h1> -->
-				</div>
-				
-			</div>
-
-		</div></div>
+		</div>
 
 	</div>
 

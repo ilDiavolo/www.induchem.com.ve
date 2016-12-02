@@ -25,8 +25,7 @@
 
 <body>
 	
-	<header>				
-		
+	<header>		
 		@include('home.navbar-op5')
 	</header>
 

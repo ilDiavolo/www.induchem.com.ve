@@ -15,7 +15,7 @@
 	}
 	
 	.welcome_bar {
-	    /*background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;*/
+	    background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;
 	    clear: both;
 	    margin-bottom: 44px;
 	    position: relative;
@@ -23,7 +23,7 @@
 	}
 
 	.bar {
-	    /*background: url('{{ asset('img/title_bar_shadow.gif') }}') 0 106px no-repeat;*/
+	    background: url('{{ asset('img/title_bar_shadow.gif') }}') 0 106px no-repeat;
 	    height: 88px;
 	    padding: 21px 0 0 21px;
 	    position: relative;
@@ -60,7 +60,30 @@
 		@include('home.navbar-op5')
 	</header>
 
-	<div class="container" >
+	<div class="container-fluid" style="height: 110px;">
+
+		<div class="row welcome_bar">
+			<div class="container">
+				<div class="col-sm-7 col-xs-12 bar">
+					<div class="bar-icon">
+						<img src="{{ asset('img/te2.png') }}" height="63" width="63">
+					</div>
+
+					<div class="bar-title">
+						<h1><span>Inversores</span> </h1>
+					</div>
+					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Inversores</div>
+				</div>
+
+				<div class="col-sm-5 col-xs-12 bar">				
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- <div class="container" >
 		<div class="row" style="padding-top: 10px; margin-bottom: 10px;">
 
 			<div class="col-xs-12" id="cabecera" >
@@ -71,32 +94,30 @@
 				<div style="padding-left: 5px; display: inline-block;">
 					
 					<h1 style="margin-bottom: 0;margin-top: 0;"><span>Inversores</span> </h1>
-					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Motores </div>
+					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Inversores </div>
 				</div>
 			</div>
 		</div>
 	</div>
-
+ -->
 	<div class="container">
 		<div class="row">
 						
 			<div class="col-xs-3" >
-				<div class="row" style="padding: 1em;">
+				<div class="row" >
 
 
 					<div class="col-xs-12" style="background-color: #fff; padding:2em;padding-top: 1em; padding-left: 1em; padding-right: 0; border: 1px solid;box-shadow: 1px 1px 1px;">
 					
-						<h4 style="display: inline-block; margin-left: 15px; line-height: 24px;text-shadow: 3px 3px 1px #ddd; font-size: 20px;" > Inversores </h4> 
+						<h4 style="display: inline-block; margin-left: 15px; line-height: 24px; text-shadow: 2px 2px 1px #ddd;font-size: 20px;" > Inversores </h4> 
 						<img src="{{ asset('img/motive/motive.png') }}" class="" style="vertical-align: sub; height: 24px; margin-left: 10px; width: 124px; display: inline-block;">  
-
-						<ul class="list-unstyled" style="padding-left: 2em; margin-top: 7px;">
+						<div style="padding-left: 1em; padding-right: 1em;"> <hr style="margin-top: 0px;margin-bottom: 12px;" > </div>
+						<ul class="list-unstyled" style="padding-left: 1em; margin-top: 7px;">
 							<li style="margin-bottom: 4px;" > <a id="fotoSideTermo" style="color: #000;font-size: 16px;" href="{{ url('motores') }}">Motores</a> </li>
 							<li style="margin-bottom: 4px;" > <a id="fotoSideTermo" style="color: #000;font-size: 16px;" href="{{ url('inversores') }}">Inversores</a> </li>
 							<li> <a id="fotoSideTermo" style="color: #000;font-size: 16px;" href="{{ url('reductores') }}">Reductores</a> </li>
 						</ul>
-						<div style="padding-left: 2em; padding-right: 2em;">
-							<hr>						
-						</div>
+						<div style="padding-left: 1em; padding-right: 1em;"> <hr style="margin-top: 0px;margin-bottom: 12px;" > </div>
 					</div>
 					
 						
@@ -108,7 +129,7 @@
 			</div>
 			
 			<div class="col-xs-9">
-				<div class="row" style="padding: 1em;">
+				<div class="row" style="padding: 1em;   padding-top: 0;   padding-right: 0;">
 					
 					<div id="itemTermo" class="col-xs-12" style="background-color: #fff; padding: 0;">	
 
@@ -135,7 +156,7 @@
 									 
 									<div class="col-xs-12 col-md-6 flex-child">
 
-										<img src="{{ asset('img/motive/prodotti-neowifi.jpg') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/motive/prodotti-neowifi.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
 
@@ -154,7 +175,7 @@
 									 
 									<div class="col-xs-12 col-md-6 flex-child">
 
-										<img src="{{ asset('img/motive/prodotti-neopump.jpg') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/motive/prodotti-neopump.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
 
@@ -197,7 +218,7 @@
 									 
 									<div class="col-xs-12 col-md-6 flex-child">
 
-										<img src="{{ asset('img/motive/prodotti-neosolar.jpg') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/motive/prodotti-neosolar.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
 
