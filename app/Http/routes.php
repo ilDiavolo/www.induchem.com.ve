@@ -48,8 +48,16 @@ route::get('home', function(){			// Pagina de Inicio
 	return view('home.home');
 });
 
-route::get('nosotros', function(){		// Pagina de Nosotros
-	return view('home.nosotros');
+route::get('quienes', function(){		// Pagina de quienes somos
+	return view('home.quienes');
+});
+
+route::get('vision', function(){		// Pagina de mision, vision y valores
+	return view('home.vision');
+});
+
+route::get('politica', function(){		// Pagina de politica
+	return view('home.politica');
 });
 
 // ---------------------------- Productos quimicos y materias primas ----------------------------

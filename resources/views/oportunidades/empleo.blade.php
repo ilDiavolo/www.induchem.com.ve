@@ -94,10 +94,10 @@
 	<div class="container-fluid" id="Oportunidad_empleo_fondo">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12" style="text-shadow: 1px 1px 1px black;color: cadetblue;">
+				<div class="col-md-12" style="top: 10px; text-shadow: 1px 1px 1px black;color: cadetblue;">
 					
 					<h1 class="text-center" >Forma Parte de Nuestro Equipo de Trabajo</h1>
-					<h5 class="text-center" style="letter-spacing: 1px;">Disponemos de políticas de integración con beneficios y servicios para nuestra gente orientados a lograr un <br> equilibrio entre la vida personal y profesional.  </h5>
+					<h4 class="text-center" style="letter-spacing: 1px;">Disponemos de políticas de integración con beneficios y servicios para nuestra gente orientados a lograr un <br> equilibrio entre la vida personal y profesional.  </h4>
 
 				</div>
 			</div>
@@ -148,13 +148,14 @@
 					</ul>
 				</div> -->
 				<div class="col-md-8 col-xs-12" style="margin-top: 10px;">
-				<p style="font-size: 17px;"> Puedes postularte envíandonos un correo indicando la vacante de interes junto a tu curriculum vitae a la siguiente direccioón de correo: </p>
+				<p style="font-size: 17px;"> Puedes postularte envíandonos un correo indicando la vacante de interes junto a tu curriculum vitae a la siguiente dirección de correo: </p>
 
-				<i class="ion-paper-airplane" style="font-size: 17px; margin-right: 8px;"></i> <a href="mailto:recursoshumanos@induchem.com.ve" style="color: brown;font-size: 17px;">recursoshumanos@induchem.com.ve</a> 
+				<i class="ion-paper-airplane" style="font-size: 17px; margin-right: 8px;"></i> <a href="mailto:recursoshumanos@induchem.com.ve" style="color: #23527c;font-size: 17px;">recursoshumanos@induchem.com.ve</a> 
 
 				<br>
+				<br>
 				<blockquote class="blockquote-reverse">
-					<p style="font-size: 16px;"> “Los logros de una organización son los resultados del esfuerzo combinado de cada individuo.”  </p>
+					<p style="font-size: 14px; margin-bottom: 0px;color: rgb(162, 62, 62);"> “Los logros de una organización son los resultados del esfuerzo combinado de cada individuo.”  </p>
 					<footer><cite title="Source Title" style="color: #555; text-shadow: 1px 1px 1px ghostwhite;" >Vince Lombardi.</cite></footer>
 				</blockquote>
 					

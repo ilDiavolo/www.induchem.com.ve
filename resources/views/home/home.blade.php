@@ -36,14 +36,28 @@
 			<ol class="carousel-indicators">
 				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>				
 			</ol>
 
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 			
+				<!-- Zero slide -->
+				<div class="item active deepskyblue" style="background-image: url('{{ asset('img/banner1/b1.png') }}');background-size: 100% 100%;" >
+					
+					<!-- <div class="carousel-caption">
+						<h3 data-animation="animated bounceInLeft">
+							This is the caption for slide 1
+						</h3>
+						<h3 data-animation="animated bounceInRight">
+							This is the caption for slide 1
+						</h3>
+						<button class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Button</button>
+					</div> -->
+				</div> <!-- /.item -->
+
 				<!-- First slide -->
-				<div class="item active deepskyblue" style="background-image: url('{{ asset('img/s1.png') }}');background-size: 100% 100%;" >
+				<div class="item deepskyblue" style="background-image: url('{{ asset('img/banner2/b2.png') }}');background-size: 100% 100%;" >
 					
 					<!-- <div class="carousel-caption">
 						<h3 data-animation="animated bounceInLeft">
@@ -57,7 +71,7 @@
 				</div> <!-- /.item -->
 				
 				<!-- Second slide -->
-				<div class="item skyblue" style="background-image: url('{{ asset('img/s2.png') }}');background-repeat: no-repeat; background-size: 100% 100%;">
+				<div class="item skyblue" style="background-image: url('{{ asset('img/fotos_pagina/pic/servicios.png') }}');background-repeat: no-repeat; background-size: 100% 100%;">
 					<!-- <div class="carousel-caption">
 						<h3 class="icon-container" data-animation="animated bounceInDown">
 							<span class="glyphicon glyphicon-heart"></span>
@@ -68,20 +82,7 @@
 						<button class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Button</button>
 					</div> -->
 				</div><!-- /.item -->
-				
-				<!-- Third slide -->
-				<div class="item darkerskyblue" style="background-image: url('{{ asset('img/3.jpg') }}'); background-repeat: no-repeat;background-size: cover;">
-					<div class="carousel-caption">
-						<h3 class="icon-container" data-animation="animated zoomInLeft">
-							<span class="glyphicon glyphicon-glass"></span>
-						</h3>
-						<h3 data-animation="animated flipInX">
-							This is the caption for slide 3
-						</h3>
-						<button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Button</button>
-					</div>
-				</div><!-- /.item -->
-			
+							
 			</div><!-- /.carousel-inner -->
 
 			<!-- Controls -->
@@ -97,37 +98,57 @@
 
 	</div><!-- /.container -->
 		
-	<div id="intro" class="container" style="padding-top: 10px;">
+	<div id="garantia" class="container-fluid" style="background-size: cover; background-repeat: no-repeat;">
+	<div class="container" style="padding-bottom: 20px;c padding-top: 15px;">
 		
-		<div class="row"> 
+		<div class="row" style="height: 220px;"> 
 			
 			<div class="col-sm-12" style="margin-bottom: 10px; margin-top: 20px;"> 
-				<!-- <h1 id="introH1" class="text-center"> A QUE NOS DEDICAMOS </h1>  -->
-				<h3 class="text-center" style="margin-bottom: 0px; margin-top: 10px;">Induchem, C.A., y sus filiales nos especializamos en la distribución de productos <br> de limpieza, venta de materias primas y productos termoplásticos</h3> 
+				
+				<!-- <h3 class="text-center" style="margin-bottom: 0px; margin-top: 10px;">Induchem, C.A., y sus filiales nos especializamos en la distribución de productos <br> de limpieza, venta de materias primas y productos termoplásticos</h3>  -->
 			</div>
 			
 			
 			<div id="paneles">
 				
-				<div class="col-sm-4" >
-					<p class="text-center" style="margin: 0px;"> <i class="ion-ios-briefcase-outline" style="font-size: 74px;"></i> </p>			
+				<div class="col-sm-4" style="margin-bottom: 40px;">
+					
+					<img src="{{asset('img/e1.png')}}" class="img-responsive" style="height: 235px;margin: 0 auto; border-radius: 120px;padding: 8px;">
+					<h3 class="text-center" style="font-family: 'Arapey', 'serif';margin: 0;font-style: italic;">Contamos con más de <strong>20 años</strong>  en el mercado</h3>
+
+					<!-- <p class="text-center" style="margin: 0px;"> <i class="ion-ios-briefcase-outline" style="font-size: 74px;"></i> </p>			
 					<h2 class="text-center" style="margin-top: 0px; margin-bottom: 0px;"> Nuestro Trabajo </h2>
-					<p  class="text-justify pt"> Con más de 20 años de experiencia en la industria química, suministramos materias primas, productos terminados, diseñados para cada cliente y proporcionamos asesoría técnica y equipos para la industria. </p>
+					<p  class="text-justify pt"> Con más de 20 años de experiencia en la industria química, suministramos materias primas, productos terminados, diseñados para cada cliente y proporcionamos asesoría técnica y equipos para la industria. </p> -->
 				</div>
 				
-				<div class="col-sm-4" >
+				<!-- <div class="col-sm-4" >
 					<p class="text-center" style="margin: 0px;"> <i class="ion-ios-gear-outline" style="font-size: 74px;"></i> </p>	
 					<h2 class="text-center" style="margin-top: 0px; margin-bottom: 0px;"> Nuestros Servicios</h2>
 					<p  class="text-justify pt"> Asegurar un buen servicio a nuestros clientes es fundamental para conseguir una relación estable y duradera. El conocimiento de nuestros clientes nos permite ofrecerles el servicio más adecuado a sus necesidades. </p>
-				</div>
+				</div> -->
 				
-				<div class="col-sm-4" >
-					<p class="text-center" style="margin: 0px;"> <i class="ion-ios-lightbulb-outline" style="font-size: 74px;"></i> </p>
-					<h2 class="text-center" style="margin-top: 0px;margin-bottom: 0px;"> Nuestra Pasión</h2>
-					<p  class="text-justify pt"> Lo que nos distingue es que cada uno de nosotros se ocupa de llevar a nuestros clientes hacia el éxito. fortalecer lazos, exhibir lo que sabemos y podemos hacer, lo que nos impulsa a ser los mejores. </p>
+				<div class="col-sm-8" >
+					<!-- <p class="text-center" style="margin: 0px;"> <i class="ion-ios-lightbulb-outline" style="font-size: 74px;"></i> </p>
+					<h2 class="text-center" style="margin-top: 0px;margin-bottom: 0px;"> Nuestra Pasión</h2> -->
+					<!-- <p  class="text-justify pt"> Lo que nos distingue es que cada uno de nosotros se ocupa de llevar a nuestros clientes hacia el éxito. fortalecer lazos, exhibir lo que sabemos y podemos hacer, lo que nos impulsa a ser los mejores. </p> -->
+					
+					<div class="jumbotron text-center" style="background: rgba(240, 248, 255, 0.91);border: 1px solid brown;margin-top: 25px;">
+					  <p style="font-weight: 600; font-size: 24px; font-family: 'Arapey', 'serif'; font-style: italic;    line-height: 27px; text-shadow: 2px 2px 3px whitesmoke;"><strong style="font-weight: 900;color: brown">Induchem C.A.</strong> y sus filiales nos especializamos en la distribución de productos de limpieza, venta de materias primas y productos termoplásticos</p>
+					  <p style="font-family: 'Arapey', 'serif'; font-style: italic; color: brown;line-height: 20px;font-size: 19px;">Siempre comprometidos con el desarrollo y crecimiento de cada uno de los sectores productivos del país.</p>
+					</div>
+		
+
+					<!-- <div style="    background-color: rgba(240, 248, 255, 0.89); font-size: 16px; margin-top: 23px;  text-align: center;  padding: 2em;">
+						<p>Induchem, C.A., y sus filiales nos especializamos en la distribución de productos de limpieza, venta de materias primas y productos termoplásticos</p> 
+
+						<p>En Induchem nos encontramos comprometidos con el desarrollo y crecimiento de cada uno de los sectores productivos del país.</p>
+					</div> -->
+					
+
 				</div>
 			
 			</div>
+		</div>
 		</div>
 	</div>
 
@@ -135,14 +156,17 @@
 	
 		<div class="row">
 
-			<div class="col-xs-12 text-center" style="padding: 40px; color: black; background-color: aliceblue;">
+			<!-- <div class="col-xs-12 text-center" style="padding: 40px; color: black; background-color: aliceblue;">
 				
 				<div class="slideanim">
 					<h1>Productos Hechos A Tus Necesidades </h1>
 					<h4>En Induchem nos encontramos comprometidos con el desarrollo y crecimiento de cada uno de los sectores productivos del país.</h4>				
 				</div>			
-			</div>	
+			</div>	 -->
+			<div class="col-sm-12">
+				<div class="row">
 					
+						
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
 					<div class="img-c" style="background-image: url('{{ asset('img/mercados/efluentes.jpg') }}');">
@@ -154,7 +178,7 @@
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
 					<div class="img-c " style="background-image: url('{{ asset('img/mercados/quimicos.jpg') }}');">
-						    <h4 class="mercados_H4"> Químicos </h4>
+						    <h4 class="mercados_H4"> Químicos y Detergentes</h4>
 					</div>
 				</a>	
 			</div>
@@ -178,14 +202,14 @@
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
 					<div class="img-c " style="background-image: url('{{ asset('img/mercados/bebidas.jpg') }}');">
-						    <h4 class="mercados_H4"> Cervecería y Refresco </h4>
+						    <h4 class="mercados_H4"> Bebidas </h4>
 					</div>
 				</a>	
 			</div>
 
 			<div class="col-xs-6 col-sm-4 col-md-3 p0" style="overflow:hidden;" >
 				<a href="#">
-					<div class="img-c " style="background-image: url('{{ asset('img/mercados/alimentos.jpg') }}');">
+					<div class="img-c " style="background-image: url('{{ asset('img/mercados/boats.png') }}');">
 						    <h4 class="mercados_H4"> Alimento </h4>
 					</div>
 				</a>	
@@ -237,6 +261,8 @@
 						    <h4 class="mercados_H4"> Automotriz </h4>
 					</div> 
 				</a>	
+			</div>
+			</div>
 			</div>
 			
 		</div>

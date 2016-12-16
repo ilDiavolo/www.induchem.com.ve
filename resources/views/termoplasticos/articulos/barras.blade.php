@@ -66,13 +66,13 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/te2.png') }}" height="63" width="63">
+						<img src="{{ asset('img/b.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">
-						<h1><span>Termopláticos</span> </h1>
+						<h1><span>Termoplásticos</span> </h1>
 					</div>
-					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Termopláticos Barras</div>
+					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Termoplásticos Barras</div>
 				</div>
 
 				<div class="col-sm-5 col-xs-12 bar">				

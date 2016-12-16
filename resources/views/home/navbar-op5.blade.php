@@ -16,7 +16,29 @@
 
 </script>
 
+<style type="text/css">
+  /* Extra Small */
+  @media(max-width:767px){
+    
+    h1{ font-size: 19px; }
+    p{ font-size: 3mm !important; line-height: 11px; }
+    a{ font-size: 3mm !important; line-height: 11px; }
+  }
 
+  /* Small */
+  @media(min-width:768px) and (max-width:991px){
+
+    h1{ font-size: 24px; }
+    p{ font-size: 11px !important; line-height: 14px;  }
+    a{ font-size: 11px !important; line-height: 14px;  }
+  }
+
+  /* Medium */
+  @media(min-width:992px) {
+    
+  }
+
+</style>
 
 
 <style type="text/css">
@@ -225,7 +247,27 @@
       <div class="container">
           <ul class="nav navbar-nav">
             
-            <li><a href="{{ url('nosotros') }}">Nosotros</a></li>
+            <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
+
+                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+
+                <li>
+                    <a href="{{ url('quienes') }}">Quiénes Somos ?</a>               
+                </li>
+                 
+                 <li>                 
+                    <a href="{{ url('vision') }}">Misión, Visión y Valores</a>                    
+                  </li>
+                
+                 <li>                
+                    <a href="{{ url('politica') }}">Poítica Integrada</a>                    
+                </li>
+               
+               
+              </ul>
+
+            </li>
          <!-- 
         <li class="dropdown dropdown-large">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mercados<b class="caret"></b></a>
@@ -280,7 +322,7 @@
  -->
         <li  class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Mercados<span class="caret"></span> </a>
-            <div class="dropdown-menu col-xs-12" style="width: 327px;left: -60px;">
+            <div class="dropdown-menu col-xs-12" style="width: 360px;left: -60px;">
                 <div class="row" style="margin:0;">
 
                   <div class="col-md-12">                  
@@ -292,13 +334,13 @@
                      <ul class="list-unstyled listMerca">
                         <li><a href="#">Alimentos</a></li>
                         <!-- <li class="divider"></li> -->
-                        <li ><a href="#">Servicios</a></li>
+                        <!-- <li ><a href="#">Servicios</a></li> -->
                         <li ><a href="#">Institucional</a></li>
                         
                         <!-- <li class="divider"></li> -->
 
-                        <li ><a href="#">Embotelladora</a></li>
-                        <li style="min-width: 158px;" ><a href="#">Tratamineto de Efluentes</a></li>
+                        <li ><a href="#">Embotelladora de Agua</a></li>
+                        <li style="min-width: 158px;" ><a href="#">Tratamiento de Efluentes</a></li>
 
                         <li ><a href="#">Bebidas</a></li>
                         <!-- <li ><a href="#">Cervecería y Refresco</a></li> -->
@@ -317,11 +359,11 @@
                         <li ><a href="#">Azucarero</a></li>                                 
                         <li ><a href="#">Aceite</a></li>                                 
 
-                        <li ><a href="#">Químicos</a></li>
-                        <li ><a href="#">Petroleo</a></li>                  
+                        <li ><a href="#">Químicos y Detergentes</a></li>
+                        <li ><a href="#">Petróleo</a></li>                  
                         
                         <li ><a href="#">Automotríz</a></li>
-                        <li ><a href="#">Metalmecánica</a></li>
+                        <!-- <li ><a href="#">Metalmecánica</a></li> -->
                         <!-- <li class="divider"></li> -->
                         <li ><a style="color: brown" href="{{ url('font') }}">Todos</a></li>
                     </ul>
@@ -459,6 +501,9 @@
     #navbar3 div ul li{
       font-size: 15px;
     }
+    #navbar3 div ul li a{
+      font-size: 15px !important;
+    }
 
 /*------------------------------------------------*/
   
@@ -469,6 +514,10 @@
   .listMerca li{
     padding-left: 7px;
     padding-top: 3px;
+  }
+
+  .listMerca li a{
+    color: #000;
   }
 
 /*------------------------------------------------*/

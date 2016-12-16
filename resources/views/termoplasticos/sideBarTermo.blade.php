@@ -3,7 +3,7 @@
 	
 	<div id="akira" style="padding-left: 15px;">
 
-		<h4 style="text-shadow: 2px 2px 1px #ddd;" > Vávulas Termopláticas</h4>							
+		<h4 style="text-shadow: 2px 2px 1px #ddd;" > Vávulas Termoplásticos</h4>							
 
 		<div class="media" style="margin-top: 10px;margin-left: 15px;" >
 			<div class="media-left media-middle">

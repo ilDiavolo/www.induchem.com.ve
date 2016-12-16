@@ -323,10 +323,10 @@
 		width: 85px;
 	}
 
-	#itemQuimico dl dd{
+	/*#itemQuimico dl dd{
 		margin-left: 105px;
 	}
-
+*/
 	#itemQuimico dl dd p{
 		font-family: Arial, Helvetica, sans-serif;
 	    font-size: 13px;

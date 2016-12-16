@@ -10,8 +10,8 @@
 	@media(max-width:767px){
 
 		.f{ background-color: red; }
-		.f h1{ font-size: 14px; }
-		.f p{ font-size: 9px; }
+		.f h1{ font-size: 19px; }
+		.f p{ font-size: 3mm; line-height: 11px; }
 	}
 
 	/* Small */
@@ -19,7 +19,7 @@
 
 		.f{ background-color: yellow; }
 		.f h1{ font-size: 24px; }
-		.f p{ font-size: 11px; }
+		.f p{ font-size: 11px; line-height: 14px;  }
 	}
 
 	/* Medium */
