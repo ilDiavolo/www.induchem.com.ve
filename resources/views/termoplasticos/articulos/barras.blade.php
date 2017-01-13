@@ -106,7 +106,7 @@
 			<div class="col-xs-3" >
 				<div class="row" >
 
-					@include('termoplasticos.sideBarTermo')
+					@include('termoplasticos.sideBarTermo2')
 												
 				</div>
 			</div>

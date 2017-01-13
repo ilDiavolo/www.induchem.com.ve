@@ -60,7 +60,7 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/te2.png') }}" height="63" width="63">
+						<img src="{{ asset('img/q1.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">
@@ -101,7 +101,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos')
+						@include('quimicos.sideBarQuimicos2')
 					</div>
 												
 				</div>
@@ -121,12 +121,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM FOAM (ESPUMA) </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Aparte de ser un detergente líquido de gran efectividad, resulta un excelente generador de espuma para llevar a cabo limpiezas en equipos que resultan difíciles de lavar debido a su complejidad. Es ideal para la limpieza de máquinas llenadoras de cerveza, refrescos, leche jugos y de alimentos en conserva o enlatados y alimentos en general.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -141,12 +141,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CLEAR RENDIDOR  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es efectivo en casi cualquier tipo de limpieza. Excelente para remover grasa y suciedades. Poderoso contra el sucio pero suave para la piel, lo que lo convierte en un excelente producto para el lavado de manos.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -162,12 +162,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CLEAR 66 </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es efectivo en casi cualquier tipo de limpieza. Excelente para remover grasa y suciedades. Poderoso contra el sucio pero suave para la piel, lo que lo convierte en un excelente producto para el lavado de manos.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>

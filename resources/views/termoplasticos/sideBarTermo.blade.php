@@ -17,7 +17,7 @@
 
 	<div id="akira" style="padding-left: 15px;">
 
-		<h4 style="text-shadow: 2px 2px 1px #ddd;"> Tuberías </h4>							
+		<h4 style="text-shadow: 2px 2px 1px #ddd;"> Tuberías y Accesorios</h4>							
 
 		<div class="media" style="margin-top: 10px;margin-left: 15px;" >
 			<div class="media-left media-middle">
@@ -41,7 +41,7 @@
 
 	</div>
 
-	<div style="padding-right: 1em;padding-left: 1em;" class="col-xs-12"> <hr> </div>
+	<!-- <div style="padding-right: 1em;padding-left: 1em;" class="col-xs-12"> <hr> </div>
 	
 	<div id="akira" style="padding-left: 15px;">
 
@@ -53,7 +53,7 @@
 		  	</div>								
 		</div>	
 
-	</div>
+	</div> -->
 
 	<div style="padding-right: 1em;padding-left: 1em;" class="col-xs-12"> <hr> </div>
 

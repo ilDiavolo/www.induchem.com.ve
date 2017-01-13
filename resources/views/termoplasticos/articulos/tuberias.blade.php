@@ -66,7 +66,7 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/t.png') }}" height="63" width="63">
+						<img src="{{ asset('img/t1.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">
@@ -106,7 +106,7 @@
 			<div class="col-xs-3" >
 				<div class="row">
 
-					@include('termoplasticos.sideBarTermo')
+					@include('termoplasticos.sideBarTermo2')
 												
 				</div>
 			</div>
@@ -117,7 +117,7 @@
 					<div id="itemTermo" class="col-xs-12" style="background-color: #fff; padding: 0;">	
 
 						<div style="padding-left: 15px; padding-right: 15px;">
-							<h2>Tuberías</h2>
+							<h2>Tuberías y Accesorios</h2>
 							
 							<div class="media" style="margin-top: 20px;margin-bottom: 7px;" >
 								<div class="media-left media-middle">
@@ -148,30 +148,52 @@
 													
 									</div>								
 								</div>	
-							</div>
-							
-								
+							</div>															
 						</div>
 
-						<!-- lllllllllllllllllllllll -->
-						<!-- columna 2 -->
-						<!-- <div class="col-sm-12 col-md-6" style="background-color: #fff">
+						<div class="col-sm-12 " style="background-color: #fff;"> 
 
 							<div class="row" style="padding: 1em;">
 								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
 									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/valvulas/foto.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/termoplasticos/barras.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
 
-											<p>	Caracteristicas </p>
+											<p style="font-size: 13px;">
+												Los plásticos semielaborados SIMONA se utilizan ampliamente en el campo de la publicidad y la edificación. El PVC, en particular, ha demostrado ser una opción de gran éxito para aplicaciones en techos, paredes y puertas, además de utilizarse en el área de las ferias y la construcción de pantallas. De hecho, las planchas de PVC son tan versátiles que se pueden usar para casi cualquier aplicación, como en las pistas de hielo cológicas.
+											</p>
 													
 									</div>								
 								</div>	
+							</div>															
+						</div>
+
+
+					</div>
+				</div>
+						
+				</div>
+
+				<!-- lllllllllllllllllllllll -->
+				<!-- columna 2 -->
+				<!-- <div class="col-sm-12 col-md-6" style="background-color: #fff">
+
+					<div class="row" style="padding: 1em;">
+						<div class="col-xs-12 flex-parent" style="background-color: #eee;">
+							<div class="col-xs-12 col-md-6 flex-child">
+								<img src="{{ asset('img/termoplasticos/valvulas/foto.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 							</div>
+							<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
+
+									<p>	Caracteristicas </p>
+											
+							</div>								
+						</div>	
+					</div>
 
 
-						</div> -->
+				</div> -->
 
 					</div>
 				</div>

@@ -60,7 +60,7 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/te2.png') }}" height="63" width="63">
+						<img src="{{ asset('img/q1.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">
@@ -103,7 +103,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos')						
+						@include('quimicos.sideBarQuimicos2')						
 					</div>
 												
 				</div>
@@ -123,12 +123,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM PORCELANA </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Asegura una limpieza completa, ahorra tiempo, trabajo y dinero. Remueve la fuente del olor y continúa trabajando a través de toda la cañería, eliminando olores anidados en lugares inaccesibles. Es un limpiador de sanitarios  y limpia-desodoriza-desinfecta las baldosas.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -144,12 +144,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >LIQUID PLUMBER  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es un Destapador de Cañerías líquido formulado para disolver y eliminar de manera inmediata las obstrucciones causadas por todo tipo de materia orgánica. Reacciona con los depósitos de grasas y proteínas, permitiéndole la destrucción de restos de comida, cabellos, toallas sanitarias, ripio de café, tela, etc. depositados en fregaderos, excusados, bañeras, lavamanos, sifones y desagües.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -165,12 +165,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >TERTRASAN  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Asegura una limpieza completa, ahorra tiempo, trabajo y dinero. Remueve la fuente del olor y continúa trabajando a través de toda la cañería, eliminando olores anidados en lugares inaccesibles. Es un limpiador de sanitarios  y grifería, limpia-desodoriza-desinfecta-desmancha las baldosas.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>

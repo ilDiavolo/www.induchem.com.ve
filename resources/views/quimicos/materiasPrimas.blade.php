@@ -103,13 +103,13 @@
 
 						<div class="panel-group" id="accordion">
 
-							<div class="panel panel-default" style="box-shadow: 5px 5px 4px 0px #013777;;border-radius: 10px;border-radius: 15px;border: 1px solid #ddd;">
+							<div class="panel panel-default" style="box-shadow: 1px 1px 2px 0px #080808;border: 1px solid #ddd;">
 
-								<div class="panel-heading" style="background-color: #0167bc; color: #fff;border-radius: 16px;">
-									<h4 class="panel-title" style="text-shadow: 2px 2px 2px #333;">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="lead">Lineas de Productos</a>
-									</h4>
-								</div>
+									<div class="panel-heading">
+										<h4 class="panel-title" style="text-shadow: 2px 2px 1px #dff0d8;">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="lead">Lineas de Productos</a>
+										</h4>
+									</div>
 
 								<div id="collapse1" class="panel-collapse collapse">
 									<div class="panel-body" style="padding: 0; padding-right: 25px;padding-left: 10px;border-top: 0;">
@@ -154,9 +154,9 @@
 								</div>
 							</div>
 
-							<div class="panel panel-default" style="box-shadow: 5px 5px 4px 0px #013777;;border-radius: 10px;border-radius: 15px;border: 1px solid #ddd;">
+							<div class="panel panel-default" style="box-shadow: 1px 1px 2px 0px #080808;border: 1px solid #ddd;">
 								<div class="panel-heading" style="border-radius: 16px;">
-									<h4 class="panel-title" style="text-shadow: 2px 2px 2px #a7a7a7;">
+									<h4 class="panel-title" style="text-shadow: 2px 2px 1px #dff0d8;">
 										<a href="{{ url('materiasPrimas') }}" class="lead">Materias Primas</a>
 									</h4>
 								</div>
@@ -201,7 +201,7 @@
 
 							<div class="list-group" style="margin-bottom: 0;">
 							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Ácido Clorhidrico al 30%</h4>							    
+							    <h4 class="list-group-item-heading">Ácido Clorhídrico al 30%</h4>							    
 							  </a>
 							</div>  
 							  <div class="list-group" style="margin-bottom: 0;">
@@ -213,17 +213,17 @@
 
 							  <div class="list-group" style="margin-bottom: 0;">
 							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Ácido Sulfónico al 98% </h4>
+							    <h4 class="list-group-item-heading">Ácido Sulfónico al 97% </h4>
 							   
 							  </a>
 							</div>
 
-							<div class="list-group" style="margin-bottom: 0;">
+							<!-- <div class="list-group" style="margin-bottom: 0;">
 							  <a href="#" class="list-group-item ">
 							    <h4 class="list-group-item-heading">Ácido Clorhídrico al 30% </h4>
 							   
 							  </a>
-							</div>
+							</div> -->
 
 							<div class="list-group" style="margin-bottom: 0;">
 							  <a href="#" class="list-group-item ">
@@ -255,7 +255,7 @@
 
 							<div class="list-group" style="margin-bottom: 0;">
 							  <a href="#" class="list-group-item ">
-							    <h4 class="list-group-item-heading">Soda Cáustica en Escamaso  </h4>
+							    <h4 class="list-group-item-heading">Soda Cáustica en Escama  </h4>
 							   
 							  </a>
 							</div>

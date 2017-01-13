@@ -253,7 +253,7 @@
                 <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
 
                 <li>
-                    <a href="{{ url('quienes') }}">Quiénes Somos ?</a>               
+                    <a href="{{ url('quienes') }}">Quienes Somos</a>               
                 </li>
                  
                  <li>                 
@@ -362,10 +362,10 @@
                         <li ><a href="#">Químicos y Detergentes</a></li>
                         <li ><a href="#">Petróleo</a></li>                  
                         
-                        <li ><a href="#">Automotríz</a></li>
+                        <li ><a href="#">Automotriz</a></li>
                         <!-- <li ><a href="#">Metalmecánica</a></li> -->
                         <!-- <li class="divider"></li> -->
-                        <li ><a style="color: brown" href="{{ url('font') }}">Todos</a></li>
+                        <li ><a style="color: brown" href="#">Todos</a></li>
                     </ul>
                   </div>
                   

@@ -60,7 +60,7 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/te2.png') }}" height="63" width="63">
+						<img src="{{ asset('img/q1.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">
@@ -102,7 +102,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos')
+						@include('quimicos.sideBarQuimicos2')
 					</div>
 												
 				</div>
@@ -121,12 +121,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM DESGRASOL </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es un producto usado ampliamente en diferentes tipos de limpieza, tales como pisos de cemento, granito, mármol y cerámica, prensas hidráulicas, rotativas de periódicos, superficies de ductos de aire acondicionado, muebles de madera, formica y metal, tapicerías de tejidos plásticos, vinil y semicuero, alfombras, vidrios y todo tipo de cristal.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -141,12 +141,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM MOTORCLEAN </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es un desengrasante mecánico usado ampliamente para eliminar grasa mecánica en cualquier tipo de superficie.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>

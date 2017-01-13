@@ -60,7 +60,7 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/te2.png') }}" height="63" width="63">
+						<img src="{{ asset('img/q1.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">
@@ -102,7 +102,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos')						
+						@include('quimicos.sideBarQuimicos2')						
 					</div>
 												
 				</div>
@@ -122,12 +122,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM BRILLINOX</dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Detergente limpiador y abrillantador de acero inoxidable, ha sido diseñado para limpiar y abrillantar el acero inoxidable de manera excelente, eliminando sustancias abrasivas que dañan la superficie. Rinde y es económico, ya que es concentrado. El tiempo de contacto con la superficie es reducido, por lo que lleva a cabo una limpieza rápida, eliminando las manchas y dejando las superficies limpias y brillantes.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>

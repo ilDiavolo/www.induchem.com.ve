@@ -93,23 +93,21 @@
 
 	<div class="container-fluid" id="Oportunidad_empleo_fondo">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12" style="top: 10px; text-shadow: 1px 1px 1px black;color: cadetblue;">
+			<br><br><br>
+			<div class="row" style="background-color:rgba(245, 245, 245, 0.85); margin-top: 60px;text-shadow: 1px 0px 1px whitesmoke;padding: 4em; padding-top: 0; margin-bottom: 2em;border: 1px solid #eee;">
+				
+				
+				<div class="col-md-12" style="top: 10px;">
 					
-					<h1 class="text-center" >Forma Parte de Nuestro Equipo de Trabajo</h1>
-					<h4 class="text-center" style="letter-spacing: 1px;">Disponemos de políticas de integración con beneficios y servicios para nuestra gente orientados a lograr un <br> equilibrio entre la vida personal y profesional.  </h4>
+					<h1 class="text-center" style="color: brown;" >Forma Parte de Nuestro Equipo de Trabajo</h1>
+					<h4 class="text-center" style="letter-spacing: 0.1px; text-decoration: underline;">Disponemos de políticas de integración con beneficios y servicios para nuestra gente orientados a lograr un <br> equilibrio entre la vida personal y profesional.  </h4>
 
 				</div>
-			</div>
-
-			<div class="row" style="background-color: rgba(255,255,255,0.67); margin-top: 2em;text-shadow: 1px 0px 1px whitesmoke;padding: 4em; padding-top: 0; margin-bottom: 2em;">
-				<br><br>
 				
-				
-				<div class="col-md-12"> 
-				<h4 class="">Valoramos y reconocemos las iniciativas que contribuyen al desarrollo de nuestra empresa.</h4>
-				<br>
-				<h4>Oportunidades de Empleo:</h4>
+				<div class="col-md-12"> <br><br>
+				<h4 class="">En Induchem valoramos y reconocemos las iniciativas que contribuyen al desarrollo de nuestra empresa.</h4>
+			
+				<h4> - Oportunidades de Empleo -	</h4>
 				</div>
 
 				<div class="col-md-4 col-sm-6 col-xs-12">
@@ -118,10 +116,10 @@
 					<ul>
 						<li>Lincenciado o TSU en Mercadeo</li>					
 						<li>Pasantías Compras Nacionales (TSU)</li>
-						<li>Pasantías Ventas o Atención al Cliente (TSU o Lic.) (TSU)</li>						
-						<li>Pasantías de Laboratorio de Calidad (TSU o Lic.)</li>
+						<li>Pasantías Ventas o Atención al Cliente (TSU o Lcdo.) (TSU)</li>						
+						<li>Pasantías de Laboratorio de Calidad (TSU o Lcdo.)</li>
 						<!-- <li>Pasantías de Ingeniería (Mantenimiento Industrial y Mecánico)</li> -->
-						<li>Pasantías de Producción (TSU o Lic.)</li>
+						<li>Pasantías de Producción (TSU o Lcdo.)</li>
 						
 					</ul>
 				</div>
@@ -214,8 +212,9 @@
 	}
 
 	#Oportunidad_empleo_fondo {
-	    background: url('{{ asset('img/empleo2.jpg') }}');
-	    background-size: cover;
+	    background: url('{{ asset('img/empleo2.png') }}');
+	    background-size: 100% auto;
+	    background-repeat: no-repeat;
 
 
 

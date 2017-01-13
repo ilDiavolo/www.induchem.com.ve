@@ -66,7 +66,7 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/termo.png') }}" height="63" width="63">
+						<img src="{{ asset('img/v1.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">
@@ -106,7 +106,7 @@
 			<div class="col-xs-3" >
 				<div class="row">
 
-					@include('termoplasticos.sideBarTermo')
+					@include('termoplasticos.sideBarTermo2')
 												
 				</div>
 			</div>

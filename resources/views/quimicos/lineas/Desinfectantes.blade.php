@@ -60,7 +60,7 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/te2.png') }}" height="63" width="63">
+						<img src="{{ asset('img/q1.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">
@@ -102,7 +102,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos')
+						@include('quimicos.sideBarQuimicos2')
 					</div>
 												
 				</div>
@@ -122,12 +122,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM LEMOPHENE   </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es un detergente Líquido con gran acción limpiadora sobre los sucios difíciles de  color  verde  limón   con una su suave fragancia que desodoriza y perdura después de aplicado.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -143,12 +143,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >DESINFECTANTE DE CEREZA </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Producto para la limpieza y desinfección de áreas como paredes, baños, muebles, sumideros, desagües, basureros de hospitales, edificios, oficinas, comercios, fábricas, etc., con un suave olor a Cereza que desodoriza y perdura después de aplicado.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -164,12 +164,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >DESINFECTANTE DE LAVANDA </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Producto para la limpieza y desinfección de áreas como paredes, baños, muebles, sumideros, desagües, basureros de hospitales, edificios, oficinas, comercios, fábricas, etc., con un suave olor a Lavanda que desodoriza y perdura después de aplicado.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -186,12 +186,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >DESINFECTANTE DE TUTTY FRUTY  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify">Producto para la limpieza y desinfección de áreas como paredes, baños, muebles, sumideros, desagües, basureros de hospitales, edificios, oficinas, comercios, fábricas, etc., con un suave olor a Tutty Fruty que desodoriza y perdura después de aplicado.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>

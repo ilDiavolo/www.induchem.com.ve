@@ -121,7 +121,7 @@
 
 						<div style="padding-left: 30px; padding-right: 30px;">
 						<br>
-							<h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;margin-bottom: 20px;font-weight: 700;letter-spacing: 0px;" >Servicios y soluciones para la Industria hechos a tus necesidades </h2>	
+							<h1 style="margin-bottom: 3px; padding-bottom: 3px;margin-bottom: 20px;font-weight: 700;letter-spacing: 0px;color: brown;border-bottom: 1px solid #ddd;" >Servicios y soluciones para la Industria</h1>	
 								
 							<!-- <div class="media" style="margin-top: 20px;margin-bottom: 7px;" >
 								<div class="media-left media-middle">
@@ -253,7 +253,7 @@
 <style type="text/css">
 
 body{
-		background-color: rgba(221, 221, 221, 0.5);
+		background-color: #f5f5f5;
 	}
 p{ 
 	margin-bottom: 2px;

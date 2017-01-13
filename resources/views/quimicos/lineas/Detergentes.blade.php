@@ -60,7 +60,7 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/te2.png') }}" height="63" width="63">
+						<img src="{{ asset('img/q1.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">
@@ -102,7 +102,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos')
+						@include('quimicos.sideBarQuimicos2')
 					</div>
 												
 				</div>
@@ -122,12 +122,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM CLOR-L </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es un producto usado para la limpieza de los equipos de procesamiento en la Industrias Lácteas, Cerveceras, Refresqueras y de jugos.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -142,12 +142,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CLEAR CLOR-P  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify">Es un detergente alcalino, clorinado, especialmente formulado para la limpieza manual de equipos en plantas de alimentos lácteos y sus derivados cárnicos, vegetales, bebidas, etc.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -162,12 +162,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CLORO ROSADO  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify">Limpiador bactericida en polvo usado por su alta eficiencia antimicrobiana en el saneamiento de equipos como tanques de enfriamiento, enfriadores de placas, ordeñadores, pezoneras, baldes, etc., en la Industria Láctea.  Excelente para ser usado en industrias procesadoras de carne, embotelladoras, cerveceras y cualquier fábrica de alimentos.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
