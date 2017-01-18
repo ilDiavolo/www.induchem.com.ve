@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+s<!DOCTYPE html>
 <html>
 <head>
 	@include('layout.head')
@@ -60,7 +60,7 @@
 			<div class="container">
 				<div class="col-sm-7 col-xs-12 bar">
 					<div class="bar-icon">
-						<img src="{{ asset('img/q1.png') }}" height="63" width="63">
+						<img src="{{ asset('img/iq2.png') }}" height="63" width="63">
 					</div>
 
 					<div class="bar-title">

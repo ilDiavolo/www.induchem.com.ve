@@ -94,23 +94,37 @@
 	<div class="container-fluid" id="Oportunidad_empleo_fondo">
 		<div class="container">
 			<br><br><br>
-			<div class="row" style="background-color:rgba(245, 245, 245, 0.85); margin-top: 60px;text-shadow: 1px 0px 1px whitesmoke;padding: 4em; padding-top: 0; margin-bottom: 2em;border: 1px solid #eee;">
+			<div class="row" style="background-color:rgba(245, 245, 245, 0.85); margin-top: 50px;text-shadow: 1px 0px 1px whitesmoke;padding: 4em; padding-top: 0; margin-bottom: 2em;border: 1px solid #eee;">
 				
 				
-				<div class="col-md-12" style="top: 10px;">
+			<!-- 	<div class="col-md-12" style="top: 10px;">
 					
-					<h1 class="text-center" style="color: brown;" >Forma Parte de Nuestro Equipo de Trabajo</h1>
-					<h4 class="text-center" style="letter-spacing: 0.1px; text-decoration: underline;">Disponemos de políticas de integración con beneficios y servicios para nuestra gente orientados a lograr un <br> equilibrio entre la vida personal y profesional.  </h4>
+					<h1 class="" style="color: brown;" >Forma Parte de Nuestro Equipo de Trabajo</h1>			
 
-				</div>
-				
-				<div class="col-md-12"> <br><br>
-				<h4 class="">En Induchem valoramos y reconocemos las iniciativas que contribuyen al desarrollo de nuestra empresa.</h4>
-			
-				<h4> - Oportunidades de Empleo -	</h4>
+				</div> -->
+
+				<div style="margin-top: 24px;padding: 1em; padding-right: 0;">
+							<h1 style="border-bottom: 1px solid #ccc;color: brown; margin-right: 25px;    margin-top: 10px; margin-bottom: 3px;padding-bottom: 3px;" >Forma Parte de Nuestro Equipo de Trabajo</h1>
+										
+				<div class="col-md-8 col-xs-12" style="margin-top: 20px;">
+
+					<h4 class="">En Induchem valoramos y reconocemos las iniciativas que contribuyen al desarrollo de nuestra empresa.</h4>	
+
+					<p style="font-size: 17px;"> Puedes postularte envíandonos un correo indicando la vacante de interes junto a tu curriculum vitae a la siguiente dirección de correo: </p>
+
+					<i class="ion-paper-airplane" style="font-size: 17px; margin-right: 8px;"></i> <a href="mailto:recursoshumanos@induchem.com.ve" style="color: #23527c;font-size: 17px;">recursoshumanos@induchem.com.ve</a> 
+
+					<br>
+					<br>
+					<blockquote class="blockquote">
+						<p style="font-size: 14px; margin-bottom: 0px;color: rgb(162, 62, 62);"> “Los logros de una organización son los resultados del esfuerzo combinado de cada individuo.”  </p>
+						<footer><cite title="Source Title" style="color: #555; text-shadow: 1px 1px 1px ghostwhite;" >Vince Lombardi.</cite></footer>
+					</blockquote>
+						
+						
 				</div>
 
-				<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="col-md-4 col-sm-6 col-xs-12" style="margin-top: 20px;">
 					<h3 class="tittleH4" style="margin-top: 0;">Vacantes</h3>
 					
 					<ul>
@@ -124,41 +138,7 @@
 					</ul>
 				</div>
 				
-				
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12">
-					<h4 class="tittleH4">Almacén</h4>
-					<ul>
-						<li>Analista de Alamacen</li>						
-						<li>Operadores de Almacén (Certificado en Montacarga)</li>						
-					</ul>
-				</div>
-
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<h4 class="tittleH4">Mantenimiento</h4>
-					<ul>
-						<li>Electromecánico</li>						
-					</ul>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12"> 
-					<h4 class="tittleH4">Producción</h4>
-					<ul>
-						<li>Operador de Producción</li>						
-					</ul>
-				</div> -->
-				<div class="col-md-8 col-xs-12" style="margin-top: 10px;">
-				<p style="font-size: 17px;"> Puedes postularte envíandonos un correo indicando la vacante de interes junto a tu curriculum vitae a la siguiente dirección de correo: </p>
-
-				<i class="ion-paper-airplane" style="font-size: 17px; margin-right: 8px;"></i> <a href="mailto:recursoshumanos@induchem.com.ve" style="color: #23527c;font-size: 17px;">recursoshumanos@induchem.com.ve</a> 
-
-				<br>
-				<br>
-				<blockquote class="blockquote-reverse">
-					<p style="font-size: 14px; margin-bottom: 0px;color: rgb(162, 62, 62);"> “Los logros de una organización son los resultados del esfuerzo combinado de cada individuo.”  </p>
-					<footer><cite title="Source Title" style="color: #555; text-shadow: 1px 1px 1px ghostwhite;" >Vince Lombardi.</cite></footer>
-				</blockquote>
-					
-					
-				</div>
+			
 				
 				<!-- <div class="col-md-12"><br><br><br></div> -->
 

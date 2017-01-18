@@ -98,7 +98,7 @@
 	<div class="container-fluid" id="bg">
 		<div class="container" style="padding-top: 3em; padding-bottom: 3em;">
 
-		<div class="row" style="padding: 20px 30px; background-color: rgba(245, 245, 245, 0.85);  margin-top: 90px; border: 1px solid #f5f5f5;">			
+		<div class="row" style="padding: 20px 30px; background-color: rgba(245, 245, 245, 0.78);  margin-top: 108px; border: 1px solid #f5f5f5;">			
 			<div class="col-xs-9" id="vv">
 				<div class="row">
 
@@ -192,7 +192,7 @@
 	}
 
 	#bg{
-		background: url('{{ asset('img/ffv.png') }}');
+		background: url('{{ asset('img/ffv31.png') }}');
 	    background-size: 100% auto;
 	    background-repeat: no-repeat;
 	}
