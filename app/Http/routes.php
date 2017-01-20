@@ -134,7 +134,8 @@ route::get('Solventes', function(){		// Pagina de los Productos
 });
 
 
-//--------------------------------------------------------
+
+//------------------------------------------------------------------
 route::get('materiasPrimas', function(){		// Pagina de las MAterias PRimas
 	return view('quimicos.materiasPrimas');
 });

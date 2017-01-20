@@ -17,7 +17,7 @@
 	.welcome_bar {
 	    background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;
 	    clear: both;
-	    margin-bottom: 44px;
+	    /*margin-bottom: 44px;*/
 	    position: relative;
 	    z-index: 10;
 	}
@@ -54,7 +54,7 @@
 		@include('home.navbar-op5')
 	</header>
 	
-	<div class="container-fluid" style="height: 110px;">
+	<div class="container-fluid">
 
 		<div class="row welcome_bar">
 			<div class="container">
@@ -68,33 +68,11 @@
 					</div>
 					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Químicos</div>
 				</div>
-
-				<div class="col-sm-5 col-xs-12 bar">				
-				</div>
-
 			</div>
 		</div>
 
 	</div>
-
-	<!-- <div class="container" >
-		<div class="row" style="padding-top: 10px; margin-bottom: 10px;">
-
-			<div class="col-xs-12" id="cabecera" >
-				<div style="display: inline-block;" >
-					
-					<img src="{{ asset('img/te.png') }}" height="63" width="63" class="img-responsive">
-				</div>
-				<div style="padding-left: 5px; display: inline-block;">
-					
-					<h1 style="margin-bottom: 0;margin-top: 0;"><span>Productos</span> Químicos</h1>
-					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Químicos</div>
-				</div></div>
-				
-
-		</div>
-
-	</div> -->
+	
 
 	<div class="container">
 		<div class="row">
@@ -102,7 +80,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos2')						
+						@include('quimicos.sideBarQuimicos3')						
 					</div>
 												
 				</div>
@@ -177,6 +155,7 @@
 	#sidebar ul li{
 		height: 30px;
 	    border-top: 1px solid #eeeeee;
+	    border-bottom: 1px solid #eeeeee;
 	    padding-top: 4px;
 	    padding-bottom: 3px;    
 	}
