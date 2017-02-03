@@ -79,12 +79,14 @@
 						
 			<div class="col-xs-4" >
 				<div class="row">
-					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos3')						
+					<div class="col-xs-12" style="padding-left: 0;padding-right: 0; height: 200px; background-color:#2f3030; color:#bcbcbc;">
+										hola que haces
 					</div>
 												
 				</div>
-			</div>
+			</div>			
+
+			
 			
 			<div class="col-xs-8">
 				<div class="row">

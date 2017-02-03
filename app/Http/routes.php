@@ -34,6 +34,11 @@ Route::get('font', function(){
 });
 // Route::controller('rc','crud');
 
+route::get('mega', function(){	/// Pagina de Prueba del mega menu vertical
+	return view('layout.menuVertical');
+});
+
+
 
 
 //--------------------------------------------------------------------------------------------------------
