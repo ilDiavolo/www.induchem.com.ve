@@ -18,7 +18,7 @@
 	    background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;
 	    clear: both;
 	    /*margin-bottom: 44px;*/
-	    position: relative;
+	    /*position: relative;*/
 	    z-index: 10;
 	}
 
@@ -72,63 +72,151 @@
 		</div>
 
 	</div>
-	
+
 
 	<div class="container">
 		<div class="row">
 						
-			<div class="col-xs-4" >
-				<div class="row">
-					<div class="col-xs-12" style="padding-left: 0;padding-right: 0; height: 200px; background-color:#2f3030; color:#bcbcbc;">
-										hola que haces
-					</div>
-												
-				</div>
-			</div>			
+			<div class="col-md-12">
 
-			
-			
-			<div class="col-xs-8">
-				<div class="row">
+				<div class="contenedor-menu-vertical">
+					
+					<ul>
+						<li>
+							<a href="#">Abrillantadores</a>   
+							<ul>
+								<li>Chem-Brillinox</li>
+							</ul>
+						</li>
 
-					<div class="col-xs-12" id="contenidoPrincipal">
-												
-						<div id="itemQuimico" class="col-xs-12">
-
-							<h2>Abrillantadores Desoxidante</h2>
-							
-							
-							<dl class="dl-horizontal">
-								<dt>Nombre</dt> 
-									<dd style="color: #a94442;" >CHEM BRILLINOX</dd>
-
-								<dt>Descripción</dt> 
-									<dd>
-										<p class="text-justify"> Detergente limpiador y abrillantador de acero inoxidable, ha sido diseñado para limpiar y abrillantar el acero inoxidable de manera excelente, eliminando sustancias abrasivas que dañan la superficie. Rinde y es económico, ya que es concentrado. El tiempo de contacto con la superficie es reducido, por lo que lleva a cabo una limpieza rápida, eliminando las manchas y dejando las superficies limpias y brillantes.</p>
-									</dd>
+						<li>
+							<a href="#">Bactericidas</a> 
+							<ul>
+								<li>Chem Gel Sanitizer</li>
+								<li>Chem-Algicida Amonio Cuaternario</li>
+								<li>Chem-Quat</li>
+								<li>Chem-Cloro</li>
+								<li>Chem-Oxan</li>
+								<li> Chem-P-Hidrógeno al 35%</li>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
+							</ul>
+						</li>
 
-				                <dt>Descargar</dt>
-				                	<dd>
-				                		<div class="" style="padding-top: 0px;" > 
-						                	<a href="#"> <i class="ion-document-text" aria-hidden="true"></i> Hoja de Seguridad</a> 
-						                	<a href="#"> <i class="ion-document" aria-hidden="true"></i> Ficha Técnica </a>
-					                	</div>
-					                </dd>
-					        </dl>	
+						<li>
+							<a href="#">Desengrasantes </a>
+							<ul>
+								<li>Chem-Desgrasol 2006 </li>
+								<li>Chem Motorclean </li>
+								<li>Chem-Halso 2005</li>
+								<li>Chem-Ultrasol</li>
+								<li>Chem-Desgrasador</li>
+							</ul>
+						</li>
 
-						</div>
+						<li>
+							<a href="#">Desincrustantes </a>
+							<ul>
+								<li>Chem-Porcelana</li>
+								<li>Tetrasan)</li>							
+							</ul>
+						</li>
 
-					</div>
+						<li>
+							<a href="#">Desinfectantes</a>
+							<ul>
+								<li>Chem-Lemophene</li>
+								<li>Desinfectante Tutty Fruty</li>
+								<li>Desinfectante Lavanda</li>
+								<li>Desinfectante TCereza</li>
+							</ul>						
+						</li>
+
+						<li>
+							<a href="#">Detergentes en polvo</a>
+							<ul>
+								<li>Clear-Clor-P</li>
+								<li>Cloro Rosado</li>
+								<li>Ajsen</li>
+								<li>Clear-P-Bantax</li>
+								<li>Clear-P-Deter-Polvo</li>
+								<li>Clear-P-Mavesa</li>
+								<li>Exit</li>
+								<li>Chem-F-600-P</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#">Detergentes líquidos</a>
+							<ul>
+								<li>Chem-Clor-L</li>
+								<li>Chem Foam Espuma</li>
+								<li>Clear Rendidor</li>
+								<li>Clear-66</li>
+								<li>Chem-F-600-L</li>							
+							</ul>
+						</li>
+
+						<li>
+							<a href="#">Limpiadores </a>
+							<li>Che-Foam-Acid</li>
+							<li>P-Acid-1095-N</li>
+							<li>P-Acid-61-N-F</li>
+							<li>P-Acid-68-C</li>
+							<li>Chem-D-Plastic</li>
+							<li>Chem-P-Caust-L-V-IV</li>						
+						</li>
+
+						<li>
+							<a href="#">Lubricantes </a>
+							<ul>
+								<li>Chem-Lub-Lubricante</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Solventes dieléctricos</a>
+							<ul>
+								<li>Eletro-Chem-300</li>
+								<li>Eletro-Chem-400</li>
+								<li>Eletro-Chem-600</li>
+							</ul>
+						</li>
+					</ul>
+						
+				</div>
+								
+
+				<div id="itemQuimico" >
+
+					<h2>Abrillantadores Desoxidante</h2>				
+					
+					<dl class="dl-horizontal">
+						<dt>Nombre</dt> 
+							<dd style="color: #a94442;" >CHEM BRILLINOX</dd>
+
+						<dt>Descripción</dt> 
+							<dd>
+								<p class="text-justify"> Detergente limpiador y abrillantador de acero inoxidable, ha sido diseñado para limpiar y abrillantar el acero inoxidable de manera excelente, eliminando sustancias abrasivas que dañan la superficie. Rinde y es económico, ya que es concentrado. El tiempo de contacto con la superficie es reducido, por lo que lleva a cabo una limpieza rápida, eliminando las manchas y dejando las superficies limpias y brillantes.</p>
+							</dd>
+						
+						<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
+
+		                <dt>Descargar</dt>
+		                	<dd>
+		                		<div class="" style="padding-top: 0px;" > 
+				                	<a href="#"> <i class="ion-document-text" aria-hidden="true"></i> Hoja de Seguridad</a> 
+				                	<a href="#"> <i class="ion-document" aria-hidden="true"></i> Ficha Técnica </a>
+			                	</div>
+			                </dd>
+			        </dl>	
 
 				</div>
-			</div>
-			
-			<div class="col-xs-12"> <br><hr><br></div>
 
-		</div>
+
+
+			</div>	
+		</div>			
 	</div>
+
 	
 </body>
 <footer>
@@ -243,6 +331,29 @@
 		text-decoration-style: double;
 		/*color: brown;*/
 		margin-right: 20px;
+	}
+
+	/*------------------------------------------------------------------*/
+	
+	@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+	body{
+		font-family: 'Barrio', cursive;
+	}
+	
+	.contenedor-menu-vertical{
+		
+		
+
+		width: 260px;
+		outline: 1px solid blue;
+		
+		z-index: 1000;
+
+		padding-left: 0;
+		padding-right: 0; 
+		
+
 	}
 
 </style>
