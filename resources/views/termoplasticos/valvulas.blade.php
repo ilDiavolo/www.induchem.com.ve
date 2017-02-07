@@ -189,7 +189,7 @@
 							<div class="row" style="padding: 1em;padding-top: 0;">
 								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
 									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/valvulas/valvulas/Valvula de Retencian de Wafer.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/termoplasticos/valvulas/Valvula de Retencian de Wafer.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	Tamaños: 4” - 12” </p>
