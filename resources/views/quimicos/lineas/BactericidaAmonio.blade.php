@@ -15,7 +15,7 @@
 	}
 	
 	.welcome_bar {
-	    /*background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;*/
+	    background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;
 	    clear: both;
 	    margin-bottom: 44px;
 	    position: relative;
@@ -23,7 +23,7 @@
 	}
 
 	.bar {
-	    /*background: url('{{ asset('img/title_bar_shadow.gif') }}') 0 106px no-repeat;*/
+	    background: url('{{ asset('img/title_bar_shadow.gif') }}') 0 106px no-repeat;
 	    height: 88px;
 	    padding: 21px 0 0 21px;
 	    position: relative;
@@ -54,7 +54,30 @@
 		@include('home.navbar-op5')
 	</header>
 
-	<div class="container" >
+	<div class="container-fluid" style="height: 110px;">
+
+		<div class="row welcome_bar">
+			<div class="container">
+				<div class="col-sm-7 col-xs-12 bar">
+					<div class="bar-icon">
+						<img src="{{ asset('img/iq2.png') }}" height="63" width="63">
+					</div>
+
+					<div class="bar-title">
+						<h1><span>Químicos</span> </h1>
+					</div>
+					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Químicos</div>
+				</div>
+
+				<div class="col-sm-5 col-xs-12 bar">				
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+	
+	<!-- <div class="container" >
 		<div class="row" style="padding-top: 10px; margin-bottom: 10px;">
 
 			<div class="col-xs-12" id="cabecera" >
@@ -71,7 +94,7 @@
 
 		</div>
 
-	</div>
+	</div> -->
 
 	<div class="container">
 		<div class="row">
@@ -79,7 +102,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos')
+						@include('quimicos.sideBarQuimicos2')
 					</div>
 												
 				</div>
@@ -98,12 +121,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM ALGICIDA AMONIO CUATERNARIO </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es compatible con todos los productos normalmente empleados en el tratamiento del agua de las piscinas, no es tóxico a las personas en las concentraciones de uso que se recomienda y hace posible que el agua luzca siempre muy limpia y brillante.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -118,12 +141,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM QUAT </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es un producto líquido a base de amonio cuaternario con extraordinarias características sanitizantes, de alto rendimiento, actividad química y bacteriológica estable durante prolongados períodos de uso a temperaturas normales. Está especialmente formulado para el saneamiento de plantas de alimentos, empleado en equipos y utensilios sin necesidad de enjuagues posteriores.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -237,9 +260,9 @@
 		width: 85px;
 	}
 
-	#itemQuimico dl dd{
+/*	#itemQuimico dl dd{
 		margin-left: 105px;
-	}
+	}*/
 
 	#itemQuimico dl dd p{
 		font-family: Arial, Helvetica, sans-serif;

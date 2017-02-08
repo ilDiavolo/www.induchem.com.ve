@@ -15,7 +15,7 @@
 	}
 	
 	.welcome_bar {
-	    /*background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;*/
+	    background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;
 	    clear: both;
 	    margin-bottom: 44px;
 	    position: relative;
@@ -23,7 +23,7 @@
 	}
 
 	.bar {
-	    /*background: url('{{ asset('img/title_bar_shadow.gif') }}') 0 106px no-repeat;*/
+	    background: url('{{ asset('img/title_bar_shadow.gif') }}') 0 106px no-repeat;
 	    height: 88px;
 	    padding: 21px 0 0 21px;
 	    position: relative;
@@ -54,7 +54,30 @@
 		@include('home.navbar-op5')
 	</header>
 
-	<div class="container" >
+	<div class="container-fluid" style="height: 110px;">
+
+		<div class="row welcome_bar">
+			<div class="container">
+				<div class="col-sm-7 col-xs-12 bar">
+					<div class="bar-icon">
+						<img src="{{ asset('img/iq2.png') }}" height="63" width="63">
+					</div>
+
+					<div class="bar-title">
+						<h1><span>Químicos</span> </h1>
+					</div>
+					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Químicos</div>
+				</div>
+
+				<div class="col-sm-5 col-xs-12 bar">				
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- <div class="container" >
 		<div class="row" style="padding-top: 10px; margin-bottom: 10px;">
 
 			<div class="col-xs-12" id="cabecera" >
@@ -71,7 +94,7 @@
 
 		</div>
 
-	</div>
+	</div> -->
 
 	<div class="container">
 		<div class="row">
@@ -79,7 +102,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos')
+						@include('quimicos.sideBarQuimicos2')
 					</div>
 												
 				</div>
@@ -98,12 +121,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM CLORO DESINFECTANTE CLORADO </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es un germicida de rápida y potente acción.  Es efectivo a bajas concentraciones por lo que muy resulta económico.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -217,9 +240,9 @@
 		width: 85px;
 	}
 
-	#itemQuimico dl dd{
+/*	#itemQuimico dl dd{
 		margin-left: 105px;
-	}
+	}*/
 
 	#itemQuimico dl dd p{
 		font-family: Arial, Helvetica, sans-serif;

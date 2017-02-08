@@ -1,13 +1,6 @@
 
 /*body{ padding-top: 48px; }*/
 
-#intro{
-	/*background-image: url("http://localhost/laravel/proyect/public/img/fmain2.jpg"); */
-	background-size: cover;		
-    /*background-attachment: fixed;	    */
-    background-repeat: no-repeat;
-    background-color: rgba(248, 248, 255, 0.6);
-}
 
 
 #introH1{
@@ -276,3 +269,5 @@ h1 {
             -webkit-transform: translateY(0%);
         }
     }
+
+

@@ -28,6 +28,18 @@ route::get('boot', function(){	/// Pagina de Prueba del Slider
 Route::resource('rc','crud'); 
 // Route::controller('rc','crud');
 
+////////////////// Prueba: Font Response //////////////////////////77
+Route::get('font', function(){
+	return view('home.font');
+});
+// Route::controller('rc','crud');
+
+route::get('mega', function(){	/// Pagina de Prueba del mega menu vertical
+	return view('layout.menuVertical');
+});
+
+
+
 
 //--------------------------------------------------------------------------------------------------------
 
@@ -41,8 +53,16 @@ route::get('home', function(){			// Pagina de Inicio
 	return view('home.home');
 });
 
-route::get('nosotros', function(){		// Pagina de Nosotros
-	return view('home.nosotros');
+route::get('quienes', function(){		// Pagina de quienes somos
+	return view('home.nosotros.quienes');
+});
+
+route::get('vision', function(){		// Pagina de mision, vision y valores
+	return view('home.nosotros.vision');
+});
+
+route::get('politica', function(){		// Pagina de politica
+	return view('home.nosotros.politica');
 });
 
 // ---------------------------- Productos quimicos y materias primas ----------------------------
@@ -119,7 +139,8 @@ route::get('Solventes', function(){		// Pagina de los Productos
 });
 
 
-//--------------------------------------------------------
+
+//------------------------------------------------------------------
 route::get('materiasPrimas', function(){		// Pagina de las MAterias PRimas
 	return view('quimicos.materiasPrimas');
 });
@@ -135,14 +156,76 @@ route::get('testQuimicos', function(){		// Pagina de prueba de los Productos
 // ------------------------------------ Termoplasticos -------------------------------------------
 
 route::get('valvulas', function(){		// Pagina de prueba de los Productos
-	return view('termoplasticos.valvulas');
+	return view('termoplasticos.articulos.valvulas');
+});
+
+route::get('tuberias', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.tuberias');
+});
+
+route::get('bombas', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.bombas');
+});
+
+route::get('barras', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.barras');
+});
+
+route::get('soldarTuberias', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.soldarTuberias');
+});
+
+route::get('extrusoras', function(){		// Pagina de prueba de los Productos
+	return view('termoplasticos.articulos.extrusoras');
 });
 
 // ------------------------------------ /Termoplasticos ------------------------------------------
 
+// ------------------------------------ Actudores ------------------------------------------------
 
-route::get('contacto', function(){		// Pagina de Contacto
+route::get('actuadoresElectrico', function(){		// Pagina de 
+	return view('actuadores.electricos');
+});
+
+route::get('actuadoresNeumatico', function(){		// 
+	return view('actuadores.neumaticos');
+});
+
+
+// ------------------------------------ /Actudores -----------------------------------------------
+
+// --------------------------- Motores, Reductres e Inverores  -----------------------------------
+
+route::get('motores', function(){		// 
+	return view('motores.motores');
+});
+
+route::get('inversores', function(){		// 
+	return view('motores.inversores');
+});
+
+route::get('reductores', function(){		// 
+	return view('motores.reductores');
+});
+
+
+// --------------------------- /Motores, Reductres e Inverores  ----------------------------------
+
+// ---------------------------  Oportuinidades de Empleo  ----------------------------------
+route::get('oportunidades', function(){		
+	return view('oportunidades.empleo');
+});
+
+// ---------------------------  Pagina de Contacto  ----------------------------------
+
+route::get('contacto', function(){		
 	return view('contacto.contacto');
+});
+
+// ---------------------------  Pagina de Servicios  ----------------------------------
+
+route::get('servicios', function(){		
+	return view('servicios.servicios');
 });
 
 

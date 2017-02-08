@@ -5,9 +5,9 @@ $(document).ready(function() {
 
 	$(function(){
     	if(screen.width> 1370){   	
-    		$("#sectores, #banerPrincipal, #intro, #sliderPrincipal, #aliadosComerciales").removeClass('container-fluid').addClass('container');
+    		$("#sectores, #banerPrincipal, #sliderPrincipal, #aliadosComerciales").removeClass('container-fluid').addClass('container');
    		}else{
-   			$("#sectores, #banerPrincipal, #intro, #sliderPrincipal, #aliadosComerciales").removeClass('container').addClass('container-fluid');
+   			$("#sectores, #banerPrincipal, #sliderPrincipal, #aliadosComerciales").removeClass('container').addClass('container-fluid');
    		}
     });
 

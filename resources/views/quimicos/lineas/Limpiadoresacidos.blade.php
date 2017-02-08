@@ -15,7 +15,7 @@
 	}
 	
 	.welcome_bar {
-	    /*background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;*/
+	    background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;
 	    clear: both;
 	    margin-bottom: 44px;
 	    position: relative;
@@ -23,7 +23,7 @@
 	}
 
 	.bar {
-	    /*background: url('{{ asset('img/title_bar_shadow.gif') }}') 0 106px no-repeat;*/
+	    background: url('{{ asset('img/title_bar_shadow.gif') }}') 0 106px no-repeat;
 	    height: 88px;
 	    padding: 21px 0 0 21px;
 	    position: relative;
@@ -54,7 +54,30 @@
 		@include('home.navbar-op5')
 	</header>
 
-	<div class="container" >
+	<div class="container-fluid" style="height: 110px;">
+
+		<div class="row welcome_bar">
+			<div class="container">
+				<div class="col-sm-7 col-xs-12 bar">
+					<div class="bar-icon">
+						<img src="{{ asset('img/iq2.png') }}" height="63" width="63">
+					</div>
+
+					<div class="bar-title">
+						<h1><span>Químicos</span> </h1>
+					</div>
+					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Químicos</div>
+				</div>
+
+				<div class="col-sm-5 col-xs-12 bar">				
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- <div class="container" >
 		<div class="row" style="padding-top: 10px; margin-bottom: 10px;">
 
 			<div class="col-xs-12" id="cabecera" >
@@ -71,7 +94,7 @@
 
 		</div>
 
-	</div>
+	</div> -->
 
 	<div class="container">
 		<div class="row">
@@ -79,7 +102,7 @@
 			<div class="col-xs-4" >
 				<div class="row">
 					<div class="col-xs-12" id="sidebar" style="padding-left: 0;padding-right: 0;">
-						@include('quimicos.sideBarQuimicos')						
+						@include('quimicos.sideBarQuimicos2')						
 					</div>
 												
 				</div>
@@ -100,12 +123,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >CHEM FOAM ACID </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Detergente acido espumante para la limpieza de equipos procesadores en la industria de alimentos.</p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -121,12 +144,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >P-ACID 1095-N  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Es un detergente líquido ácido desarrollado para la Industria Alimentaria, efectivo a cualquier nivel de dureza de agua y posee óptimas cualidades para  remover y penetrar suciedades fuertes. Especialmente formulado para operaciones de limpieza CIP y por aspersión (spray) en las plantas procesadoras de alimentos lácteos, cerveza y bebidas.  </p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -142,12 +165,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >P-ACID 61-ESPECIAL  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Ha sido diseñado para el lavado ácido tanto en sistemas CIP, como en otros métodos convencionales de limpieza. Permite una disolución efectiva en los depósitos minerales, haciéndolo ideal para la remoción de la piedra de leche y la piedra de cerveza.  </p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -163,12 +186,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >P-ACID 61-N-F  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> Detergente líquido para limpieza acida, es utilizado para la limpieza de equipos a altas temperaturas como evaporadores, tuberías, pasteurizadores HTST y procesadoras de alimentos.  </p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -184,12 +207,12 @@
 								<dt>Nombre</dt> 
 									<dd style="color: #a94442;" >  P-ACID 68-C  </dd>
 
-								<dt>Descripcion</dt> 
+								<dt>Descripción</dt> 
 									<dd>
 										<p class="text-justify"> DDetergente líquido ácido para la limpieza de tanques de fermentación y de guarda.  </p>
 									</dd>
 								
-								<dt>Permisología</dt> <dd><p> <strong>Rasda, Resquim, Daex</strong> </p></dd>
+								<dt>Permisología</dt> <dd><p> <strong>Racda, Resquimc, Daex</strong> </p></dd>
 
 				                <dt>Descargar</dt>
 				                	<dd>
@@ -303,10 +326,10 @@
 		width: 85px;
 	}
 
-	#itemQuimico dl dd{
+	/*#itemQuimico dl dd{
 		margin-left: 105px;
 	}
-
+*/
 	#itemQuimico dl dd p{
 		font-family: Arial, Helvetica, sans-serif;
 	    font-size: 13px;

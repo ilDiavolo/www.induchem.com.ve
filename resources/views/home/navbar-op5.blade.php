@@ -16,7 +16,29 @@
 
 </script>
 
+<style type="text/css">
+  /* Extra Small */
+  @media(max-width:767px){
+    
+    h1{ font-size: 19px; }
+    p{ font-size: 3mm !important; line-height: 11px; }
+    a{ font-size: 3mm !important; line-height: 11px; }
+  }
 
+  /* Small */
+  @media(min-width:768px) and (max-width:991px){
+
+    h1{ font-size: 24px; }
+    p{ font-size: 11px !important; line-height: 14px;  }
+    a{ font-size: 11px !important; line-height: 14px;  }
+  }
+
+  /* Medium */
+  @media(min-width:992px) {
+    
+  }
+
+</style>
 
 
 <style type="text/css">
@@ -157,7 +179,7 @@
       <div class="container">
         <div class="row">
 
-            <div class="col-xs-12 col-sm-3" id="navLogo">
+            <div class="col-xs-12 col-sm-4" id="navLogo">
               
                 <div class="navbar-header" style="min-height: 61px; min-width: 247px;">
 
@@ -168,13 +190,13 @@
                       <span class="icon-bar"></span>
                   </button>
                             
-                  <a class="navbar-brand" href="{{ url('home') }}"><img class="img-responsive" width="247" src="{{ asset('img/l1.png') }}"></a> 
+                  <a style="height: 78px;" class="navbar-brand" href="{{ url('home') }}"><img class="img-responsive"  src="{{ asset('img/induchem_logo.png') }}"></a> 
                   <!-- width="247" -->
               </div>
 
             </div>
 
-            <div class="col-xs-9">
+            <div class="col-xs-8">
             
                 <div id="navbar1" class="navbar-collapse collapse js-navbar-collapse">
 
@@ -218,98 +240,141 @@
           </div>
 </div>
     </div><!--/.container -->
+
+
 <div class="container-fluid" style="padding-left: 0px; padding-right: 0px;" id="n3" >
     <div id="navbar3" class="navbar-collapse collapse js-navbar-collapse">
       <div class="container">
           <ul class="nav navbar-nav">
             
-            <li><a href="{{ url('nosotros') }}">Nosotros</a></li>
-            <!-- <li class="dropdown">
-                <a href="{{ url('nosotros') }}" class="dropdown-toggle" data-toggle="dropdown" >Nosotros <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li> <a href="">Política</a>   </li>
-                    <li> <a href="">Visión</a>  </li>
-                    <li> <a href="">Misíon</a>  </li>
-                    <li> <a href="">Valores</a>  </li>
-                </ul>
-            </li> -->
+            <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nosotros <span class="caret"></span></a>
 
-            <li class="dropdown dropdown-large">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mercados <b class="caret"></b></a>
-                        
-              <ul class="dropdown-menu dropdown-menu-large row">
+                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+
+                <li>
+                    <a href="{{ url('quienes') }}">Quienes Somos</a>               
+                </li>
+                 
+                 <li>                 
+                    <a href="{{ url('vision') }}">Misión, Visión y Valores</a>                    
+                  </li>
+                
+                 <li>                
+                    <a href="{{ url('politica') }}">Poítica Integrada</a>                    
+                </li>
                
-                <li class="col-sm-7">
-                  <ul class="dropdown-menu-large">                
-                    <li class="dropdown-header text-center" style="color:#d40b0b;">Nuestros Productos por Sectores</li>
+               
+              </ul>
 
-                    <li class="divider"></li>
-                    <li class="row">
-                      <ul class="col-sm-6">
+            </li>
+         <!-- 
+        <li class="dropdown dropdown-large">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mercados<b class="caret"></b></a>
+                    
+          <ul class="dropdown-menu dropdown-menu-large row">
+           
+            <li class="col-sm-7">
+              <ul class="dropdown-menu-large">                
+                <li class="dropdown-header text-center" style="color:#d40b0b;">Nuestros Productos por Sectores</li>
+
+                <li class="divider"></li>
+                <li class="row">
+                  <ul class="col-sm-6">
+                    <li><a href="#">Alimentos</a></li>
+                    
+                    <li ><a href="#">Servicios</a></li>
+                    <li ><a href="#">Institucional</a></li>
+                  
+
+                    <li ><a href="#">Embotelladora</a></li>
+                    <li ><a href="#">Tratamineto de Efluentes</a></li>
+
+                    <li ><a href="#">Bebidas</a></li>
+                   
+                    <li ><a href="#">Vidrio y Plástico</a></li>
+                    <li ><a href="#">Papel</a></li>
+                  </ul>
+
+                  <ul class="col-sm-6">
+                    <li ><a href="#">Textil</a></li>
+
+               
+
+                    <li ><a href="#">Azucarero</a></li>                                 
+                    <li ><a href="#">Aceite</a></li>                                 
+
+                    <li ><a href="#">Químicos</a></li>
+                    <li ><a href="#">Petroleo</a></li>                  
+                    
+                    <li ><a href="#">Automotríz</a></li>
+                    <li ><a href="#">Metalmecánica</a></li>
+                    
+                    <li ><a style="border: 1px solid brown; border-radius: 20px; color: brown;width: 130px;" href="{{ url('quimicos') }}">Todos</a></li>
+                  </ul>
+                </li>                    
+              </ul>
+            </li>
+
+            
+          </ul>       
+        </li>
+ -->
+        <li  class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Mercados<span class="caret"></span> </a>
+            <div class="dropdown-menu col-xs-12" style="width: 360px;left: -60px;">
+                <div class="row" style="margin:0;">
+
+                  <div class="col-md-12">                  
+                    <h4 class="text-center">Nuestros Productos por Sectores</h4>
+                      <hr style=" margin-top: 10px; margin-bottom: 10px;">
+                    </div>
+
+                  <div class="col-xs-6">
+                     <ul class="list-unstyled listMerca">
                         <li><a href="#">Alimentos</a></li>
                         <!-- <li class="divider"></li> -->
-                        <li ><a href="#">Servicios</a></li>
+                        <!-- <li ><a href="#">Servicios</a></li> -->
                         <li ><a href="#">Institucional</a></li>
                         
                         <!-- <li class="divider"></li> -->
 
-                        <li ><a href="#">Embotelladora</a></li>
-                        <li ><a href="#">Tratamineto de Efluentes</a></li>
+                        <li ><a href="#">Embotelladora de Agua</a></li>
+                        <li style="min-width: 158px;" ><a href="#">Tratamiento de Efluentes</a></li>
 
                         <li ><a href="#">Bebidas</a></li>
                         <!-- <li ><a href="#">Cervecería y Refresco</a></li> -->
                         <!-- <li class="divider"></li> -->
                         <li ><a href="#">Vidrio y Plástico</a></li>
                         <li ><a href="#">Papel</a></li>
-                      </ul>
+                    </ul>
+                  </div>
 
-                      <ul class="col-sm-6">
-                        <li ><a href="#">Textil</a></li>
+                  <div class="col-xs-6">
+                     <ul class="list-unstyled listMerca">
+                         <li ><a href="#">Textil</a></li>
 
                         <!-- <li class="divider"></li> -->
 
                         <li ><a href="#">Azucarero</a></li>                                 
                         <li ><a href="#">Aceite</a></li>                                 
 
-                        <li ><a href="#">Químicos</a></li>
-                        <li ><a href="#">Petroleo</a></li>                  
+                        <li ><a href="#">Químicos y Detergentes</a></li>
+                        <li ><a href="#">Petróleo</a></li>                  
                         
-                        <li ><a href="#">Automotríz</a></li>
-                        <li ><a href="#">Metalmecánica</a></li>
+                        <li ><a href="#">Automotriz</a></li>
+                        <!-- <li ><a href="#">Metalmecánica</a></li> -->
                         <!-- <li class="divider"></li> -->
-                        <li ><a style="border: 1px solid brown; border-radius: 20px; color: brown;width: 130px;" href="{{ url('quimicos') }}">Todos</a></li>
-                      </ul>
-                    </li>                    
-                  </ul>
-                </li>
+                        <li ><a style="color: brown" href="#">Todos</a></li>
+                    </ul>
+                  </div>
+                  
+                </div>
 
-                <!-- <li class="col-sm-7">
-                  <ul class="dropdown-menu-large">                
-                    <li class="dropdown-header text-center" style="color:#d40b0b;">Materias Primas</li>
-
-                    <li class="divider"></li>
-                    <li class="row">
-                      <ul class="col-sm-6">
-                        <li><a href="#">Ácido Clorhidrico al 30%</a></li>
-                        <li><a href="#">Ácido Nítrico al 56%</a></li>              
-                        <li><a href="#">Ácido Sulfónico al 98% </a></li>
-                        <li><a href="#">Ácido Clorhídrico al 30% </a></li>
-                        <li><a href="#">Cloro al 5% </a></li>                        
-                        <li><a href="#">Peróxido de Hidrógeno 50% </a></li>
-                        <li><a href="#">Hidróxido de Sodio </a></li>  
-                      </ul>
-
-                      <ul class="col-sm-6">
-                        <li><a href="#">Urea </a></li>
-                        <li><a href="#">Soda Cáustica en Escamas </a></li>
-                        <li><a href="#">Butil Oxitol  </a></li>
-                        <li><a href="#">Etanol (Alcohol F1) </a></li>
-                      </ul>
-                    </li>                    
-                  </ul>
-                </li> -->
-              </ul>       
-            </li>
+                
+               
+            </div>
+        </li>
 
         <li class="dropdown">
 
@@ -332,11 +397,11 @@
               <a href="#">Termoplásticos</a>
               <ul class="dropdown-menu">                                
                   <li><a href="{{ url('valvulas') }}">Válvulas</a></li>
-                  <li><a href="#">Tuberías (Simona)</a></li>
-                  <li><a href="#">Bombas (affeti) </a></li>                  
-                  <li><a href="#">Barras (Simona)</a></li>
-                  <li><a href="#">Máquinas de Soldar Tuberías (Widos)</a></li>
-                  <li><a href="#">Máquinas Extrusoras (Munch)</a></li>                  
+                  <li><a href="{{ url('tuberias') }}">Tuberías </a></li>
+                  <li><a href="{{ url('bombas') }}">Bombas </a></li>                  
+                  <li><a href="{{ url('barras') }}">Barras </a></li>
+                  <li><a href="{{ url('soldarTuberias') }}">Máquinas de Soldar Tuberías </a></li>
+                  <li><a href="{{ url('extrusoras') }}">Máquinas Extrusoras </a></li>                  
                 </ul>
             </li>
 
@@ -345,9 +410,9 @@
             <li class="dropdown-submenu">
                 <a href="#">Motores</a>
                 <ul class="dropdown-menu">                                
-                  <li><a href="#">Motores</a></li>
-                  <li><a href="#">Inversores</a></li>
-                  <li><a href="#">Reductores</a></li>                                    
+                  <li><a href="{{ url('motores') }}">Motores</a></li>
+                  <li><a href="{{ url('inversores') }}">Inversores</a></li>
+                  <li><a href="{{ url('reductores') }}">Reductores</a></li>                                    
                 </ul>
             </li>
 
@@ -356,8 +421,8 @@
             <li class="dropdown-submenu">
                 <a href="#">Actuadores</a>
                 <ul class="dropdown-menu">                                
-                  <li><a href="#">Eléctricos</a></li>
-                  <li><a href="#">Neumáticos</a></li>                                  
+                  <li><a href="actuadoresElectrico">Eléctricos</a></li>
+                  <li><a href="{{ url('actuadoresNeumatico') }}">Neumáticos</a></li>                                  
                 </ul>
             </li>
 
@@ -365,9 +430,9 @@
 
         </li>
 
-        <li><a href="#">Servicios</a></li>
+        <li><a href="{{ url('servicios')}}">Servicios</a></li>
 
-        <li><a href="#">Oportunidades de Empleo</a></li>
+        <li><a href="{{ url('oportunidades')}}">Oportunidades de Empleo</a></li>
 
 
         <li><a href="{{ url('contacto') }}">Contacto</a></li>
@@ -436,8 +501,27 @@
     #navbar3 div ul li{
       font-size: 15px;
     }
+    #navbar3 div ul li a{
+      font-size: 15px !important;
+    }
 
 /*------------------------------------------------*/
+  
+  .listMerca{
+    padding-bottom: 10px;
+  }
+
+  .listMerca li{
+    padding-left: 7px;
+    padding-top: 3px;
+  }
+
+  .listMerca li a{
+    color: #000;
+  }
+
+/*------------------------------------------------*/
+
    /* #menu li ul li a {
         color: black;
         font-size: 17px;

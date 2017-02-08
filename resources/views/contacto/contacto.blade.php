@@ -65,33 +65,34 @@
 	<div class="container-fluid" style="height: 110px;">
 
 		<div class="row welcome_bar">
-		<div class="container">
-			<div class="col-sm-7 col-xs-12 bar">
-				<div class="bar-icon">
-					<img src="{{ asset('img/icon_contact.png') }}" height="63" width="63">
+			<div class="container">
+				<div class="col-sm-7 col-xs-12 bar">
+					<div class="bar-icon">
+						<img src="{{ asset('img/icon_contact.png') }}" height="63" width="63">
+					</div>
+
+					<div class="bar-title">
+						<h1><span>Contacta</span> con nosotros!</h1>
+					</div>
+					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Contacto</div>
 				</div>
 
-				<div class="bar-title">
-					<h1><span>Contacta</span> con nosotros!</h1>
+				<div class="col-sm-5 col-xs-12 bar">
+					<div>
+						<i class="ion-ios-telephone-outline" style="font-size: 55px;float: left;line-height: 5px; width: 44px;padding-right: 5px;"></i>
+						<!-- <img src="{{ asset('img/icon_contact.png') }}" height="63" width="63"> -->
+					</div>
+
+					<div class="bar-title">
+						<h4 style="margin-top: 5px; margin-bottom: 0px;">Telf. Master: +58 (245) 564 88 98</h4>
+						<h4 style="margin-top: 2px;">Fax: +58 (245) 565 03 54</h4>
+						<!-- <h1><span>Contacta</span> con nosotros!</h1> -->
+					</div>
+					
 				</div>
-				<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Contacto</div>
+
 			</div>
-
-			<div class="col-sm-5 col-xs-12 bar">
-				<div>
-					<i class="ion-ios-telephone-outline" style="font-size: 55px;float: left;line-height: 5px; width: 44px;padding-right: 5px;"></i>
-					<!-- <img src="{{ asset('img/icon_contact.png') }}" height="63" width="63"> -->
-				</div>
-
-				<div class="bar-title">
-					<h4 style="margin-top: 5px; margin-bottom: 0px;">Telf. Master: +58 (245) 564 88 98</h4>
-					<h4 style="margin-top: 2px;">Fax: +58 (245) 565 03 54</h4>
-					<!-- <h1><span>Contacta</span> con nosotros!</h1> -->
-				</div>
-				
-			</div>
-
-		</div></div>
+		</div>
 
 	</div>
 
@@ -101,7 +102,7 @@
 				<div class="row">					
 					<div class="col-xs-12">
 
-					  	<h3>Planta Zona Industrial Loma Linda</h3>
+					  	<h3>Zona Industrial Loma Linda</h3>
 					  	<p>
 					  		Calle Rio Caura, Parcela No. CI-14-A, Zona Industrial Loma Linda, Mpio. Guacara, Edo. Carabobo, Venezuela,  Z.P. 2015.
 					  	</p>
@@ -112,7 +113,7 @@
 					</div>
 				</div>
 				<br>
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-xs-12">
 
 					  	<h3>Planta Zona Industrial Pruinca</h3>
@@ -124,7 +125,7 @@
 						<iframe class="col-xs-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11105.263553663644!2d-67.85285604262296!3d10.237081199930453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x54343e2b6d737b74!2sInduchem%2C+C.A.!5e0!3m2!1ses!2sve!4v1478023335217" width="555" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 					</div>
-				</div>
+				</div> -->
 				<br><br>
 			</div>
 			
@@ -179,42 +180,42 @@
 				  		{{csrf_field()}}	  			  						  				  			
 						
 						<div class="form-group">
-						    <label class="control-label col-sm-2 fc" for="nombre">* Nombre :</label>
+						    <label class="control-label col-sm-2 fc" for="nombre">* Nombre </label>
 						    <div class="col-sm-10"> 
 						      <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre">
 						    </div>
 						</div>
 		
 						<div class="form-group">
-							<label class="control-label col-sm-2 fc" for="email">* Email :</label>
+							<label class="control-label col-sm-2 fc" for="email">* Email </label>
 						    <div class="col-sm-10">
 						      <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su correo">
 						    </div>				    
 						</div>
 
 						<div class="form-group">
-						    <label class="control-label col-sm-2 fc" for="asunto">Asunto :</label>
+						    <label class="control-label col-sm-2 fc" for="asunto">Asunto </label>
 						    <div class="col-sm-10"> 
 						      <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto">
 						    </div>
 						</div>
 
 						<div class="form-group">
-						    <label class="control-label col-sm-2 fc" for="empresa">Empresa :</label>
+						    <label class="control-label col-sm-2 fc" for="empresa">Empresa </label>
 						    <div class="col-sm-10"> 
 						      <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Empresa">
 						    </div>
 						</div>
 
 						<div class="form-group">
-						    <label class="control-label col-sm-2 fc" for="tlf">Teléfono :</label>
+						    <label class="control-label col-sm-2 fc" for="tlf">Teléfono </label>
 						    <div class="col-sm-10"> 
 						      <input type="text" class="form-control" id="tlf" name="tlf" placeholder="Teléfono">
 						    </div>
 						</div>					  
 
 					  	<div class="form-group">
-						    <label class="control-label col-sm-2 fc" for="solicitud">* Solicitud :</label>
+						    <label class="control-label col-sm-2 fc" for="solicitud">* Solicitud </label>
 						    <div class="col-sm-10"> 
 						  	  <textarea class="form-control" rows="5" id="solicitud" name="solicitud"></textarea>
 						    </div>
