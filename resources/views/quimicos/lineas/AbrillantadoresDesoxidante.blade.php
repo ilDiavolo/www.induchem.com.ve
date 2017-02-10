@@ -207,7 +207,7 @@
 	/* tamaño de la imagen que en la cabecera*/
 	.bar-icon { 
 	    width: 76px;
-	    height: 88px;
+	    /*height: 88px;*/
 	    float: left;
 	}
 	
@@ -277,36 +277,39 @@
 			<div class="col-md-3">
 
 				<div id="menu">
-					
-					<ul>
-						<li class="has-sub">
+				
+					<ul class="uno">
+						<li>
 							<a href="#">Abrillantadores</a>   
-							<ul>
-								<li><a href="#">Chem-Brillinox</a></li>
+							<ul class="dos">
+								<li> <a href="#"> Chem-Brillinox</a> </li>
+
 							</ul>
 						</li>
 
 						<li class="has-sub" >
 							<a href="#">Bactericidas</a> 
-							<ul>
-								<li><a href="#">Chem Gel Sanitizer</a></li>
-								<li><a href="#">Chem-Algicida Amonio Cuaternario</a></li>
-								<li><a href="#">Chem-Quat</a></li>
-								<li><a href="#">Chem-Cloro</a></li>
-								<li><a href="#">Chem-Oxan</a></li>
-								<li><a href="#"> Chem-P-Hidrógeno al 35%</a></li>
+							<ul class="dos">
+								<li><a href="#"><a href="#">Chem Gel Sanitizer</a> </li>
+								<li><a href="#"><a href="#">Chem-Algicida Amonio Cuaternario</a> </li>
+								<li><a href="#"><a href="#">Chem-Quat</a> </li>
+								<li><a href="#"><a href="#">Chem-Cloro</a> </li>
+								<li><a href="#"><a href="#">Chem-Oxan</a> </li>
+								<li><a href="#"><a href="#"> Chem-P-Hidrógeno al 35%</a> </li>
+
 								
 							</ul>
 						</li>
 
 						<li class="has-sub">
 							<a href="#">Desengrasantes </a>
-							<ul>
-								<li><a href="#">Chem-Desgrasol 2006 </a></li>
-								<li><a href="#">Chem Motorclean </a></li>
-								<li><a href="#">Chem-Halso 2005</a></li>
-								<li><a href="#">Chem-Ultrasol</a></li>
-								<li><a href="#">Chem-Desgrasador</a></li>
+							<ul class="dos">
+								<li><a href="#">Chem-Desgrasol 2006</a>  </li>
+								<li><a href="#">Chem Motorclean </a> </li>
+								<li><a href="#">Chem-Halso 2005</a> </li>
+								<li><a href="#">Chem-Ultrasol</a> </li>
+								<li><a href="#">Chem-Desgrasador</a> </li>
+
 							</ul>
 						</li>
 
@@ -546,13 +549,49 @@
 	}
 	
 	.contenedor-menu-vertical{
-		width: 260px;
-		outline: 1px solid blue;
-		
-		z-index: 1000;
 
-		padding-left: 0;
-		padding-right: 0; 
+		width: 260px;
+		outline: 1px solid blue;		
+		z-index: 1000;
+		display: inline-block;
+	}
+	
+	.uno{
+		padding: 0;
+	}
+
+
+	.uno li{
+		list-style: none;
+	}
+	
+	.uno a{
+		text-decoration: none;
+		display: block;
+		width: 100%;
+		
+		background-color: black;
+	}
+
+	.uno a:hover{
+			
+		background-color: #333;
+	}
+	
+	.dos{	
+		
+		position: absolute;
+		display: none;
+	}
+
+	.uno li:hover > ul{
+		display: block;
+	}
+	.dos li{
+		position: relative;
+		right: -260px;
+		top: 0;
+
 	}
 
 </style>
