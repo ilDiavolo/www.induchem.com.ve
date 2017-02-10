@@ -5,6 +5,203 @@
 	<title></title>
 </head>
 
+
+
+<style type="text/css">
+/*-------------------------- Menu de Multinivel ----------------------------------*/
+
+#menu {
+  padding: 0;
+   margin: 0;
+   border: 0; 
+}
+
+#menu ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+}
+
+#menu ul {
+      position: relative;
+      z-index: 597;
+      float: left; 
+}
+
+#menu ul li {
+    float: left;
+    min-height: 1px;
+    line-height: 1em;
+    vertical-align: middle; 
+}
+
+#menu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 598;
+  width: 100%; 
+}
+
+#menu ul ul {
+  top: 0;
+  left: 100%; 
+  height: 100%;
+
+}
+
+#menu ul ul li {
+  float: none; 
+}
+
+#menu ul li:hover > ul {
+  visibility: visible; 
+}
+
+#menu ul li {
+  float: none; 
+}
+
+#menu {
+  width: 200px; 
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#menu span, #menu a {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none; 
+}
+
+#menu:after, #menu ul:after {
+    content: '';
+    display: block;
+    clear: both; 
+}
+
+#menu ul, #menu li {
+    width: 100%; 
+}
+
+
+#menu a {  
+	color: #666666;
+    line-height: 160%;
+    padding: 11px 28px 11px 28px;
+    width: 100%;
+    display: block;
+    border: 0;
+    overflow: hidden;
+    text-overflow: ellipsis; /* corta el texto en puntos */
+    white-space: nowrap; /* hace q el texto sigo corrido para q el valor de arriba haga efecto */
+    border-top-width: 1px;
+    border-style: solid;
+    font-size: 1.5rem;
+    border-color: #ebebeb;
+}
+
+#menu ul li > a::after{
+	content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    display: inline-block;
+    height: 2px;
+    width: 10px;
+    background: #000;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotate(-45deg);
+    transform-origin: 9px 50%;
+    box-sizing: border-box;
+    right: 20px;
+}
+#menu ul li > a::before{
+	content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    display: inline-block;
+    height: 2px;
+    width: 10px;
+    background: blue;
+
+    right: 20px;
+    
+    transform-origin: 9px 50%;
+    backface-visibility: hidden;
+    transform: rotate(45deg);
+    transform-origin: 9px 50%;
+    box-sizing: border-box;
+}
+
+#menu ul ul a{
+   border: 0;
+}
+
+#menu ul ul li {
+    /*background: #f6f6f6; */
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#menu ul ul li:hover {
+    background: #dddddd; 
+}
+
+#menu .has-sub {
+    position: relative; 
+}
+
+
+
+/* --- cuando lo quito ya no me aparecen las flechas en los submenus cuando hago hover ---*/
+#menu ul li.hover,  
+#menu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: pointer; 
+}
+/* --- /cuando lo quito ya no me aparecen las flechas en los submenus cuando hago hover ---*/
+
+
+/*--------------------------- NO SE QUE HACE --------------------------------- */
+
+/*#menu li {
+    background: #dddddd;
+}
+#menu li:hover {
+    background: #f6f6f6; 
+}*/
+
+#menu ul ul li:hover a {
+    color: #666666; border: 0;
+}
+
+#menu .has-sub:after, #menu .has-sub > ul > .has-sub:hover:after { 
+    content: '';
+    display: block;
+    width: 10px;
+    height: 9px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5px;
+    background-image: url(right.png);
+}
+
+#menu .has-sub > ul > .has-sub:after, #menu .has-sub:hover:after {
+    background-image: url(right.png); 
+}
+/*------------------------------ /NO SE QUE HACE --------------------------------- */
+
+
+
+</style>
+<!-- -llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
 <style type="text/css">	
 
 	/* tamaño de la imagen que en la cabecera*/
@@ -77,114 +274,121 @@
 	<div class="container">
 		<div class="row">
 						
-			<div class="col-md-12">
+			<div class="col-md-3">
 
-				<div class="contenedor-menu-vertical">
+				<div id="menu">
 					
 					<ul>
-						<li>
+						<li class="has-sub">
 							<a href="#">Abrillantadores</a>   
 							<ul>
-								<li>Chem-Brillinox</li>
+								<li><a href="#">Chem-Brillinox</a></li>
 							</ul>
 						</li>
 
-						<li>
+						<li class="has-sub" >
 							<a href="#">Bactericidas</a> 
 							<ul>
-								<li>Chem Gel Sanitizer</li>
-								<li>Chem-Algicida Amonio Cuaternario</li>
-								<li>Chem-Quat</li>
-								<li>Chem-Cloro</li>
-								<li>Chem-Oxan</li>
-								<li> Chem-P-Hidrógeno al 35%</li>
+								<li><a href="#">Chem Gel Sanitizer</a></li>
+								<li><a href="#">Chem-Algicida Amonio Cuaternario</a></li>
+								<li><a href="#">Chem-Quat</a></li>
+								<li><a href="#">Chem-Cloro</a></li>
+								<li><a href="#">Chem-Oxan</a></li>
+								<li><a href="#"> Chem-P-Hidrógeno al 35%</a></li>
 								
 							</ul>
 						</li>
 
-						<li>
+						<li class="has-sub">
 							<a href="#">Desengrasantes </a>
 							<ul>
-								<li>Chem-Desgrasol 2006 </li>
-								<li>Chem Motorclean </li>
-								<li>Chem-Halso 2005</li>
-								<li>Chem-Ultrasol</li>
-								<li>Chem-Desgrasador</li>
+								<li><a href="#">Chem-Desgrasol 2006 </a></li>
+								<li><a href="#">Chem Motorclean </a></li>
+								<li><a href="#">Chem-Halso 2005</a></li>
+								<li><a href="#">Chem-Ultrasol</a></li>
+								<li><a href="#">Chem-Desgrasador</a></li>
 							</ul>
 						</li>
 
-						<li>
+						<li class="has-sub">
 							<a href="#">Desincrustantes </a>
 							<ul>
-								<li>Chem-Porcelana</li>
-								<li>Tetrasan)</li>							
+								<li><a href="#">Chem-Porcelana</a></li>
+								<li><a href="#">Tetrasan)</a></li>							
 							</ul>
 						</li>
 
-						<li>
+						<li class="has-sub">
 							<a href="#">Desinfectantes</a>
 							<ul>
-								<li>Chem-Lemophene</li>
-								<li>Desinfectante Tutty Fruty</li>
-								<li>Desinfectante Lavanda</li>
-								<li>Desinfectante TCereza</li>
+								<li><a href="#">Chem-Lemophene</a></li>
+								<li><a href="#">Desinfectante Tutty Fruty</a></li>
+								<li><a href="#">Desinfectante Lavanda</a></li>
+								<li><a href="#">Desinfectante TCereza</a></li>
 							</ul>						
 						</li>
 
-						<li>
+						<li class="has-sub">
 							<a href="#">Detergentes en polvo</a>
-							<ul>
-								<li>Clear-Clor-P</li>
-								<li>Cloro Rosado</li>
-								<li>Ajsen</li>
-								<li>Clear-P-Bantax</li>
-								<li>Clear-P-Deter-Polvo</li>
-								<li>Clear-P-Mavesa</li>
-								<li>Exit</li>
-								<li>Chem-F-600-P</li>
+							<ul></a>
+								<li><a href="#">Clear-Clor-P</a></li>
+								<li><a href="#">Cloro Rosado</a></li>
+								<li><a href="#">Ajsen</a></li>
+								<li><a href="#">Clear-P-Bantax</a></li>
+								<li><a href="#">Clear-P-Deter-Polvo</a></li>
+								<li><a href="#">Clear-P-Mavesa</a></li>
+								<li><a href="#">Exit</a></li>
+								<li><a href="#">Chem-F-600-P</a></li>
 							</ul>
 						</li>
 
-						<li>
+						<li class="has-sub">
 							<a href="#">Detergentes líquidos</a>
 							<ul>
-								<li>Chem-Clor-L</li>
-								<li>Chem Foam Espuma</li>
-								<li>Clear Rendidor</li>
-								<li>Clear-66</li>
-								<li>Chem-F-600-L</li>							
+								<li><a href="#">Chem-Clor-L</a></li>
+								<li><a href="#">Chem Foam Espuma</a></li>
+								<li><a href="#">Clear Rendidor</a></li>
+								<li><a href="#">Clear-66</a></li>
+								<li><a href="#">Chem-F-600-L</a></li>							
 							</ul>
 						</li>
 
-						<li>
-							<a href="#">Limpiadores </a>
-							<li>Che-Foam-Acid</li>
-							<li>P-Acid-1095-N</li>
-							<li>P-Acid-61-N-F</li>
-							<li>P-Acid-68-C</li>
-							<li>Chem-D-Plastic</li>
-							<li>Chem-P-Caust-L-V-IV</li>						
+						<li class="has-sub">
+							<ul>
+								<a href="#">Limpiadores </a>
+								<li><a href="#">Che-Foam-Acid</a></li>
+								<li><a href="#">P-Acid-1095-N</a></li>
+								<li><a href="#">P-Acid-61-N-F</a></li>
+								<li><a href="#">P-Acid-68-C</a></li>
+								<li><a href="#">Chem-D-Plastic</a></li>
+								<li><a href="#">Chem-P-Caust-L-V-IV</a></li>	
+							</ul>
+												
 						</li>
 
-						<li>
+						<li class="has-sub">
 							<a href="#">Lubricantes </a>
 							<ul>
-								<li>Chem-Lub-Lubricante</li>
+								<li><a href="#">Chem-Lub-Lubricante</a></li>
 							</ul>
 						</li>
-						<li>
+						<li class="has-sub">
 							<a href="#">Solventes dieléctricos</a>
 							<ul>
-								<li>Eletro-Chem-300</li>
-								<li>Eletro-Chem-400</li>
-								<li>Eletro-Chem-600</li>
+								<li><a href="#">Eletro-Chem-300</a></li>
+								<li><a href="#">Eletro-Chem-400</a></li>
+								<li><a href="#">Eletro-Chem-600</a></li>
 							</ul>
 						</li>
 					</ul>
 						
 				</div>
-								
+						
+				</div>
 
+
+				<div class="col-md-9">
+		
 				<div id="itemQuimico" >
 
 					<h2>Abrillantadores Desoxidante</h2>				
@@ -342,9 +546,6 @@
 	}
 	
 	.contenedor-menu-vertical{
-		
-		
-
 		width: 260px;
 		outline: 1px solid blue;
 		
@@ -352,8 +553,9 @@
 
 		padding-left: 0;
 		padding-right: 0; 
-		
-
 	}
 
 </style>
+
+
+

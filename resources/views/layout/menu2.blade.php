@@ -274,17 +274,20 @@
 	</header>
 
 	<!-- //////////////////////77777777777777777777777777777777777777777777777777 -->
+
+
+
 <style type="text/css">
 	#menu {
       padding: 0;
-    margin: 0;
-    border: 0; 
-}
+	   margin: 0;
+	   border: 0; 
+	}
 
 #menu ul, li {
-      list-style: none;
-     margin: 0;
-      padding: 0; 
+  list-style: none;
+  margin: 0;
+  padding: 0; 
 }
 
 #menu ul {
@@ -304,7 +307,7 @@
 #menu ul li:hover {
   position: relative;
   z-index: 599;
-  cursor: default; 
+  cursor: pointer; 
 }
 
 #menu ul ul {
@@ -399,6 +402,7 @@
     background-image: url(right.png); 
 }
 </style>
+
 	<main class="cd-main-content">
 	
 <div id="menu">
