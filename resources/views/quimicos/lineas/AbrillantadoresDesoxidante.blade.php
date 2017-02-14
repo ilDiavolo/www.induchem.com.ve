@@ -8,102 +8,29 @@
 
 
 <style type="text/css">
+
+
+
 /*-------------------------- Menu de Multinivel ----------------------------------*/
 
-#menu {
-  padding: 0;
-   margin: 0;
-   border: 0; 
-}
 
-#menu ul, li {
-  list-style: none;
-  margin: 0;
-  padding: 0; 
-}
-
-#menu ul {
-      position: relative;
-      z-index: 597;
-      float: left; 
-}
-
-#menu ul li {
-    float: left;
-    min-height: 1px;
-    line-height: 1em;
-    vertical-align: middle; 
-}
-
-#menu ul ul {
-  visibility: hidden;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 598;
-  width: 100%; 
-}
-
-#menu ul ul {
-  top: 0;
-  left: 100%; 
-  height: 100%;
-
-}
-
-#menu ul ul li {
-  float: none; 
-}
-
-#menu ul li:hover > ul {
-  visibility: visible; 
-}
-
-#menu ul li {
-  float: none; 
-}
-
-#menu {
-  width: 200px; 
-  background-color: white;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-#menu span, #menu a {
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    text-decoration: none; 
-}
-
-#menu:after, #menu ul:after {
+/*#menu:after, #menu ul:after {
     content: '';
     display: block;
     clear: both; 
 }
-
-#menu ul, #menu li {
-    width: 100%; 
-}
+*/
 
 
 #menu a {  
-	color: #666666;
-    line-height: 160%;
-    padding: 11px 28px 11px 28px;
-    width: 100%;
-    display: block;
-    border: 0;
+	
     overflow: hidden;
     text-overflow: ellipsis; /* corta el texto en puntos */
     white-space: nowrap; /* hace q el texto sigo corrido para q el valor de arriba haga efecto */
-    border-top-width: 1px;
-    border-style: solid;
     font-size: 1.5rem;
-    border-color: #ebebeb;
 }
 
-#menu ul li > a::after{
+#menu ul li a::after{
 	content: '';
     position: absolute;
     top: 50%;
@@ -111,7 +38,9 @@
     display: inline-block;
     height: 2px;
     width: 10px;
+
     background: #000;
+
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform: rotate(-45deg);
@@ -119,84 +48,24 @@
     box-sizing: border-box;
     right: 20px;
 }
-#menu ul li > a::before{
+#menu ul li a::before{
 	content: '';
     position: absolute;
-    top: 50%;
+    /*top: 50%;*/
     margin-top: -1px;
     display: inline-block;
     height: 2px;
     width: 10px;
-    background: blue;
+   
+    background: blue;   
 
-    right: 20px;
-    
-    transform-origin: 9px 50%;
     backface-visibility: hidden;
+    transform-origin: 9px 50%;
     transform: rotate(45deg);
     transform-origin: 9px 50%;
     box-sizing: border-box;
+    right: 20px;
 }
-
-#menu ul ul a{
-   border: 0;
-}
-
-#menu ul ul li {
-    /*background: #f6f6f6; */
-    background: #ffffff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-#menu ul ul li:hover {
-    background: #dddddd; 
-}
-
-#menu .has-sub {
-    position: relative; 
-}
-
-
-
-/* --- cuando lo quito ya no me aparecen las flechas en los submenus cuando hago hover ---*/
-#menu ul li.hover,  
-#menu ul li:hover {
-  position: relative;
-  z-index: 599;
-  cursor: pointer; 
-}
-/* --- /cuando lo quito ya no me aparecen las flechas en los submenus cuando hago hover ---*/
-
-
-/*--------------------------- NO SE QUE HACE --------------------------------- */
-
-/*#menu li {
-    background: #dddddd;
-}
-#menu li:hover {
-    background: #f6f6f6; 
-}*/
-
-#menu ul ul li:hover a {
-    color: #666666; border: 0;
-}
-
-#menu .has-sub:after, #menu .has-sub > ul > .has-sub:hover:after { 
-    content: '';
-    display: block;
-    width: 10px;
-    height: 9px;
-    position: absolute;
-    right: 5px;
-    top: 50%;
-    margin-top: -5px;
-    background-image: url(right.png);
-}
-
-#menu .has-sub > ul > .has-sub:after, #menu .has-sub:hover:after {
-    background-image: url(right.png); 
-}
-/*------------------------------ /NO SE QUE HACE --------------------------------- */
 
 
 
@@ -206,8 +75,7 @@
 
 	/* tamaño de la imagen que en la cabecera*/
 	.bar-icon { 
-	    width: 76px;
-	    /*height: 88px;*/
+	    width: 76px;	    
 	    float: left;
 	}
 	
@@ -278,32 +146,32 @@
 
 				<div id="menu">
 				
-					<ul class="uno">
+					<ul>
 						<li>
-							<a href="#">Abrillantadores</a>   
-							<ul class="dos">
+							<a href="#" style=" margin-top: 5em; border-top: 0;">Abrillantadores</a>   
+							<ul>
 								<li> <a href="#"> Chem-Brillinox</a> </li>
 
 							</ul>
 						</li>
 
-						<li class="has-sub" >
+						<li>
 							<a href="#">Bactericidas</a> 
-							<ul class="dos">
-								<li><a href="#"><a href="#">Chem Gel Sanitizer</a> </li>
-								<li><a href="#"><a href="#">Chem-Algicida Amonio Cuaternario</a> </li>
-								<li><a href="#"><a href="#">Chem-Quat</a> </li>
-								<li><a href="#"><a href="#">Chem-Cloro</a> </li>
-								<li><a href="#"><a href="#">Chem-Oxan</a> </li>
-								<li><a href="#"><a href="#"> Chem-P-Hidrógeno al 35%</a> </li>
+							<ul>
+								<li><a href="#">Chem Gel Sanitizer</a> </li>
+								<li><a href="#">Chem-Algicida Amonio Cuaternario</a> </li>
+								<li><a href="#">Chem-Quat</a> </li>
+								<li><a href="#">Chem-Cloro</a> </li>
+								<li><a href="#">Chem-Oxan</a> </li>
+								<li><a href="#"> Chem-P-Hidrógeno al 35%</a> </li>
 
 								
 							</ul>
 						</li>
 
-						<li class="has-sub">
+						<li>
 							<a href="#">Desengrasantes </a>
-							<ul class="dos">
+							<ul>
 								<li><a href="#">Chem-Desgrasol 2006</a>  </li>
 								<li><a href="#">Chem Motorclean </a> </li>
 								<li><a href="#">Chem-Halso 2005</a> </li>
@@ -313,7 +181,7 @@
 							</ul>
 						</li>
 
-						<li class="has-sub">
+						<li>
 							<a href="#">Desincrustantes </a>
 							<ul>
 								<li><a href="#">Chem-Porcelana</a></li>
@@ -321,7 +189,7 @@
 							</ul>
 						</li>
 
-						<li class="has-sub">
+						<li>
 							<a href="#">Desinfectantes</a>
 							<ul>
 								<li><a href="#">Chem-Lemophene</a></li>
@@ -331,7 +199,7 @@
 							</ul>						
 						</li>
 
-						<li class="has-sub">
+						<li>
 							<a href="#">Detergentes en polvo</a>
 							<ul></a>
 								<li><a href="#">Clear-Clor-P</a></li>
@@ -345,7 +213,7 @@
 							</ul>
 						</li>
 
-						<li class="has-sub">
+						<li>
 							<a href="#">Detergentes líquidos</a>
 							<ul>
 								<li><a href="#">Chem-Clor-L</a></li>
@@ -356,7 +224,7 @@
 							</ul>
 						</li>
 
-						<li class="has-sub">
+						<li>
 							<ul>
 								<a href="#">Limpiadores </a>
 								<li><a href="#">Che-Foam-Acid</a></li>
@@ -369,13 +237,13 @@
 												
 						</li>
 
-						<li class="has-sub">
+						<li>
 							<a href="#">Lubricantes </a>
 							<ul>
 								<li><a href="#">Chem-Lub-Lubricante</a></li>
 							</ul>
 						</li>
-						<li class="has-sub">
+						<li>
 							<a href="#">Solventes dieléctricos</a>
 							<ul>
 								<li><a href="#">Eletro-Chem-300</a></li>
@@ -437,49 +305,6 @@
 		margin-bottom: 0px;
 	}
 
-	#sidebar{
-		margin-top: 10px;	    
-	}
-
-	#sidebar ul li a{
-		/*content: ">";*/
-		/*margin-right: 3px;*/
-		text-decoration: none;
-		/*color: #000;*/
-		color: #01478f;
-	}
-
-	#sidebar ul li{
-		height: 30px;
-	    border-top: 1px solid #eeeeee;
-	    border-bottom: 1px solid #eeeeee;
-	    padding-top: 4px;
-	    padding-bottom: 3px;    
-	}
-
-	#sidebar ul li:first-child{
-		padding-top: 16px;
-    	height: 42px;
-	}
-
-
-	#sidebar ul li a:hover{		
-		color: #000;
-		/*font-size: 16px;*/
-	}
-
-	#sidebar ul li a:hover:before{
-		
-		content:url('{{ asset('img/flecha.png') }}');
-		margin-right: 3px;
-		width: 20px;
-		height: 10px;
-		overflow: hidden;
-		/*text-decoration: none;*/
-		/*color: red;*/
-		/*font-size: 13px;*/
-	}
-
 /*---------------------------------------------------------------*/
 	#cabecera{
 		background: url('{{ asset('img/headerQuimicos/3.jpg') }}');
@@ -517,10 +342,7 @@
 		width: 85px;
 	}
 
-/*	#itemQuimico dl dd{
-		margin-left: 105px;
-	}
-*/
+
 	#itemQuimico dl dd p{
 		font-family: Arial, Helvetica, sans-serif;
 	    font-size: 13px;
@@ -530,70 +352,21 @@
 
 
 	#itemQuimico dl dd div a:first-child{
-		text-decoration: none;
-		/*color: brown;*/
+		text-decoration: none;		
 		margin-right: 20px;
 	}
 	#itemQuimico dl dd div a{
-		text-decoration-style: double;
-		/*color: brown;*/
+		text-decoration-style: double;		
 		margin-right: 20px;
 	}
-
-	/*------------------------------------------------------------------*/
 	
 	@import url('https://fonts.googleapis.com/css?family=Barrio');
 
 	body{
 		font-family: 'Barrio', cursive;
 	}
+
 	
-	.contenedor-menu-vertical{
-
-		width: 260px;
-		outline: 1px solid blue;		
-		z-index: 1000;
-		display: inline-block;
-	}
-	
-	.uno{
-		padding: 0;
-	}
-
-
-	.uno li{
-		list-style: none;
-	}
-	
-	.uno a{
-		text-decoration: none;
-		display: block;
-		width: 100%;
-		
-		background-color: black;
-	}
-
-	.uno a:hover{
-			
-		background-color: #333;
-	}
-	
-	.dos{	
-		
-		position: absolute;
-		display: none;
-	}
-
-	.uno li:hover > ul{
-		display: block;
-	}
-	.dos li{
-		position: relative;
-		right: -260px;
-		top: 0;
-
-	}
-
 </style>
 
 
