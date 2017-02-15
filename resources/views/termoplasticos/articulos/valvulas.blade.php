@@ -134,7 +134,7 @@
 
 							<div class="row" style="padding: 1em;">
 								<h3>Válvula de Retención Wafer</h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvula de Retencian de Wafer.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
@@ -165,7 +165,7 @@
 
 							<div class="row" style="padding: 1em;padding-top: 0;">
 								<h3>Válvula de Mariposa Tipo 57</h3>
-								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvulas de Mariposa Tipo-57.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
@@ -222,13 +222,11 @@
 
 							<div class="row" style="padding: 1em;padding-top: 0;">
 								<h3>Válvula de Compuerta</h3>
-								<div class="col-xs-12 flex-parent" style="background-color: #eee;">				
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">				
 									<div class="col-xs-12 col-md-6 flex-child">
-<<<<<<< HEAD:resources/views/termoplasticos/valvulas.blade.php
-										<img src="{{ asset('img/termoplasticos/valvulas/Valvula de Retencian de Wafer.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
-=======
+
 										<img src="{{ asset('img/termoplasticos/valvulas/Valvulas de Compuerta.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
->>>>>>> dbd6efb0a2dbbd0ea6de7c04c993b7ce22952431:resources/views/termoplasticos/articulos/valvulas.blade.php
+
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	Tamaños: 1-1/2” - 14” </p>

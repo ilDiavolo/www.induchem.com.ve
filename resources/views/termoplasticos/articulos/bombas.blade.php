@@ -142,7 +142,7 @@
 
 							<div class="row" style="padding: 1em;">
 								<h3>MMB-N</h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/bombas/MMB-N.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
@@ -204,7 +204,7 @@
 
 							<div class="row" style="padding: 1em;padding-top: 0;">
 								<h3>MMB-E</h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/bombas/MMB-E2.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
@@ -237,7 +237,7 @@
 
 							<div class="row" style="padding: 1em;">
 								<h3>CMO</h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/bombas/CMO.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
@@ -270,7 +270,7 @@
 
 							<div class="row" style="padding: 1em;">
 								<h3>CDM <small>Bombas Volumétricas Auto-Cebadas</small> </h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/bombas/CDM2.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
@@ -313,7 +313,7 @@
 
 							<div class="row" style="padding: 1em;padding-top: 0;">
 								<h3>CGD</h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
 										<img src="{{ asset('img/termoplasticos/bombas/CGD.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>

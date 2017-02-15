@@ -6,8 +6,6 @@
 
 <style type="text/css">
 	
-
-
 	*{
 		list-style: none;
 		text-decoration: none;
