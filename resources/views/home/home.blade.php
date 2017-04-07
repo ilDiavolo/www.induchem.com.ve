@@ -45,7 +45,7 @@
 			<div class="carousel-inner" role="listbox">
 			
 				<!-- Zero slide -->
-				<div class="item active deepskyblue" style="background-image: url('{{ asset('img/banner1/b1.png') }}');background-size: 100% 100%;" >
+				<div class="item active deepskyblue" style="background-image: url('{{ asset('img/Slider Principal/banner1/b1.png') }}');background-size: 100% 100%;" >
 					
 					<!-- <div class="carousel-caption">
 						<h3 data-animation="animated bounceInLeft">
@@ -59,7 +59,7 @@
 				</div> <!-- /.item -->
 
 				<!-- First slide -->
-				<div class="item deepskyblue" style="background-image: url('{{ asset('img/banner2/b2a.png') }}');background-size: 100% 100%;" >
+				<div class="item deepskyblue" style="background-image: url('{{ asset('img/Slider Principal/banner2/b2a.png') }}');background-size: 100% 100%;" >
 					
 					<!-- <div class="carousel-caption">
 						<h3 data-animation="animated bounceInLeft">
@@ -73,7 +73,7 @@
 				</div> <!-- /.item -->
 				
 				<!-- First slide b-->
-				<div class="item deepskyblue" style="background-image: url('{{ asset('img/banner2-b/b2b.png') }}');background-size: 100% 100%;" >
+				<div class="item deepskyblue" style="background-image: url('{{ asset('img/Slider Principal/banner2-b/b2b.png') }}');background-size: 100% 100%;" >
 					
 					<!-- <div class="carousel-caption">
 						<h3 data-animation="animated bounceInLeft">
@@ -87,7 +87,7 @@
 				</div> <!-- /.item -->
 				
 				<!-- Second slide -->
-				<div class="item skyblue" style="background-image: url('{{ asset('img/banner3/b3.png') }}');background-repeat: no-repeat; background-size: 100% 100%;">
+				<div class="item skyblue" style="background-image: url('{{ asset('img/Slider Principal/banner3/b3.png') }}');background-repeat: no-repeat; background-size: 100% 100%;">
 					<!-- <div class="carousel-caption">
 						<h3 class="icon-container" data-animation="animated bounceInDown">
 							<span class="glyphicon glyphicon-heart"></span>
@@ -100,7 +100,7 @@
 				</div><!-- /.item -->
 
 				<!-- three slide -->
-				<div class="item skyblue" style="background-image: url('{{ asset('img/banner4/b4.png') }}');background-repeat: no-repeat; background-size: 100% 100%;">
+				<div class="item skyblue" style="background-image: url('{{ asset('img/Slider Principal/banner4/b4.png') }}');background-repeat: no-repeat; background-size: 100% 100%;">
 					<!-- <div class="carousel-caption">
 						<h3 class="icon-container" data-animation="animated bounceInDown">
 							<span class="glyphicon glyphicon-heart"></span>

@@ -106,7 +106,7 @@
 			<div class="col-xs-3" >
 				<div class="row" >
 
-					@include('termoplasticos.sideBarTermo2')
+					@include('termoplasticos.menu_productos_servicios')
 												
 				</div>
 			</div>

@@ -174,7 +174,7 @@
 
 
 <!-- Static navbar -->
-<nav class="navbar navbar-default" style="margin-bottom: 0px;">
+<nav class="navbar navbar-default" style="margin-bottom: 0px; z-index: 1000">
     <div class="container-fluid" id="navPrincipal" style="background-image: url('{{ asset('img/mq.jpg') }}'); background-repeat: no-repeat; background-size: cover;">
       <div class="container">
         <div class="row">
@@ -268,58 +268,7 @@
               </ul>
 
             </li>
-         <!-- 
-        <li class="dropdown dropdown-large">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mercados<b class="caret"></b></a>
-                    
-          <ul class="dropdown-menu dropdown-menu-large row">
-           
-            <li class="col-sm-7">
-              <ul class="dropdown-menu-large">                
-                <li class="dropdown-header text-center" style="color:#d40b0b;">Nuestros Productos por Sectores</li>
-
-                <li class="divider"></li>
-                <li class="row">
-                  <ul class="col-sm-6">
-                    <li><a href="#">Alimentos</a></li>
-                    
-                    <li ><a href="#">Servicios</a></li>
-                    <li ><a href="#">Institucional</a></li>
-                  
-
-                    <li ><a href="#">Embotelladora</a></li>
-                    <li ><a href="#">Tratamineto de Efluentes</a></li>
-
-                    <li ><a href="#">Bebidas</a></li>
-                   
-                    <li ><a href="#">Vidrio y Plástico</a></li>
-                    <li ><a href="#">Papel</a></li>
-                  </ul>
-
-                  <ul class="col-sm-6">
-                    <li ><a href="#">Textil</a></li>
-
-               
-
-                    <li ><a href="#">Azucarero</a></li>                                 
-                    <li ><a href="#">Aceite</a></li>                                 
-
-                    <li ><a href="#">Químicos</a></li>
-                    <li ><a href="#">Petroleo</a></li>                  
-                    
-                    <li ><a href="#">Automotríz</a></li>
-                    <li ><a href="#">Metalmecánica</a></li>
-                    
-                    <li ><a style="border: 1px solid brown; border-radius: 20px; color: brown;width: 130px;" href="{{ url('quimicos') }}">Todos</a></li>
-                  </ul>
-                </li>                    
-              </ul>
-            </li>
-
-            
-          </ul>       
-        </li>
- -->
+        
         <li  class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Mercados<span class="caret"></span> </a>
             <div class="dropdown-menu col-xs-12" style="width: 360px;left: -60px;">
@@ -333,18 +282,14 @@
                   <div class="col-xs-6">
                      <ul class="list-unstyled listMerca">
                         <li><a href="#">Alimentos</a></li>
-                        <!-- <li class="divider"></li> -->
-                        <!-- <li ><a href="#">Servicios</a></li> -->
-                        <li ><a href="#">Institucional</a></li>
-                        
-                        <!-- <li class="divider"></li> -->
+                       
+                        <li ><a href="#">Institucional</a></li>            
 
                         <li ><a href="#">Embotelladora de Agua</a></li>
                         <li style="min-width: 158px;" ><a href="#">Tratamiento de Efluentes</a></li>
 
                         <li ><a href="#">Bebidas</a></li>
-                        <!-- <li ><a href="#">Cervecería y Refresco</a></li> -->
-                        <!-- <li class="divider"></li> -->
+
                         <li ><a href="#">Vidrio y Plástico</a></li>
                         <li ><a href="#">Papel</a></li>
                     </ul>
@@ -353,17 +298,13 @@
                   <div class="col-xs-6">
                      <ul class="list-unstyled listMerca">
                          <li ><a href="#">Textil</a></li>
-
-                        <!-- <li class="divider"></li> -->
-
                         <li ><a href="#">Azucarero</a></li>                                 
                         <li ><a href="#">Aceite</a></li>                                 
 
                         <li ><a href="#">Químicos y Detergentes</a></li>
                         <li ><a href="#">Petróleo</a></li>                  
                         
-                        <li ><a href="#">Automotriz</a></li>
-                        <!-- <li ><a href="#">Metalmecánica</a></li> -->
+                        <li ><a href="#">Automotriz</a></li>                    
                         <!-- <li class="divider"></li> -->
                         <li ><a style="color: brown" href="#">Todos</a></li>
                     </ul>
@@ -386,26 +327,26 @@
             <li class="dropdown-submenu">
                 <a href="#">Químicos</a>
                 <ul class="dropdown-menu">                                
-                  <li><a href="{{ url('AbrillantadoresDesoxidante') }}">Químicos</a></li>
+                  <li><a href="{{ url('quimicos') }}">Químicos</a></li>
                   <li><a href="{{ url('materiasPrimas') }}">Materias Primas</a></li>
                 </ul>
             </li>
             
-            <li role="separator" class="divider" style="margin-left: 16px;margin-right: 38px;" ></li>
+         <!--    <li role="separator" class="divider" style="margin-left: 16px;margin-right: 38px;" ></li> -->
 
             <li class="dropdown-submenu">
               <a href="#">Termoplásticos</a>
               <ul class="dropdown-menu">                                
                   <li><a href="{{ url('valvulas') }}">Válvulas</a></li>
-                  <li><a href="{{ url('tuberias') }}">Tuberías </a></li>
-                  <li><a href="{{ url('bombas') }}">Bombas </a></li>                  
-                  <li><a href="{{ url('barras') }}">Barras </a></li>
+                  <li><a href="{{ url('bombas') }}">Bombas </a></li> 
+                  <li><a href="{{ url('tuberias') }}">Tuberías y Accesorios</a></li>                                   
+                  <!-- <li><a href="{{ url('barras') }}">Barras </a></li> -->
                   <li><a href="{{ url('soldarTuberias') }}">Máquinas de Soldar Tuberías </a></li>
                   <li><a href="{{ url('extrusoras') }}">Máquinas Extrusoras </a></li>                  
                 </ul>
             </li>
 
-            <li role="separator" class="divider" style="margin-left: 16px;margin-right: 38px;" ></li>
+            <!-- <li role="separator" class="divider" style="margin-left: 16px;margin-right: 38px;" ></li> -->
 
             <li class="dropdown-submenu">
                 <a href="#">Motores</a>
@@ -416,7 +357,7 @@
                 </ul>
             </li>
 
-            <li role="separator" class="divider" style="margin-left: 16px;margin-right: 38px;" ></li>
+            <!-- <li role="separator" class="divider" style="margin-left: 16px;margin-right: 38px;" ></li> -->
 
             <li class="dropdown-submenu">
                 <a href="#">Actuadores</a>
@@ -565,14 +506,26 @@
       position: relative;
   }
 
+  .dropdown-menu{
+    padding: 0
+  }
+
+  .dropdown-menu > li > a{
+      padding: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      line-height: 35px;
+      box-sizing: border-box;
+  }
+
   .dropdown-submenu>.dropdown-menu {
       top: 0;
       left: 100%;
       margin-top: -6px;
       margin-left: -1px;
-      -webkit-border-radius: 0 6px 6px 6px;
+      /*-webkit-border-radius: 0 6px 6px 6px;
       -moz-border-radius: 0 6px 6px;
-      border-radius: 0 6px 6px 6px;
+      border-radius: 0 6px 6px 6px;*/
   }
 
   .dropdown-submenu:hover>.dropdown-menu {
@@ -589,7 +542,7 @@
       border-style: solid;
       border-width: 5px 0 5px 5px;
       border-left-color: #7b7b7b;
-      margin-top: 5px;
+      margin-top: 12px;
       margin-right: -10px;
   }
 
@@ -604,9 +557,9 @@
   .dropdown-submenu.pull-left>.dropdown-menu {
       left: -100%;
       margin-left: 10px;
-      -webkit-border-radius: 6px 0 6px 6px;
-      -moz-border-radius: 6px 0 6px 6px;
-      border-radius: 6px 0 6px 6px;
+      -webkit-border-radius: 3px 0 3px 3px;
+      -moz-border-radius: 3px 0 3px 3px;
+      border-radius: 3px 0 3px 3px;
   }
 </style>
 

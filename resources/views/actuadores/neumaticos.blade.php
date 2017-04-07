@@ -109,7 +109,7 @@
 					<div class="col-xs-12" style="background-color: #fff; padding:2em;padding-top: 1em; padding-left: 1em; padding-right: 0; border: 1px solid;box-shadow: 1px 1px 1px;">
 					
 						<h4 style="display: inline-block; margin-left: 15px; line-height: 24px;text-shadow: 3px 3px 1px #ddd; font-size: 20px;" >Actuadores </h4> 
-						<img src="{{ asset('img/termoplasticos/menu/asahi.png') }}" class="" style="vertical-align: sub; height: 40px; margin-left: 10px;"> 
+						<img src="{{ asset('img/PRODUCTOS/termoplasticos/menu/asahi.png') }}" class="" style="vertical-align: sub; height: 40px; margin-left: 10px;"> 
 
 						<div style="padding-left: 1em; padding-right: 1em;"> <hr style="margin-top: 0px;margin-bottom: 12px;" > </div>
 
@@ -171,7 +171,7 @@
 							
 							<div class="media" style="margin-top: 20px;margin-bottom: 7px;" >
 								<div class="media-left media-middle">
-									<img src="{{ asset('img/termoplasticos/menu/asahi.png') }}" class=" media-object">
+									<img src="{{ asset('img/PRODUCTOS/termoplasticos/menu/asahi.png') }}" class=" media-object">
 							  	</div>
 								<div class="media-body media-middle">
 									<!-- <h4 class="media-heading">Media heading</h4> -->
@@ -189,7 +189,7 @@
 									 
 									<div class="col-xs-12 col-md-6 flex-child">
 
-										<img src="{{ asset('img/actuadores/tipo14.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/actuadores/tipo14.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
 
@@ -218,7 +218,7 @@
 									 
 									<div class="col-xs-12 col-md-6 flex-child">
 
-										<img src="{{ asset('img/actuadores/serie79.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/actuadores/serie79.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
 

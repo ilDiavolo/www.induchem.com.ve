@@ -110,7 +110,7 @@
 					<div class="col-xs-12" style="background-color: #fff; padding:2em;padding-top: 1em; padding-left: 1em; padding-right: 0; border: 1px solid;box-shadow: 1px 1px 1px;">
 					
 						<h4 style="display: inline-block; margin-left: 15px; line-height: 24px; text-shadow: 2px 2px 1px #ddd;font-size: 20px;" > Inversores </h4> 
-						<img src="{{ asset('img/motive/motive.png') }}" class="" style="vertical-align: sub; height: 24px; margin-left: 10px; width: 124px; display: inline-block;">  
+						<img src="{{ asset('img/PRODUCTOS/motores/motive.png') }}" class="" style="vertical-align: sub; height: 24px; margin-left: 10px; width: 124px; display: inline-block;">  
 						<div style="padding-left: 1em; padding-right: 1em;"> <hr style="margin-top: 0px;margin-bottom: 12px;" > </div>
 						<ul class="list-unstyled" style="padding-left: 1em; margin-top: 7px;">
 							<li style="margin-bottom: 4px;" > <a id="fotoSideTermo" style="color: #000;font-size: 16px;" href="{{ url('motores') }}">Motores</a> </li>
@@ -138,7 +138,7 @@
 							
 							<div class="media" style="margin-top: 20px;margin-bottom: 7px;" >
 								<div class="media-left media-middle">
-									<img src="{{ asset('img/motive/motive.png') }}" class=" media-object">
+									<img src="{{ asset('img/PRODUCTOS/motores/motive.png') }}" class=" media-object">
 							  	</div>
 								<div class="media-body media-middle">
 									<!-- <h4 class="media-heading">Media heading</h4> -->
@@ -156,7 +156,7 @@
 									 
 									<div class="col-xs-12 col-md-6 flex-child">
 
-										<img src="{{ asset('img/motive/prodotti-neowifi.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/motores/inversores/prodotti-neowifi.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
 
@@ -175,7 +175,7 @@
 									 
 									<div class="col-xs-12 col-md-6 flex-child">
 
-										<img src="{{ asset('img/motive/prodotti-neopump.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/motores/inversores/prodotti-neopump.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
 
@@ -218,7 +218,7 @@
 									 
 									<div class="col-xs-12 col-md-6 flex-child">
 
-										<img src="{{ asset('img/motive/prodotti-neosolar.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/motores/inversores/prodotti-neosolar.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >			
 

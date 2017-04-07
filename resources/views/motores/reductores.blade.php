@@ -109,7 +109,7 @@
 					<div class="col-xs-12" style="background-color: #fff; padding:2em;padding-top: 1em; padding-left: 1em; padding-right: 0; border: 1px solid;box-shadow: 1px 1px 1px;">
 					
 						<h4 style="display: inline-block; margin-left: 15px; line-height: 24px;text-shadow: 2px 2px 1px #ddd; font-size: 20px;" > Reductores </h4> 
-						<img src="{{ asset('img/motive/motive.png') }}" class="" style="vertical-align: sub; height: 24px; margin-left: 10px; width: 124px; display: inline-block;">  
+						<img src="{{ asset('img/PRODUCTOS/motores/motive.png') }}" class="" style="vertical-align: sub; height: 24px; margin-left: 10px; width: 124px; display: inline-block;">  
 						<div style="padding-left: 1em; padding-right: 1em;"> <hr style="margin-top: 0px;margin-bottom: 12px;" > </div>
 						<ul class="list-unstyled" style="padding-left: 1em; margin-top: 7px;">
 							<li style="margin-bottom: 4px;" > <a id="fotoSideTermo" style="color: #000;font-size: 16px;" href="{{ url('motores') }}">Motores</a> </li>
@@ -139,7 +139,7 @@
 							
 							<div class="media" style="margin-top: 20px;margin-bottom: 7px;" >
 								<div class="media-left media-middle">
-									<img src="{{ asset('img/motive/motive.png') }}" class=" media-object">
+									<img src="{{ asset('img/PRODUCTOS/motores/motive.png') }}" class=" media-object">
 							  	</div>
 								<div class="media-body media-middle">
 									<!-- <h4 class="media-heading">Media heading</h4> -->
@@ -155,7 +155,7 @@
 								<h3>Coaxial ROBUS-25-60</h3> 
 								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
 									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/motive/reductores/prodotti-robus25-60.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/motores/reductores/prodotti-robus25-60.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	ROBUS es la nueva gama de motive de reductores coaxiales de hierro fundido, con una capacidad de hasta 4300Nm. </p>		
@@ -168,7 +168,7 @@
 								<h3>Reductor Ortogonal ENDURO</h3>
 								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/motive/reductores/prodotti-enduro.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/motores/reductores/prodotti-enduro.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	ENDURO es el nuevo reductor de engranajes ortogonales de hierro  endurofundido. Tres tamaños con una capacidad de hasta 600Nm. </p>
@@ -180,7 +180,7 @@
 								<h3>Reductor Pendular STON</h3> 
 								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
 									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/motive/reductores/prodotti-ston.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/motores/reductores/prodotti-ston.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	STON es el nuevo reductor de ejes paralelos y pendulares de hierro fundido. Tres tamaños con una capacidad de hasta 700Nm. </p>		
@@ -199,7 +199,7 @@
 								<h3>Sinfin Corona Serie BOX</h3>
 								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/motive/reductores/prodotti-box.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/motores/reductores/prodotti-box.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	La nueva serie patentada BOX de reductores sinfín corona está realizada con carcasas boxdefundición de aluminio en los tamaños 25 a 90 y en fundición desde el tamaño 150. </p>
@@ -213,7 +213,7 @@
 								<h3> Sinfin Corona Serie BOX </h3> 
 								<div class="col-xs-12 flex-parent" style="background-color: #eee;">
 									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/motive/reductores/prodotti-stadio.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/motores/reductores/prodotti-stadio.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-mdLa fabricación de STADIO es modular y por lo tanto puede ser entregada como un grupo separado para montar en cualquier tipo de motoreductor predispuesto (PAM). -6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	La fabricación de STADIO es modular y por lo tanto puede ser entregada como un grupo separado para montar en cualquier tipo de motoreductor predispuesto (PAM).  </p>
@@ -229,7 +229,7 @@
 								<h3>Reductores VARIO</h3>
 								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
 									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/motive/reductores/prodotti-vario.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+										<img src="{{ asset('img/PRODUCTOS/motores/reductores/prodotti-vario.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	Los nuevos variadores mecánicos planetarios patentados de la serie VARIO se han realizado con una carcasa moldeada a presión de aluminio de 3 tamaños, small, medium y large, respectivamente para motores IEC63, 71 y 80. </p>

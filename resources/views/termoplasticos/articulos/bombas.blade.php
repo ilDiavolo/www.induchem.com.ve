@@ -9,15 +9,13 @@
 	
 	/* tamaño de la imagen que en la cabecera*/
 	.bar-icon { 
-	    width: 76px;
-	    height: 88px;
+	    width: 76px;	    
 	    float: left;
 	}
 	
 	.welcome_bar {
 	    background: url('{{ asset('img/fondoHeaderContacto.png') }}') 0 0;
-	    clear: both;
-	    margin-bottom: 44px;
+	    clear: both;	   
 	    position: relative;
 	    z-index: 10;
 	}
@@ -60,7 +58,7 @@
 		@include('home.navbar-op5')
 	</header>
 
-	<div class="container-fluid" style="height: 110px;">
+	<div class="container-fluid">
 
 		<div class="row welcome_bar">
 			<div class="container">
@@ -68,83 +66,53 @@
 					<div class="bar-icon">
 						<img src="{{ asset('img/bafe.png') }}" height="63" width="63">
 					</div>
-
 					<div class="bar-title">
 						<h1><span>Termoplásticos</span> </h1>
 					</div>
 					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a> Termoplásticos Bombas</div>
 				</div>
-
-				<div class="col-sm-5 col-xs-12 bar">				
-				</div>
-
 			</div>
 		</div>
-
 	</div>
 
-	<!-- <div class="container" >
-		<div class="row" style="padding-top: 10px; margin-bottom: 10px;">
-
-			<div class="col-xs-12" id="cabecera" >
-				<div style="display: inline-block;" >
-					
-					<img src="{{ asset('img/te.png') }}" height="63" width="63" class="img-responsive">
-				</div>
-				<div style="padding-left: 5px; display: inline-block;">
-					
-					<h1 style="margin-bottom: 0;margin-top: 0;"><span>Termopláticos</span> </h1>
-					<div class="breadcrumbs"><a href="{{ url('home') }}">Inicio</a>Termopláticos Bombas </div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 						
-			<div class="col-xs-3" >
-				<div class="row">
-
-					@include('termoplasticos.sideBarTermo2')
-												
-				</div>
+			<div class="col-xs-3" style="padding: 0; z-index: 100">				
+					@include('termoplasticos.menu_productos_servicios')
 			</div>
 			
-			<div class="col-xs-9">
-				<div class="row" style="padding: 1em;padding-top: 0;padding-right: 0;">
-					
-					<div id="itemTermo" class="col-xs-12" style="background-color: #fff; padding: 0;">	
+			<div class="col-xs-9" style="background-color: white; z-index: 90;box-shadow: 3px 2px 13px 1px rgba(51, 51, 51, 0.43);">
+				
 
-						<div style="padding-left: 15px; padding-right: 15px;">
-							<h2>Bombas</h2>
+					<div style="padding-left: 15px; padding-right: 15px; margin-top: 3em;">
+						<h2 style="text-align: center;">Bombas</h2>							
 							
-							<div class="media" style="margin-top: 20px;margin-bottom: 7px;" >
-								<div class="media-left media-middle">
-									<img src="{{ asset('img/termoplasticos/menu/affetti.png') }}" class=" media-object" style="height: 50px;">
-							  	</div>
-								<div class="media-body media-middle">
+						<div class="media" style="margin-top: 20px;margin-bottom: 7px;" >
+							<div class="media-left media-middle">
+								<img src="{{ asset('img/PRODUCTOS/termoplasticos/menu/affetti.png') }}" class=" media-object" style="height: 50px;">
+							</div>
+							<div class="media-body media-middle">
 									<!-- <h4 class="media-heading">Media heading</h4> -->
-								   <p style="line-height: 14px;font-size: 13px;"> 
-								   		Las bombas Affetti están proyectadas para soportar trabajos pesados en entornos corrosivos. Ácidos y bases concentrados, soluciones alcalinas o ligeramente ácidas, agua de mar, solventes, son algunos de los líquidos bombeados más a menudo. Entre los principales sectores de utilización se destacan el químico, el galvánico, el siderúrgico, el farmacéutico, el energético, los acuarios marinos, la curtición, la depuración de aguas y de aire, la ingeniería, la acuicultura, los fertilizantes y pesticidas, las plantas desalinizadoras, el tratamiento de metales preciados, el automovilístico, el aeronáutico, entre otros.
-								   </p>
-								</div>
-							</div>					
-						</div>
+								<p style="line-height: 14px;font-size: 13px;"> 
+								   	Las bombas Affetti están proyectadas para soportar trabajos pesados en entornos corrosivos. Ácidos y bases concentrados, soluciones alcalinas o ligeramente ácidas, agua de mar, solventes, son algunos de los líquidos bombeados más a menudo. Entre los principales sectores de utilización se destacan el químico, el galvánico, el siderúrgico, el farmacéutico, el energético, los acuarios marinos, la curtición, la depuración de aguas y de aire, la ingeniería, la acuicultura, los fertilizantes y pesticidas, las plantas desalinizadoras, el tratamiento de metales preciados, el automovilístico, el aeronáutico, entre otros.
+								</p>
+							</div>
+						</div>					
+					</div>
 
 						<!-- columna 1 -->
-						<div class="col-xs-12" style="padding-left: 4em; padding-right: 4em; margin-top: 15px;">		
+						<div class="col-xs-12" style="padding-left: 4em; padding-right: 4em;margin-top: 15px;z-index: 200;">		
 							<h2 style="margin-bottom: 0; text-align: center;border: 0;">Bombas Centrífugas con Transmisión Magnética</h2>
 							<hr style="margin-top: 3px;">
 						</div>
 
-						<div class="col-sm-12 col-md-6" style="background-color: #fff;"> 
-
-							<div class="row" style="padding: 1em;">
+						<div class="row col-sm-12 col-md-6" style="background-color: #fff;margin-right: 0;margin-left: 0;"> 
+							
 								<h3>MMB-N</h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/MMB-N.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 190px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/MMB-N.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >		
 
@@ -155,13 +123,13 @@
 											<p> Temperatura en Operación: -10ª C + 100ª C </p>		
 									</div>								
 								</div>	
-							</div>
+						
 
-							<div class="row" style="padding: 1em;padding-top: 0;">
+							
 								<h3>MMB-N</h3>
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/MMB-N2.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 190px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/MMB-N2.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											
@@ -172,24 +140,18 @@
 											<p> Temperatura en Operación: -10ª C + 100ª C </p>	
 									</div>								
 								</div>	
-							</div>
-
-
-
-						
 							
 								
 						</div>
 
 						<!-- lllllllllllllllllllllll -->
 						<!-- columna 2 -->
-						<div class="col-sm-12 col-md-6" style="background-color: #fff">
-
-							<div class="row" style="padding: 1em;">
+						<div class="row col-sm-12 col-md-6" style="background-color: #fff;margin-right: 0;margin-left: 0;">
+							
 								<h3>MMB-E</h3>
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/MMB-E.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 190px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/MMB-E.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											
@@ -200,13 +162,13 @@
 											<p> Temperatura en Operación: -10ª C + 100ª C </p>	
 									</div>								
 								</div>	
-							</div>
+						
 
-							<div class="row" style="padding: 1em;padding-top: 0;">
+							
 								<h3>MMB-E</h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/MMB-E2.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 190px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/MMB-E2.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >		
 
@@ -217,29 +179,26 @@
 											<p> Temperatura en Operación: -10ª C + 100ª C </p>			
 									</div>								
 								</div>	
-							</div>						
-
-
+													
 
 						</div>
 
 
 						<!-- dddddddddddddddddddd  Bombas Centrífugas Horizontales  ddddddddddddddddddddddddddd -->
 						
-						<div class="col-xs-12" style="padding-left: 4em; padding-right: 4em; margin-top: 15px;">		
+						<div class="col-xs-12" style="padding-left: 4em; padding-right:4em; margin-top: 15px;z-index: 200;">		
 							<h2 style="margin-bottom: 0; text-align: center;border: 0;">Bombas Centrífugas Horizontales</h2>
 							<hr style="margin-top: 3px;">
 						</div>
 
 
 
-						<div class="col-sm-12 col-md-6" style="background-color: #fff;"> 
+						<div class="row col-sm-12 col-md-6" style="background-color: #fff;margin-right: 0;margin-left: 0;"> 
 
-							<div class="row" style="padding: 1em;">
 								<h3>CMO</h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/CMO.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 190px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/CMO.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >		
 																		
@@ -250,13 +209,13 @@
 											<p> Temperatura en Operación: -20ª C + 110ª C </p>		
 									</div>								
 								</div>	
-							</div>
+							
 
-							<div class="row" style="padding: 1em;padding-top: 0;">
+							
 								<h3>CDM</h3>
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/CDM.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 190px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/CDM.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	Capacidades: 10 mc/h - 250 mc/h </p>
@@ -266,13 +225,12 @@
 											<p> Temperatura en Operación: -50ª C + 150ª C </p>
 									</div>								
 								</div>	
-							</div>
+						
 
-							<div class="row" style="padding: 1em;">
 								<h3>CDM <small>Bombas Volumétricas Auto-Cebadas</small> </h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/CDM2.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;height: 230px;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 210px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/CDM2.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >		
 											<h5>Bomba Centrífuga Horizontal</h5>									
@@ -283,23 +241,20 @@
 											<p> Temperatura en Operación: -10ª C + 100ª C </p>		
 									</div>								
 								</div>	
-							</div>
+							
 							
 
-						
-							
-								
 						</div>
 
 						<!-- lllllllllllllllllllllll -->
 						<!-- columna 2 -->
-						<div class="col-sm-12 col-md-6" style="background-color: #fff">
+						<div class="row col-sm-12 col-md-6" style="background-color: #fff;margin-right: 0;margin-left: 0;">
 
-							<div class="row" style="padding: 1em;">
+							
 								<h3>CGO</h3>
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/CGO.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 190px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/CGO.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<p>	Capacidades: 5 mc/h - 120 mc/h </p>
@@ -309,13 +264,13 @@
 											<p> Temperatura en Operación: -20ª C + 110ª C </p>
 									</div>								
 								</div>	
-							</div>
+							
 
-							<div class="row" style="padding: 1em;padding-top: 0;">
+							
 								<h3>CGD</h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/CGD.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 190px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/CGD.png') }}" class="img-responsive" style="border-right: 1px solid #9d9d9d;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >		
 																				
@@ -326,13 +281,13 @@
 											<p> Temperatura en Operación: -50ª C + 150ª C </p>		
 									</div>								
 								</div>	
-							</div>			
+									
 
-							<div class="row" style="padding: 1em;">
+							
 								<h3>CLV <small>Bombas Centrífugas Verticales</small> </h3> 
-								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;">
-									<div class="col-xs-12 col-md-6 flex-child">
-										<img src="{{ asset('img/termoplasticos/bombas/CLV.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
+								<div class="col-xs-12 flex-parent" style="background-color: #fff;border: 1px solid #ddd;margin-bottom: 2em;height: 230px;">
+									<div class="col-xs-12 col-md-6 flex-child" style="max-width: 210px;">
+										<img src="{{ asset('img/PRODUCTOS/termoplasticos/bombas/CLV.png') }}" class="img-responsive" style="border-right: 1px solid #ddd;margin-top: 20px; margin-bottom: 20px;padding-right: 1em;">
 									</div>
 									<div class="col-xs-12 col-md-6 flex-child" style="margin-top: 20px; margin-bottom: 20px; padding: 0;" >											
 											<h5>Bomba Centrífuga Verticales</h5>									
@@ -343,27 +298,13 @@
 											<p> Temperatura en Operación: -10ª C + 100ª C </p>	
 									</div>								
 								</div>	
-							</div>			
-
+									
 
 						</div>
 
-
-
-			
-
-
-
-
-
-
-
-
-					</div>
+					
 				</div>
 			
-				<div class="col-xs-12"> <br><hr><br></div>
-
 			</div>
 		</div>
 	</div>
@@ -385,12 +326,9 @@ p{
 	font-size: 12px;
 }
 
-#itemTermo h2{
-	
-    padding-bottom: 3px;
-   
-    border-bottom: 2px solid #005fb3;
-   
+h2{	
+    padding-bottom: 3px;   
+    border-bottom: 2px solid #005fb3;   
     font-size: 24px;
     letter-spacing: 2px;
     text-shadow: 0px 0px 0px #555;
@@ -401,6 +339,8 @@ p{
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
+
+  height: 160px;
 }
 
 .flex-child{
@@ -409,20 +349,6 @@ p{
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-/*---------------------------------------------------------------*/
-
-#fotoSideTermo{
-	width: 50px;
-}
-
-#fotoSideTermo:hover:before{
-	content:url('{{ asset('img/flecha.png') }}');
-	margin-right: 5px;
-	margin-left: 5px;
-	width: 30px;
-	height: 10px;
-	overflow: hidden;
 }
 
 
